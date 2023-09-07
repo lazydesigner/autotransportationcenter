@@ -67,7 +67,8 @@ margin: auto; */
 
 @media screen and (max-width: 450px){
 .section-heading1{
-    font-size:30px!important;
+    font-size:1rem!important;
+    text-align: center;
 }
 .flexs{
     width: 100%!important;
