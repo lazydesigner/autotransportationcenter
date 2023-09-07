@@ -44,7 +44,7 @@ font-weight: 700;
     width: 90%;
     margin: auto;
 }
-.btn {
+/* .btn {
    
 border: none;
 color: white;
@@ -54,12 +54,12 @@ text-decoration: none;
 display: inline-block;
 font-size: 16px;
 /* margin: 4px 2px; */
-cursor: pointer;
+/* cursor: pointer;
 border-radius: 100px;
 justify-content: center;
-margin: auto;
+margin: auto; */
+ */
 
-}
 .grid12{
     text-align: center;
 }
