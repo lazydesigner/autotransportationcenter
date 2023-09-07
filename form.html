@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{box-sizing: border-box;}
+        html,body{
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        .form-div{
+            width: 30%;
+            margin: auto;
+            padding: 2.5%;
+            box-sizing: content-box;
+            border-radius: 15px;
+            background-color: white;
+            position: relative;
+            z-index: 1;
+            /* backdrop-filter: blur(22px); */
+            /* -webkit-backdrop-filter: blur(22px); */
+        
+        }
+        .part1{ display:block;}
+        .part2{ display: none;}
+        .form-div label{color: rgb(27, 27, 27);font-size: large;margin-left: 5px;}
+        .form-div h1{
+            font-size: 2rem;
+            text-align: center;
+            font-weight: 800;
+            color: black;
+        }
+        .form-group{margin: 10px 0;}
+        .form-div input{
+            width: 400px;
+            height: 40px;
+            border: 1px solid rgb(68, 68, 68);
+            border-radius: 5px;
+            padding: 1%;
+            background-color: #ffffff10;
+            outline: 0;
+            color: rgb(18, 17, 17);
+        }
+        <!-- .form-div input:focus{
+            background-color: rgba(255, 255, 255, 0.512)    ;
+        }
+        .form-div input:hover{
+            background-color: rgba(255, 255, 255, 0.512)    ;
+        } -->
+        .form-div input[type=submit]{
+            width: 150px;
+            margin: 10px 0;
+            cursor: pointer;
+            margin: auto;
+            text-align: center;
+            color: white;
+            font-weight: bolder;
+            background-color: rgb(16, 16, 16);
+        }
+        ::placeholder{color:rgb(16, 16, 16);}
+        .container{
+            background-image: url('https://cdn.pixabay.com/photo/2017/08/17/05/59/peterbilt-2650184_1280.jpg');
+            background-position: center;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100%;
+            display: grid;
+            place-items: center;
+            position: relative;
+        }
+        .container-bg{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(18, 18, 18, 0.886);
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    
+
+
+<div class="container-fluid">
+    <div class="container-bg"></div>
+    <div class="form-div">
+        <h1><strong>Get A Free Quote</strong></h1>
+        <form action="">
+
+            <div class="part1" id="part1">
+                <div class="form-group">
+                    <label for="">From</label><br>
+                    <input type="text" placeholder="Address or City" id="origin-input">
+                </div>
+                <div class="form-group">
+                    <label for="">To</label><br>
+                    <input type="text" placeholder="Address or City" id="destination-input">
+                </div>
+                <div class="form-group">
+                    <label for="">Date OF Pickup</label><br>
+                    <input type="date" placeholder="Pickup Date" id="ship_date">
+                </div>
+                <div class="form-group">
+                    <label for="">Vehicle Size</label><br>
+                    <input type="text" placeholder="Select an option" id="ship_vehicle">
+                </div>
+                <div class="form-group" style="text-align: center;margin:10px auto;">
+                    <input type="submit" value="Get A Quote" id="quote" id="next-step">
+                </div>
+            </div>
+            <div class="part2" id="part2">
+                <div class="form-group">
+                    <label for="">Email</label><br>
+                    <input type="email" placeholder="Enter Your Email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="">Phone</label><br>
+                    <input type="text" placeholder="Enter Your Phone" id="phone" min="10" onkeyup="formatPhoneNumber(this)" max="10" required>
+                </div>
+                <div class="form-group" style="text-align: center;margin:10px auto;">
+                    <input type="submit" value="Previous" id="previous">
+                    <input type="submit" value="submit" id="next-step">
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDS2z-zMeHNf4laZiAbzjDBowLLm_wnjwo&v=3.exp&callback=Function.prototype&libraries=places"></script>
+    <script>
+        document.getElementById('quote').addEventListener('click',function(e){
+            e.preventDefault();
+            document.getElementById('part1').style.display = 'none';
+            document.getElementById('part2').style.display = 'block';
+
+        })
+        document.getElementById('previous').addEventListener('click',function(e){
+            e.preventDefault();
+            document.getElementById('part2').style.display = 'none';
+            document.getElementById('part1').style.display = 'block';
+
+        })
+        function formatPhoneNumber(input) {
+            // Remove all non-digit characters from the input
+            const phoneNumber = input.value.replace(/\D/g, '');
+
+            // Apply the desired pattern (e.g., XXX-XXX-XXXX)
+            if (phoneNumber.length <= 3) {
+                input.value = phoneNumber;
+            } else if (phoneNumber.length <= 6) {
+                input.value = `(${phoneNumber.slice(0, 3)}) ${phoneNumber.slice(3)}`;
+            } else {
+                input.value = `(${phoneNumber.slice(0, 3)}) ${phoneNumber.slice(3, 6)}-${phoneNumber.slice(6, 10)}`;
+            }
+
+            // Display the formatted phone number
+            document.getElementById('formattedPhoneNumber').textContent = input.value;
+        }
+        const originInput = document.getElementById('origin-input');
+        const destinationInput = document.getElementById('destination-input');
+        const originAutocomplete = new google.maps.places.Autocomplete(originInput);
+        const destinationAutocomplete = new google.maps.places.Autocomplete(destinationInput);
+        const directionsService = new google.maps.DirectionsService();
+        const directionsRenderer = new google.maps.DirectionsRenderer();
+
+        // Add a listener for when the user selects places in both fields.
+        originAutocomplete.addListener('place_changed', calculateDistance);
+        destinationAutocomplete.addListener('place_changed', calculateDistance);
+
+        function calculateDistance() {
+            const origin = originAutocomplete.getPlace();
+            const destination = destinationAutocomplete.getPlace();
+
+            if (!origin || !destination) {
+                return; // Handle invalid input
+            }
+
+            const request = {
+                origin: origin.geometry.location,
+                destination: destination.geometry.location,
+                travelMode: 'DRIVING', // You can change this to other travel modes like 'WALKING' or 'TRANSIT'
+                unitSystem: google.maps.UnitSystem.IMPERIAL,
+            };
+
+            directionsService.route(request, function(response, status) {
+                if (status === 'OK') {
+                    const distance = response.routes[0].legs[0].distance.text;
+                    // Display or use the distance information as needed.
+                    console.log(distance)
+                } else {
+                    // Handle directions request error
+                    document.getElementById('error').style.display='grid'
+                    setTimeout(()=>{
+                        document.getElementById('error').style.display='none'
+                    },2000)
+                }
+            });
+        }
+    </script>
+</body>
+</html>

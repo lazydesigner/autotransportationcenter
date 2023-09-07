@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Logistica - Shipping Company Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .page-header{
+            padding-bottom: 10%!important;
+            
+        }
+        .py-5{
+            padding-top: 0!important;
+        }
+        .text-white1{
+            
+           
+           
+            color: white;
+        }
+    
+        .sitebutton{
+        position: fixed;
+        bottom: 5%;
+        right: 1%;
+    }
+    .sitebutton button{
+        width: 200px;
+        height: 50px;
+        cursor: pointer;
+        border: 0;
+        color: whitesmoke;
+        font-weight: bold;
+        background-color: #FF3E41;
+    }
+    .part1{ display:block;}
+.part2{ display: none;}
+
+ .car-option{
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 5%;
+    display: none;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* 3 columns with minimum width of 250px */
+    grid-gap: 20px; /* Adjust the gap between grid items as needed */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    overflow: auto;
+    z-index: 1;
+    border-radius: 5px;
+    user-select: none;
+}
+.cars{cursor: pointer;
+    user-select: none;}
+.cars p{padding: 0;margin: 0;}
+   
+
+</style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+        <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center ">
+            <img style="width: 224px; height: 80px;" class="logo4" src="./img/atc1.png">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about" class="nav-item nav-link">About</a>
+                <a href="services" class="nav-item nav-link">Services</a>
+                <div class="nav-item dropdown">
+                    <a href="blogs" class="nav-link ">Blogs
+                    </a>
+                    <div class=" m-0">
+                        <!-- <a href="price.html" class="dropdown-item">Blogs</a>
+                        <a href="feature.html" class="dropdown-item">Features</a>
+                        <a href="quote.html" class="dropdown-item">Free Quote</a>
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a> -->
+                    </div>
+                </div>
+                <a href="contact" class="nav-item nav-link">Contact</a>
+            </div>
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+1 (833) 233-4447</h4>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+<!--Privacy Policy-->
+<div class="container-fluid">
+     <div class="p-4">
+        <h3 class="text-center mt-4">Privacy Policy</h3> 
+        <h4>The Auto Transportation Center is a website that works as a data controller for your personal data.</h4>
+        <p>We have set up our privacy policy, which shows how we process data that is gathered by Auto Transportation Center and explains why we need to collect some personal information about you. As a result, you must read our privacy policy before hiring us as your auto shippers.
+            We promise to keep your personal details safe and confidential.
+            </p>
+    <h4>Minors</h4>
+    <p>This website is not intended for minors, and we do not collect or store personal information from someone who is under the age of 13. PLEASE DO NOT USE THIS SITE OR ANY OF OUR SERVICES IF YOU ARE UNDER 13 OR YOUNGER.</p>
+    <h4>Personal information we collect:</h4>
+    <p>When you visit the Auto Transportation Center, we automatically gather some information and data about your device, such as your time zone, web browser, IP address and some other cookies that are present in your device. Furthermore, as you navigate the site, we also gather information about the web pages you visit, the terms and websites that suggest our website, and how you interact with the site. This data is called "device information" which was gathered automatically. To fulfil the agreement, we may collect your personal details that were submitted by you for registration like name, surname, address etc. </p>
+    
+    <h4>Why do we process your data?</h4>
+    <p>Customer security is our first priority, so we only gather that much information that is necessary to maintain the site. The automatically gathered information is generally used to identify the potential status of abuse and compile statistical data on website usage. 
+        You can visit us without any hesitation or disclosing any information about yourself. If you want to use some features of our website or submit other information like your personal data such as name, surname, email, city etc. You can simply refuse to provide any kind of personal data but as a result, you may not be able to use some features of our website like the newsletter or contact us directly through the website, for example.
+        </p>
+
+        <h4>Your rights:</h4>
+        <p>If you're a resident of Europe, you have the following rights for data protection:</p>
+        <p class="strong">Right to be informed</p>
+        <p class="strong">Right of rectification</p>
+        <p class="strong">Right to restrict processing</p>
+        <p class="strong">Right to object</p>
+        <p class="strong">Right to data portability</p>
+        <p class="strong">Right to erasure</p>
+        <p class="strong">Right to access</p>
+        <p>If you want to use the following privileges, quickly contact us.
+            And please be aware that we are gathering your personal information to fulfil any contract with European residents in future. Please note that your information may be transmitted outside Europe, including Canada and the United States.</p>
+            <h4>Links to other websites:</h4>
+            <p>We may contain some other links on our website that we do not own or manage.  Please keep in mind that we don't have any control over the privacy policy adopted by the third-party websites. We advise you to read their privacy policy before leaving our website in case they are collecting your personal data.</p>
+
+            <h4>Information security:</h4>
+            <p>We protect the data that you have provided to us by storing it on computer servers in a controlled and safe way that is free from unauthorized access or disclosure. To prevent unauthorized access, modification and disclosure of personal information we maintain reasonable administrative, technical and physical precautions. Data that is transmitted over the internet or a wireless network cannot be assured.
+            </p>
+            <h4>Legal disclosure:</h4>
+            <p>If it is required or permitted by the law, such as to comply with a subpoena or similar legal process, and when we believe that disclosure is important to protect our rights, investigate fraud, or fulfil a government request, we may disclose the information that we collected, used or received.</p>
+            <h4>Contact information:</h4>
+            <p>If you want to learn more about our policy or want to contact us about any issue related to individual rights and your personal data, please send an email to __ or you can fill out the form as well in the contact page.</p>
+
+
+
+        </div>
+
+</div>
+
+<!---end-->
+
+
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>TEXAS,USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+1 (833) 233-4447</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@autotransportationcenter.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="">Open Transport Car Shipping</a>
+                    <a class="btn btn-link" href="">Transport Car By Train</a>
+                    <a class="btn btn-link" href="">Enclosed Auto Transport</a>
+                    <a class="btn btn-link" href="">Heavy Equipment Shipping</a>
+                    <a class="btn btn-link" href="">Motorcycle Shipping</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="about">About Us</a>
+                    <a class="btn btn-link" href="contact">Contact Us</a>
+                    <a class="btn btn-link" href="services">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="Privacy-policy">Privacy policy</a>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Auto Transportation Center</a>, All Right Reserved.
+                    </div>
+                    <!-- <div class="col-md-6 text-center text-md-end">
+                        </*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                        </br>Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a> --> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top py-5 w-25">Free Quote</a> -->
+    <!-- <div class="sitebutton" id="sitebutton">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Get Free Quote
+          </button>
+    </div> -->
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Launch static backdrop modal
+  </button> -->
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title display-6 text-center" id="staticBackdropLabel">First Step</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+             <form>
+              <div class="part1" id="part1">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label ">From</label>
+                    <input type="text" class="form-control" id="origin-input" aria-describedby="emailHelp">
+                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">To</label>
+                    <input type="text" class="form-control" id="destination-input">
+                  </div>
+                  <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Date Of Pickup</label>
+                      <input type="date" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Vechile Size</label>
+                      <input type="text" style="position: relative;" class="form-control" id="ship_vehicle">
+                      <div class="car-option" id="car-option">
+                        <div class="cars" id="cars"><img src="img/boat-trailer.png" alt="tfj">
+                            <p>boat-trailer</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/dually-pickup.png" alt="">
+                            <p>dually-pickup</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/fullsize-van.png" alt="">
+                            <p>fullsize-van</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/golf-cart.png" alt="">
+                            <p>golf-cart</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/hypercar.png" alt="">
+                            <p>hypercar</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/large-car.png" alt="">
+                            <p>large-car</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/large-pickup.png" alt="">
+                            <p>large-pickup</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/large-suv.png" alt="">
+                            <p>large-suv</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/medium-pickup.png" alt="">
+                            <p>medium-pickup</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/midsize-suv.png" alt="">
+                            <p>midsize-suv</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/midsize-car.png" alt="">
+                            <p>midsize-car</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/mini-van.png" alt="">
+                            <p>mini-van</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/motorcycle.png" alt="">
+                            <p>motorcycle</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/small-car.png" alt="">
+                            <p>small-car</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/small-suv.png" alt="">
+                            <p>small-suv</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/small-car.png" alt="">
+                            <p>small-car</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/sports-car.png" alt="">
+                            <p>sports-car</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/travel-trailer.png" alt="">
+                            <p>travel-trailer</p>
+                        </div>
+                        <div class="cars" id="cars"><img src="img/others.png" alt="">
+                            <p>others</p>
+                        </div>
+                    </div>
+                    </div>
+                  <!-- <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div> -->
+                  <button type="submit" class="btn btn-primary" id="quote">Next</button>
+
+               </div>
+               <div class="part2" id="part2">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+                    <input type="text" onkeyup="formatPhoneNumber(this)"  class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <button type="submit" class="btn btn-primary" id="previous">Previous</button>
+                  <button type="submit" class="btn btn-primary" id="next-step">Submit</button>
+               </div>
+
+              </form>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    
+
+
+</script>
+</body>
+
+</html>

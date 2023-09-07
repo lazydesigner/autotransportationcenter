@@ -1,0 +1,24 @@
+RewriteEngine on
+Options -Indexes
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#RewriteRule ^(.*)$ https://rapidsharely.com/$1 [L,R=301]
+RewriteRule ^$ index.html [NC,L]
+RewriteRule ^services([/]?)$ service.html [NC,L]
+RewriteRule ^blogs([/]?)$ price.html [NC,L]
+RewriteRule ^form-submit([/]?)$ form-submit.html [NC,L]
+RewriteRule ^about([/]?)$ about.html [NC,L]
+RewriteRule ^contact([/]?)$ contact.html [NC,L]
+
+
+RewriteRule ^commonservice([/]?)$ pages/services/index_.html [NC,L]
+RewriteRule ^commonblogs([/]?)$ pages/blogs/index_.html [NC,L]
+
+
+RewriteRule ^Privacy-policy([/]?)$ privacy-policy.html [NC,L]
+RewriteRule ^Terms-&-condition([/]?)$ terms-&-condition.html [NC,L]
+
+
+
+
+RewriteRule ^open-transport-car([/]?)$ services-pages/open-transport-shipping.html [NC,L]
