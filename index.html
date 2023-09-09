@@ -6,22 +6,25 @@
     <title>Top-Rated Auto Transportation Company | Auto Transportation Center </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="title" content="Top-Rated Auto Transportation Company | Auto Transportation Center" />
-<meta name="description" content="Auto Transportation Center is the best in providing car shipping service. We offer the most affordable and reliable auto shipping service in the United States. Call us now at +1-833-233-4447" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Top-Rated Auto Transportation Company | Auto Transportation Center" />
-<meta property="og:description" content="Auto Transportation Center is the best in providing car shipping service. We offer the most affordable and reliable auto shipping service in the United States. Call us now at +1-833-233-4447" />
-<meta property="og:url" content="https://autotransportationcenter.com/" />
-<meta property="og:site_name" content="Top-Rated Auto Transportation Company | Auto Transportation Center" />
-<meta name='robots' content='index' />
-<meta name="keywords" content="auto transportation, auto transportation company, auto transportation service, auto transport service, auto transport company, auto transport quote, best auto transport companies, auto transportation companies" />
-<meta property="article:tag" content="auto transportation" />
-<meta property="article:tag" content="auto transportation company" />
-<meta property="article:tag" content="auto transportation service" />
-<meta property="article:tag" content="auto transport service" />
-<meta property="article:tag" content="auto transport company" />
-<meta property="article:tag" content="auto transport quote" />
-<meta property="article:tag" content="best auto transport companies" />
-<meta property="article:tag" content="auto transportation companies" />
+    <meta name="description"
+        content="Auto Transportation Center is the best in providing car shipping service. We offer the most affordable and reliable auto shipping service in the United States. Call us now at +1-833-233-4447" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Top-Rated Auto Transportation Company | Auto Transportation Center" />
+    <meta property="og:description"
+        content="Auto Transportation Center is the best in providing car shipping service. We offer the most affordable and reliable auto shipping service in the United States. Call us now at +1-833-233-4447" />
+    <meta property="og:url" content="https://autotransportationcenter.com/" />
+    <meta property="og:site_name" content="Top-Rated Auto Transportation Company | Auto Transportation Center" />
+    <meta name='robots' content='index' />
+    <meta name="keywords"
+        content="auto transportation, auto transportation company, auto transportation service, auto transport service, auto transport company, auto transport quote, best auto transport companies, auto transportation companies" />
+    <meta property="article:tag" content="auto transportation" />
+    <meta property="article:tag" content="auto transportation company" />
+    <meta property="article:tag" content="auto transportation service" />
+    <meta property="article:tag" content="auto transport service" />
+    <meta property="article:tag" content="auto transport company" />
+    <meta property="article:tag" content="auto transport quote" />
+    <meta property="article:tag" content="best auto transport companies" />
+    <meta property="article:tag" content="auto transportation companies" />
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -29,7 +32,8 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -45,68 +49,105 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <style>
-        .pb-5{
-            padding-bottom: 0!important;
+        .pb-5 {
+            padding-bottom: 0 !important;
         }
-        .py-5{
-            padding-top: 0!important;
+
+        .py-5 {
+            padding-top: 0 !important;
         }
+
         /* .ashu{
            
             padding-top: 5%;
            
             
         } */
-        .sitebutton{
-        position: fixed;
-        bottom: 5%;
-        right: 1%;
-    }
-    .sitebutton button{
-        width: 200px;
-        height: 50px;
-        cursor: pointer;
-        border: 0;
-        color: whitesmoke;
-        font-weight: bold;
-        background-color: #FF3E41;
-    }
+        .sitebutton {
+            position: fixed;
+            bottom: 5%;
+            right: 1%;
+        }
 
-    
-    .part1{ display:block;}
-.part2{ display: none;}
-
-.pac-container {
-    z-index: 10000 !important;
-}
+        .sitebutton button {
+            width: 200px;
+            height: 50px;
+            cursor: pointer;
+            border: 0;
+            color: whitesmoke;
+            font-weight: bold;
+            background-color: #FF3E41;
+        }
 
 
-.car-option{
-    position: absolute;
-    background-color: whitesmoke;
-    padding: 5%;
-    display: none;
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* 3 columns with minimum width of 250px */
-    grid-gap: 20px; /* Adjust the gap between grid items as needed */
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 150px;
-    overflow: auto;
-    z-index: 1;
-    border-radius: 5px;
-    user-select: none;
-}
-.cars{cursor: pointer;
-    user-select: none;}
-.cars p{padding: 0;margin: 0;}
-   
+        .part1 {
+            display: block;
+        }
+
+        .part2 {
+            display: none;
+        }
+
+        .pac-container {
+            z-index: 10000 !important;
+        }
+
+        .error {
+            width: 220px;
+            height: 80px;
+            background-color: tomato;
+            /* padding: 2%; */
+            border-radius: 5px;
+            display: none;
+            place-items: center;
+            color: white;
+            position: fixed;
+            top: 10%;
+            right: 10%;
+            text-align: center;
+            font-size: 1.2rem;
+            z-index: 10;
+        }
+
+
+        .car-option {
+            position: absolute;
+            background-color: whitesmoke;
+            padding: 5%;
+            display: none;
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+            /* 3 columns with minimum width of 250px */
+            grid-gap: 20px;
+            /* Adjust the gap between grid items as needed */
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 150px;
+            overflow: auto;
+            z-index: 1;
+            border-radius: 5px;
+            user-select: none;
+        }
+
+        .cars {
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .cars p {
+            padding: 0;
+            margin: 0;
+        }
     </style>
 </head>
 
 <body>
+    <div class="error" id="error">
+        <p id="error-text">Directions request returned no results</p>
+    </div>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
@@ -124,49 +165,57 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <div class="navbar-nav ms-auto p-4 p-lg-0 ">
                 <a href="https://autotransportationcenter.com/" class="nav-item nav-link active">Home</a>
                 <a href="about" class="nav-item nav-link">About</a>
                 <a href="services" class="nav-item nav-link">Services</a>
                 <div class="nav-item dropdown">
                     <a href="blogs" class="nav-link">Blogs</a>
-                      <!-- <div class=" fade-up m-0">
+                    <!-- <div class=" fade-up m-0">
                         <a href="price.html" class="dropdown-item">Blogs</a>
                        
                     </div>  -->
                 </div>
-                 <a href="contact" class="nav-item nav-link">Contact</a> 
+                <a href="contact" class="nav-item nav-link">Contact</a>
             </div>
-            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+1 (833) 233-4447</h4>
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+1 (833)
+                233-4447</h4>
         </div>
-    </nav> 
+    </nav>
     <!-- Navbar End -->
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
+    <div class="container-fluid page-header py-5">
         <div class="container py-5">
 
 
-            <h1 class="display-3 text-white mb-3 animated slideInDown pt-3">Best Auto Shippers in the <span class="text-primary">US </span>Nation</h1>
-            <p class="text-white w-75">We offer affordable car shipping service in the whole United States. We send professional carrier drivers to serve you. Just get your free quote from our instant online quote calculator and get your quote within seconds.</p>
+            <h1 class="display-3 text-white mb-3 animated slideInDown pt-3">Best Auto Shippers in the <span
+                    class="text-primary">US </span>Nation</h1>
+            <p class="text-white w-75">We offer affordable car shipping service in the whole United States. We send
+                professional carrier drivers to serve you. Just get your free quote from our instant online quote
+                calculator and get your quote within seconds.</p>
             <form action="./form-submit.php">
                 <div class="row w-75 PB-4">
-                  <div class="col py-3">
-                    <h3 class=" text-white"> Transport From</h3>
-                    <input type="text" name="from" class="form-control py-3" placeholder="Zip or City">
-                  </div>
-                  <div class="col py-3">
-                    <h3 class=" text-white"> Transport To</h3>
-                    <input type="text" name="to" class="form-control py-3" placeholder="Zip or City">
-                  </div>
+                    <div class="col py-3">
+                        <h3 class=" text-white"> Transport From</h3>
+                        <input type="text" name="from" class="form-control py-3" placeholder="Zip or City">
+                    </div>
+                    <div class="col py-3">
+                        <h3 class=" text-white"> Transport To</h3>
+                        <input type="text" name="to" class="form-control py-3" placeholder="Zip or City">
+                    </div>
                 </div>
-                <button type="button" class="btn btn-primary p-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <button type="button" class="btn btn-primary p-3" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
                     Free Quote
-                  </button>
-              </form>
+                </button>
+            </form>
 
-
+            <div class="pt-4"> <img style="padding-right: 4%;" src="./img/trustpilot.png"> 
+                <img style="padding-right: 4%;" src="./img/google (1).png">
+                <img src="./img/transpoorts.png"> 
+            </div>
             <nav aria-label="breadcrumb animated slideInDown">
                 <!-- <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
@@ -176,105 +225,107 @@
             </nav>
         </div>
     </div>
-    <!-- Page Header End --
+    <!-- Page Header End -->
 
- 
+    <!--STRIP START-->
+    <div class="container-fluid">
+    <div class="  row p-4 bg-secondary">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="row">
+                <div class="col-md-2  col-sm-12">
+                    <img style="width: 60px; height: 60px;" src="./img/car.png">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">The Best Service At Affordable Rates</h5>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="row">
+                <div class="col-md-2 col-sm-12">
+                    <img style="width: 60px; height: 60px;" src="./img/car-insurance (2).png">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">Safe and Insured Transportation</h5>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+
+            <div class="row">
+                <div class="col-md-2  col-sm-12">
+                    <img style="width: 60px; height: 60px;" src="./img/support.png">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h5 class="text-center">24/7 Availability For Customers
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+    <!--END-->
+
+<!--three steps-->
+<!-- <div class="container-fluid pt-5 ">
+        <h1 class="text-center pb-4">We provide a service you can trust.</h1>
+    <div class="row">
+        <div class="col-lg-4 col-md-4">
+            <img width="100%" height="100%" src="./img/auto-transport-open.webp">
+        </div>
+        <div class="col-lg-8 col-md-8 p-5"><h3>Licensed and Insured</h3>
+        <p>We include comprehensive insurance coverage in our prices. You know your vehicle is fully covered and secure throughout your auto transport service. There are no additional or hidden fees. Our car shipping prices are all-inclusive.</p></div>
+
+
+    </div>
+
+    <div class="row">
+        
+        <div class="col-lg-8 col-md-8 p-5"><h3>Licensed and Insured</h3>
+        <p>We include comprehensive insurance coverage in our prices. You know your vehicle is fully covered and secure throughout your auto transport service. There are no additional or hidden fees. Our car shipping prices are all-inclusive.</p></div>
+        <div class="col-lg-4 col-md-4">
+            <img width="100%" height="100%" src="./img/auto-transport-open.webp">
+        </div>
+
+    </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-4">
+            <img width="100%" height="100%" src="./img/auto-transport-open.webp">
+        </div>
+        <div class="col-lg-8 col-md-8 p-5"><h3>Licensed and Insured</h3>
+        <p>We include comprehensive insurance coverage in our prices. You know your vehicle is fully covered and secure throughout your auto transport service. There are no additional or hidden fees. Our car shipping prices are all-inclusive.</p></div>
+
+
+    </div>
+
+</div> -->
+
+
+
+<!--end-->
 
 
     
-                                
-                                <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a> -->
-                                
-                            </div>
-                           <!-- <div class="col-lg-4" style="align-items: end;"><div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div> -->
-                          </div></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                 <h5 class="text-white text-uppercase mb-3 animated slideInDown">Transport & Logistics Solution</h5> -->
-                                <!-- <h1 class="display-4 text-white animated slideInDown mb-3 ashu">#1 Place For Your <span class="text-primary">Transport</span> Solution</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <div class="row">
-                                    <div class="col py-3">
-                                      <h3 class=" text-white"> Transport From</h3>
-                                      <input type="text" name="from" class="form-control py-3" placeholder="Zip or City">
-                                    </div>
-                                    <div class="col py-3">
-                                      <h3 class=" text-white"> Transport To</h3>
-                                      <input type="text" name="to" class="form-control py-3" placeholder="Zip or City">
-                                    </div>
-                                  </div>
-                                  <button class="btn btn-secondary py-md-3 px-md-5 animated slideInRight text-center">Free Quote</button>
-                                </form> -- -->
-                                
-                                
-                                <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
-                                 <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Free Quote</a> -->
-                            <!-- </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-    </div>
-    <!-- Carousel End -->
-
-
-    <!-- About Start -->
-    <div class="container-fluid overflow-hidden py-5 px-lg-0">
-        <div class="container about py-5 px-lg-0">
-            <div class="row g-5 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/abutus2.webp" style="object-fit: cover;" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="text-secondary text-uppercase mb-3">About Us</h6>
-                    <h1 class="mb-5">About Our Company</h1>
-                    <p class="mb-5"><strong>Auto Transportation Center </strong>is one of the best auto shipping companies in the  US Nation. The founders of our company are successful businessmen with the goal of providing the best affordable auto shipping service to our customers. Our professionals gave you the best advice and help during the whole transportation process.
-                    </p>
-                    <div class="row g-4 mb-5">
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                            <i class="fa fa-globe fa-3x text-primary mb-3"></i>
-                            <h5>Global Coverage</h5>
-                            <p class="m-0">We give you the best auto transport service within the United States. Our tracking system allows you to track your vehicle anytime anywhere.
-                            </p>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
-                            <i class="fa fa-shipping-fast fa-3x text-primary mb-3"></i>
-                            <h5>On Time Delivery</h5>
-                            <p class="m-0">We promise to deliver your vehicle on time with proper care and safety.
-                            </p>
-                        </div>
-                    </div>
-                    <a href="about" class="btn btn-primary py-3 px-5">Explore More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
 
 
     <!-- Fact Start -->
-    <div class="container-xxl py-5">
+    <div class="p-5">
+    <div class="container-xxl  py-5">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="text-secondary text-uppercase mb-3">Some Facts</h6>
                     <h1 class="mb-5">All your shipment needs under one roof</h1>
-                    <p class="mb-5">Auto Transportation Center offers various shipping methods to our customers under one roof. Being a professional auto shipper we are reliable and best for you.</p>
+                    <p class="mb-5">Auto Transportation Center offers various shipping methods to our customers under
+                        one roof. Being a professional auto shipper we are reliable and best for you.</p>
                     <div class="d-flex align-items-center">
                         <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
                         <div class="ps-4">
@@ -298,16 +349,24 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="bg-success p-4 wow fadeIn" data-wow-delay="0.7s">
-                                <i class="fa fa-star fa-2x text-white mb-3"></i>
-                                <h2 class="text-white mb-2" data-toggle="counter-up">1345</h2>
-                                <p class="text-white mb-0">Customer Reviews</p>
+                            <div class="row g-4 align-items-center">
+                                <div class="bg-success p-4 wow fadeIn" data-wow-delay="0.7s">
+                                    <i class="fa fa-star fa-2x text-white mb-3"></i>
+                                    <h2 class="text-white mb-2" data-toggle="counter-up">1345</h2>
+                                    <p class="text-white mb-0">Customer Reviews</p>
+                                </div>
+                                <div class="bg-primary p-4 wow fadeIn" data-wow-delay="0.7s">
+                                    <i class="fa fa-star fa-2x text-white mb-3"></i>
+                                    <h2 class="text-white mb-2" data-toggle="counter-up">1345</h2>
+                                    <p class="text-white mb-0">Customer Reviews</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- Fact End -->
 
@@ -323,66 +382,75 @@
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/auto-transport-open.webp" alt="">
+                            <img class="img-fluid" height="100%" width="100%" src="img/auto-transport-open.webp" loading="lazy" alt="">
                         </div>
                         <h4 class="mb-3">OPEN TRANSPORT CAR SHIPPING</h4>
-                        <p>Shipping your car in an open carrier with 8-10 other vehicles. This is the most affordable method of shipping.</p>
-                        <a class="btn-slide mt-2" href="open-transport-car"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <p>Shipping your car in an open carrier with 8-10 other vehicles. This is the most affordable
+                            method of shipping.</p>
+                        <a class="btn-slide mt-2" href="open-transport-car"><i class="fa fa-arrow-right"></i><span>Read
+                                More</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/snowbird-shipping.webp" alt="">
+                            <img class="img-fluid" height="100%" width="100%" src="img/snowbird-shipping.webp" loading="lazy" alt="">
                         </div>
                         <h4 class="mb-3">SNOWBIRD SHIPPING</h4>
-                        <p>People who want to move from the northern region to the Southern region due to the cold weather they are called snowbirds.
-                                 
+                        <p>People who want to move from the northern region to the Southern region due to the cold
+                            weather they are called snowbirds.
 
-                             
+
+
                         </p>
-                        <a class="btn-slide mt-2" href="snowbird-shipping"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="snowbird-shipping"><i class="fa fa-arrow-right"></i><span>Read
+                                More</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-3.webp" alt="">
+                            <img class="img-fluid" height="100%" width="100%" src="img/service-3.webp" loading="lazy"alt="">
                         </div>
                         <h4 class="mb-3">ENCLOSED AUTO TRANSPORT</h4>
-                        <p>A fully covered carrier protects your vehicle from road debris, which is usually preferred for luxury vehicles.
+                        <p>A fully covered carrier protects your vehicle from road debris, which is usually preferred
+                            for luxury vehicles.
                         </p>
-                        <a class="btn-slide mt-2" href="enclosed-transport"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="enclosed-transport"><i class="fa fa-arrow-right"></i><span>Read
+                                More</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/heavy2.webp" alt="">
+                            <img class="img-fluid" height="100%" width="100%" src="img/heavy2.webp" loading="lazy" alt="">
                         </div>
                         <h4 class="mb-3">HEAVY EQUIPMENT </h4>
                         <p>We transport your heavy types of equipment as well to any state in the United States. </p>
-                        <a class="btn-slide mt-2" href="heavy-equipment-services"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="heavy-equipment-services"><i
+                                class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/miletry-car-shipping.webp" alt="">
+                            <img class="img-fluid" height="100%" width="100%" src="img/miletry-car-shipping.webp" loading="lazy" alt="">
                         </div>
                         <h4 class="mb-3">MILITARY CAR SHIPPING</h4>
-                        <p>Military auto shipping is for military personnel to relocate themselves or their vehicles like Humvees and Jeeps.
+                        <p>Military auto shipping is for military personnel to relocate themselves or their vehicles
+                            like Humvees and Jeeps.
                         </p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="military-car-shipping"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/motorcycle-shipping.webp" alt="">
+                            <img height="100%" width="100%" class="img-fluid" src="img/motorcycle-shipping.webp" loading="lazy" alt="">
                         </div>
                         <h4 class="mb-3">MOTORCYCLE SHIPPING</h4>
-                        <p>We ship motorcycles as well with the same care as we transport your ATV, jet ski, trailer and snowmobile.</p>
+                        <p>We ship motorcycles as well with the same care as we transport your ATV, jet ski, trailer and
+                            snowmobile.</p>
                         <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
@@ -417,7 +485,8 @@
                         <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div> -->
-                <a href="./service.html" class="mx-auto text-center"><button type="button" class="btn btn-primary btn-lg w-25 mx-auto">More Services</button></a>
+                <a href="./service.html" class="mx-auto text-center"><button type="button"
+                        class="btn btn-primary btn-lg w-25 mx-auto">More Services</button></a>
             </div>
         </div>
     </div>
@@ -436,27 +505,34 @@
                         <i class="fa fa-globe text-primary fa-3x flex-shrink-0"></i>
                         <div class="ms-4">
                             <h5>Nationwide Service:</h5>
-                            <p class="mb-0">We offer auto transportation service in the whole United States. Our happy customers are all over the nation.</p>
+                            <p class="mb-0">We offer auto transportation service in the whole United States. Our happy
+                                customers are all over the nation.</p>
                         </div>
                     </div>
                     <div class="d-flex mb-5 wow fadeIn" data-wow-delay="0.5s">
                         <i class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0"></i>
                         <div class="ms-4">
                             <h5>On Time Delivery:</h5>
-                            <p class="mb-0">Being a professional auto shipper our delivery service is accurate and we deliver it on time.</p>
+                            <p class="mb-0">Being a professional auto shipper our delivery service is accurate and we
+                                deliver it on time.</p>
                         </div>
                     </div>
                     <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
                         <i class="fa fa-headphones text-primary fa-3x flex-shrink-0"></i>
                         <div class="ms-4">
                             <h5>24/7 Customer care service:</h5>
-                            <p class="mb-0">We are available to solve your queries anytime. We gave 24/7 Customer care service to our customers.</p>
+                            <p class="mb-0">We are available to solve your queries anytime. We gave 24/7 Customer care
+                                service to our customers.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <iframe width="560" height="500" src="https://www.youtube.com/embed/fl_1idajSDM?si=K-nS2FC2QxuJJhgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="560" height="500"
+                            src="https://www.youtube.com/embed/fl_1idajSDM?si=K-nS2FC2QxuJJhgY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -688,7 +764,8 @@
                             <p class="m-0">Businessmen</p>
                         </div>
                     </div>
-                    <p class="mb-0">Auto shipping with Auto Transportation Center is very easy and convenient. They are superb with their delivery timing and customer handling.</p>
+                    <p class="mb-0">Auto shipping with Auto Transportation Center is very easy and convenient. They are
+                        superb with their delivery timing and customer handling.</p>
                 </div>
                 <div class="testimonial-item p-4 my-5">
                     <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
@@ -699,18 +776,20 @@
                             <p class="m-0">Businessmen</p>
                         </div>
                     </div>
-                    <p class="mb-0">I have been using their services for the past four years. Recently I wanted to ship my car to California and they never disappoint me. My vehicle arrived safely and quickly.</p>
+                    <p class="mb-0">I have been using their services for the past four years. Recently I wanted to ship
+                        my car to California and they never disappoint me. My vehicle arrived safely and quickly.</p>
                 </div>
                 <div class="testimonial-item p-4 my-5">
                     <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
                     <div class="d-flex align-items-end mb-4">
                         <img class="img-fluid flex-shrink-0" src="img/joey.webp" style="width: 80px; height: 80px;">
                         <div class="ms-4">
-                            <h5 class="mb-1">Joey Peterson  </h5>
-                            <p class="m-0" >Financial Analysts</p>
+                            <h5 class="mb-1">Joey Peterson </h5>
+                            <p class="m-0">Financial Analysts</p>
                         </div>
                     </div>
-                    <p class="mb-0">I strongly recommend you Auto Transportation Center to ship your vehicle. They are the best in their jobs and they provide the most affordable rates.</p>
+                    <p class="mb-0">I strongly recommend you Auto Transportation Center to ship your vehicle. They are
+                        the best in their jobs and they provide the most affordable rates.</p>
                 </div>
                 <div class="testimonial-item p-4 my-5">
                     <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
@@ -721,149 +800,173 @@
                             <p class="m-0">Finance Professional</p>
                         </div>
                     </div>
-                    <p class="mb-0">I have had an amazing experience with Auto Transportation Center. This was my second time shipping with them and they were amazing both times.</p>
+                    <p class="mb-0">I have had an amazing experience with Auto Transportation Center. This was my second
+                        time shipping with them and they were amazing both times.</p>
                 </div>
             </div>
         </div>
     </div>
     <!-- Testimonial End -->
 
-<!-- FaQ start -->
-<section id="faq" class="faq">
-    <div class="container" data-aos="fade-up">
+    <!-- FaQ start -->
+    <section id="faq" class="faq">
+        <div class="container" data-aos="fade-up">
 
-      <div class="section-header">
-        <!-- <span>Frequently Asked Questions</span> -->
-        <h2 class="text-center color faq">Frequently Asked Questions</h2>
+            <div class="section-header">
+                <!-- <span>Frequently Asked Questions</span> -->
+                <h2 class="text-center color faq">Frequently Asked Questions</h2>
 
-      </div>
+            </div>
 
-      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
-        <div class="col-lg-10">
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-10">
 
-          <div class="accordion accordion-flush" id="faqlist">
+                    <div class="accordion accordion-flush" id="faqlist">
 
-            <div class="accordion-item">
-              <h3 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                  <!-- <i class="bi bi-question-circle question-icon"></i> -->
-                  How can I get a quote for shipping my car?
-                </button>
-              </h3>
-              <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                <div class="accordion-body">
-                    To obtain a quote you can either use our instant online quote calculator or you can call us at  +1 (833) 233-4447 to get your instant quote from one of our professionals.
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-content-1">
+                                    <!-- <i class="bi bi-question-circle question-icon"></i> -->
+                                    How can I get a quote for shipping my car?
+                                </button>
+                            </h3>
+                            <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                <div class="accordion-body">
+                                    To obtain a quote you can either use our instant online quote calculator or you can
+                                    call us at +1 (833) 233-4447 to get your instant quote from one of our
+                                    professionals.
 
-                </div>
-              </div>
-            </div><!-- # Faq item-->
+                                </div>
+                            </div>
+                        </div><!-- # Faq item-->
 
-            <div class="accordion-item">
-              <h3 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                  <!-- <i class="bi bi-question-circle question-icon"></i> -->
-                  How will my car shipping cost be calculated?
-                </button>
-              </h3>
-              <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                <div class="accordion-body">
-                    Car shipping costs are determined by various factors like distance, time, method of shipping, type of vehicle and many more. All these factors will determine the total cost of transporting a vehicle from one place to another.
-                </div>
-              </div>
-            </div><!-- # Faq item-->
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-content-2">
+                                    <!-- <i class="bi bi-question-circle question-icon"></i> -->
+                                    How will my car shipping cost be calculated?
+                                </button>
+                            </h3>
+                            <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                <div class="accordion-body">
+                                    Car shipping costs are determined by various factors like distance, time, method of
+                                    shipping, type of vehicle and many more. All these factors will determine the total
+                                    cost of transporting a vehicle from one place to another.
+                                </div>
+                            </div>
+                        </div><!-- # Faq item-->
 
-            <div class="accordion-item">
-              <h3 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                  <!-- <i class="bi bi-question-circle question-icon"></i> -->
-                  What details do I need to fill in to place my order?
-                </button>
-              </h3>
-              <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                <div class="accordion-body">
-                    We need your pickup and delivery location along with your phone numbers and name. And the vehicle details as well.
-                </div>
-              </div>
-            </div><!-- # Faq item-->
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-content-3">
+                                    <!-- <i class="bi bi-question-circle question-icon"></i> -->
+                                    What details do I need to fill in to place my order?
+                                </button>
+                            </h3>
+                            <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                <div class="accordion-body">
+                                    We need your pickup and delivery location along with your phone numbers and name.
+                                    And the vehicle details as well.
+                                </div>
+                            </div>
+                        </div><!-- # Faq item-->
 
-            <div class="accordion-item">
-              <h3 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
-                  <!-- <i class="bi bi-question-circle question-icon"></i> -->
-                  What payment methods do you accept?
-                </button>
-              </h3>
-              <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                <div class="accordion-body">
-                  <!-- <i class="bi bi-question-circle question-icon"></i> -->
-                  We accept all major credit cards, postal money orders, certified cheques for the deposit or the full pre-payment of the vehicle.
-                </div>
-              </div>
-            </div><!-- # Faq item-->
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-content-4">
+                                    <!-- <i class="bi bi-question-circle question-icon"></i> -->
+                                    What payment methods do you accept?
+                                </button>
+                            </h3>
+                            <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                <div class="accordion-body">
+                                    <!-- <i class="bi bi-question-circle question-icon"></i> -->
+                                    We accept all major credit cards, postal money orders, certified cheques for the
+                                    deposit or the full pre-payment of the vehicle.
+                                </div>
+                            </div>
+                        </div><!-- # Faq item-->
 
-            <div class="accordion-item">
-              <h3 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
-                  <!-- <i class="bi bi-question-circle question-icon"></i> -->
-                  What is the bill of lading and how is it related to my shipment?
-                </button>
-              </h3>
-              <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                <div class="accordion-body">
-                    The bill of lading is very important to record any pre-existing damage on the vehicle during the pickup and delivery. It also serves as an official agreement for car shipping. To file any insurance claim you will need the bill of lading.
-              </div>
-            </div><!-- # Faq item-->
-            <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-6">
-                    <!-- <i class="bi bi-question-circle question-icon"></i> -->
-                    When will my vehicle be delivered? 
-                  </button>
-                </h3>
-                <div id="faq-content-6" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                  <div class="accordion-body">
-                    Mostly the delivery time is based on the distance that is going to be shipped. Usually, it takes 2-3 days to cover 1000 miles
-                </div>
-              </div><!-- # Faq item-->
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq-content-5">
+                                    <!-- <i class="bi bi-question-circle question-icon"></i> -->
+                                    What is the bill of lading and how is it related to my shipment?
+                                </button>
+                            </h3>
+                            <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                <div class="accordion-body">
+                                    The bill of lading is very important to record any pre-existing damage on the
+                                    vehicle during the pickup and delivery. It also serves as an official agreement for
+                                    car shipping. To file any insurance claim you will need the bill of lading.
+                                </div>
+                            </div><!-- # Faq item-->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-content-6">
+                                        <!-- <i class="bi bi-question-circle question-icon"></i> -->
+                                        When will my vehicle be delivered?
+                                    </button>
+                                </h3>
+                                <div id="faq-content-6" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                    <div class="accordion-body">
+                                        Mostly the delivery time is based on the distance that is going to be shipped.
+                                        Usually, it takes 2-3 days to cover 1000 miles
+                                    </div>
+                                </div><!-- # Faq item-->
 
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-7">
-                    <!-- <i class="bi bi-question-circle question-icon"></i> -->
-                    Should I put my personal stuff in the car?
-                  </button>
-                </h3>
-                <div id="faq-content-7" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                  <div class="accordion-body">
-                    You can transport personal stuff in your vehicle as long as it doesn't exceed the weight of 100 pounds. Please note that personal stuff is not covered under insurance if it gets missing or damaged.
-                </div>
-              </div><!-- # Faq item-->
-              
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-8">
-                    <!-- <i class="bi bi-question-circle question-icon"></i> -->
-                    How much gas should I have in my vehicle during transportation?
-                  </button>
-                </h3>
-                <div id="faq-content-8" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                  <div class="accordion-body">
-                    Your gas tank should be 1/8 or 1/4 of its full capacity. This will help in loading and unloading without adding much additional weight
-                </div>
-              </div><!-- # Faq item-->
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#faq-content-7">
+                                            <!-- <i class="bi bi-question-circle question-icon"></i> -->
+                                            Should I put my personal stuff in the car?
+                                        </button>
+                                    </h3>
+                                    <div id="faq-content-7" class="accordion-collapse collapse"
+                                        data-bs-parent="#faqlist">
+                                        <div class="accordion-body">
+                                            You can transport personal stuff in your vehicle as long as it doesn't
+                                            exceed the weight of 100 pounds. Please note that personal stuff is not
+                                            covered under insurance if it gets missing or damaged.
+                                        </div>
+                                    </div><!-- # Faq item-->
+
+                                    <div class="accordion-item">
+                                        <h3 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#faq-content-8">
+                                                <!-- <i class="bi bi-question-circle question-icon"></i> -->
+                                                How much gas should I have in my vehicle during transportation?
+                                            </button>
+                                        </h3>
+                                        <div id="faq-content-8" class="accordion-collapse collapse"
+                                            data-bs-parent="#faqlist">
+                                            <div class="accordion-body">
+                                                Your gas tank should be 1/8 or 1/4 of its full capacity. This will help
+                                                in loading and unloading without adding much additional weight
+                                            </div>
+                                        </div><!-- # Faq item-->
 
 
-          </div>
+                                    </div>
 
-        </div>
-      </div>
+                                </div>
+                            </div>
 
-    </div>
-  </section>
-  <!-- FaQ end -->
+                        </div>
+    </section>
+    <!-- FaQ end -->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s"
+        style="margin-top: 6rem;">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6">
@@ -912,12 +1015,12 @@
                     </div>
                     <!-- <div class="col-md-6 text-center text-md-end">
                         </*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        <!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
-                        </br>Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a> --> 
-                    </div>
+                    <!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                        </br>Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a> -->
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- Footer End -->
 
@@ -927,130 +1030,139 @@
     <div class="sitebutton" id="sitebutton">
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             Get Free Quote
-          </button>
+        </button>
     </div>
-<!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
     Launch static backdrop modal
   </button> -->
-  
-  <!-- Modal -->
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title display-6 text-center" id="staticBackdropLabel">First Step</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-             <form>
-              <div class="part1" id="part1">
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label ">From</label>
-                    <input type="text" class="form-control" id="origin-input" aria-describedby="emailHelp">
-                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">To</label>
-                    <input type="text" class="form-control" id="destination-input">
-                  </div>
-                  <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Date Of Pickup</label>
-                      <input type="date" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Vechile Size</label>
-                      <input type="text" style="position: relative;" class="form-control" id="ship_vehicle">
-                      <div class="car-option" id="car-option">
-                        <div class="cars" id="cars"><img src="img/boat-trailer.png" alt="tfj">
-                            <p>boat-trailer</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/dually-pickup.png" alt="">
-                            <p>dually-pickup</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/fullsize-van.png" alt="">
-                            <p>fullsize-van</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/golf-cart.png" alt="">
-                            <p>golf-cart</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/hypercar.png" alt="">
-                            <p>hypercar</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/large-car.png" alt="">
-                            <p>large-car</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/large-pickup.png" alt="">
-                            <p>large-pickup</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/large-suv.png" alt="">
-                            <p>large-suv</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/medium-pickup.png" alt="">
-                            <p>medium-pickup</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/midsize-suv.png" alt="">
-                            <p>midsize-suv</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/midsize-car.png" alt="">
-                            <p>midsize-car</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/mini-van.png" alt="">
-                            <p>mini-van</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/motorcycle.png" alt="">
-                            <p>motorcycle</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/small-car.png" alt="">
-                            <p>small-car</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/small-suv.png" alt="">
-                            <p>small-suv</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/small-car.png" alt="">
-                            <p>small-car</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/sports-car.png" alt="">
-                            <p>sports-car</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/travel-trailer.png" alt="">
-                            <p>travel-trailer</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/others.png" alt="">
-                            <p>others</p>
-                        </div>
-                    </div>
-                    </div>
-                  <!-- <div class="mb-3 form-check">
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title display-6 text-center" id="staticBackdropLabel">First Step</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="./save-to-form.php" id="form-" method="post">
+                        <div class="part1" id="part1">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label ">From</label>
+                                <input type="text" class="form-control" name="ship_from" id="origin-input">
+                                <input type="text" id="url" name="url" placeholder="Address or City" hidden>
+                                <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">To</label>
+                                <input type="text" class="form-control" name="ship_to" id="destination-input">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Date Of Pickup</label>
+                                <input type="date" class="form-control" name="pick_up_date" id="ship_date">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Vechile Size</label>
+                                <input type="text" style="position: relative;" readonly
+                                    placeholder="select vehicle size" class="form-control" name="Vehicle_size"
+                                    id="ship_vehicle">
+                                <div class="car-option" id="car-option">
+                                    <div class="cars" id="cars"><img src="img/boat-trailer.png" alt="tfj">
+                                        <p>boat-trailer</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/dually-pickup.png" alt="">
+                                        <p>dually-pickup</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/fullsize-van.png" alt="">
+                                        <p>fullsize-van</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/golf-cart.png" alt="">
+                                        <p>golf-cart</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/hypercar.png" alt="">
+                                        <p>hypercar</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/large-car.png" alt="">
+                                        <p>large-car</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/large-pickup.png" alt="">
+                                        <p>large-pickup</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/large-suv.png" alt="">
+                                        <p>large-suv</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/medium-pickup.png" alt="">
+                                        <p>medium-pickup</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/midsize-suv.png" alt="">
+                                        <p>midsize-suv</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/midsize-car.png" alt="">
+                                        <p>midsize-car</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/mini-van.png" alt="">
+                                        <p>mini-van</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/motorcycle.png" alt="">
+                                        <p>motorcycle</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/small-car.png" alt="">
+                                        <p>small-car</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/small-suv.png" alt="">
+                                        <p>small-suv</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/small-car.png" alt="">
+                                        <p>small-car</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/sports-car.png" alt="">
+                                        <p>sports-car</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/travel-trailer.png" alt="">
+                                        <p>travel-trailer</p>
+                                    </div>
+                                    <div class="cars" id="cars"><img src="img/others.png" alt="">
+                                        <p>others</p>
+                                    </div>
+                                </div>
+                                <div id="distance"></div>
+                            </div>
+                            <!-- <div class="mb-3 form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Check me out</label>
                   </div> -->
-                  <button type="submit" class="btn btn-primary" id="quote">Next</button>
+                            <div type="submit" class="btn btn-primary" id="quote">Next</div>
 
-               </div>
-               <div class="part2" id="part2">
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Phone Number</label>
-                    <input type="text" onkeyup="formatPhoneNumber(this)"  class="form-control" id="exampleInputPassword1">
-                  </div>
-                  <button type="submit" class="btn btn-primary" id="previous">Previous</button>
-                  <button type="submit" class="btn btn-primary" id="next-step">Submit</button>
-               </div>
+                        </div>
+                        <div class="part2" id="part2">
+                            <div id="ip"></div>
 
-              </form>
-        </div>
-        <!-- <div class="modal-footer">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input type="text" class="form-control" name="user_email" id="email"
+                                    aria-describedby="emailHelp">
+                                <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+                                <input type="text" onkeyup="formatPhoneNumber(this)" placeholder="+(xxx) xxx-xxxx"
+                                    name="phone_number" id="phone" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="previous">Previous</button>
+                            <button type="submit" name="submit" class="btn btn-primary" id="next-step">Submit</button>
+                        </div>
+
+                    </form>
+                </div>
+                <!-- <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           <button type="button" class="btn btn-primary">Understood</button>
         </div> -->
-      </div>
+            </div>
+        </div>
     </div>
-  </div>
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -1062,21 +1174,22 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMGiq80Z68Fu45B0LLK1We7LP6jYeeX7M&v=3.exp&callback=Function.prototype&libraries=places"></script>
-<script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMGiq80Z68Fu45B0LLK1We7LP6jYeeX7M&v=3.exp&callback=Function.prototype&libraries=places"></script>
+    <script>
 
-    document.getElementById('quote').addEventListener('click',function(e){
+        document.getElementById('quote').addEventListener('click', function (e) {
             e.preventDefault();
             document.getElementById('part1').style.display = 'none';
             document.getElementById('part2').style.display = 'block';
-            document.getElementById('staticBackdropLabel').innerText="Second Step"
+            document.getElementById('staticBackdropLabel').innerText = "Second Step"
 
         })
-        document.getElementById('previous').addEventListener('click',function(e){
+        document.getElementById('previous').addEventListener('click', function (e) {
             e.preventDefault();
             document.getElementById('part2').style.display = 'none';
             document.getElementById('part1').style.display = 'block';
-            document.getElementById('staticBackdropLabel').innerText="First Step"
+            document.getElementById('staticBackdropLabel').innerText = "First Step"
         })
         function formatPhoneNumber(input) {
             // Remove all non-digit characters from the input
@@ -1120,17 +1233,19 @@
                 unitSystem: google.maps.UnitSystem.IMPERIAL,
             };
 
-            directionsService.route(request, function(response, status) {
+            directionsService.route(request, function (response, status) {
                 if (status === 'OK') {
-                    const distance = response.routes[0].legs[0].distance.text;
+                    let distance = response.routes[0].legs[0].distance.text;
                     // Display or use the distance information as needed.
-                    console.log(distance)
+                    document.getElementById('distance').innerHTML = '<input type="text" value=' + distance + ' name="path_distance" id="distance_" hidden>'
                 } else {
                     // Handle directions request error
-                    document.getElementById('error').style.display='grid'
-                    setTimeout(()=>{
-                        document.getElementById('error').style.display='none'
-                    },2000)
+                    document.getElementById('distance').innerHTML = '<input type="text" name="path_distance" id="distance_" hidden>'
+                    document.getElementById('error').style.display = 'grid'
+                    document.getElementById('error-text').innerText = "Directions request returned no results ";
+                    setTimeout(() => {
+                        document.getElementById('error').style.display = 'none'
+                    }, 2000)
                 }
             });
         }
@@ -1139,7 +1254,7 @@
         const destinationInput2 = document.getElementById('destination-input2');
         const originAutocomplete2 = new google.maps.places.Autocomplete(originInput2);
         const destinationAutocomplete2 = new google.maps.places.Autocomplete(destinationInput2);
-        const directionsService2= new google.maps.DirectionsService();
+        const directionsService2 = new google.maps.DirectionsService();
         const directionsRenderer2 = new google.maps.DirectionsRenderer();
 
         // Add a listener for when the user selects places in both fields.
@@ -1161,32 +1276,95 @@
                 unitSystem: google.maps.UnitSystem.IMPERIAL,
             };
 
-            directionsService.route(request, function(response, status) {
+            directionsService.route(request, function (response, status) {
                 if (status === 'OK') {
                     const distance = response.routes[0].legs[0].distance.text;
                     // Display or use the distance information as needed.
                     console.log(distance)
                 } else {
                     // Handle directions request error
-                    document.getElementById('error').style.display='grid'
-                    setTimeout(()=>{
-                        document.getElementById('error').style.display='none'
-                    },2000)
+                    document.getElementById('error').style.display = 'grid'
+                    setTimeout(() => {
+                        document.getElementById('error').style.display = 'none'
+                    }, 2000)
                 }
             });
         }
-        document.getElementById('ship_vehicle').addEventListener('click',()=>{
-                document.getElementById('car-option').style.display='grid'
-            })
+        document.getElementById('ship_vehicle').addEventListener('click', () => {
+            document.getElementById('car-option').style.display = 'grid'
+        })
         var sel = document.querySelectorAll('#cars')
         for (i = 0; i < sel.length; i++) {
-            sel[i].addEventListener('click', function(e) {
+            sel[i].addEventListener('click', function (e) {
                 e.preventDefault();
-                document.getElementById('ship_vehicle').value = ""+ this.children[1].innerText +""
-                document.getElementById('car-option').style.display='none'
+                document.getElementById('ship_vehicle').value = "" + this.children[1].innerText + ""
+                document.getElementById('car-option').style.display = 'none'
             })
         }
-</script>
+
+        var ip
+        fetch('https://api.ipify.org?format=json')
+            .then(response => response.json())
+            .then(data => {
+                ip = data.ip;
+                document.getElementById('ip').innerHTML += "<input type='text' name='ip' value='" + ip + "' hidden>"
+            })
+            .catch(error => {
+                console.log(error);
+            });
+
+        document.getElementById('form-').addEventListener('submit', function (e) {
+            // e.preventDefault()
+            let email = document.getElementById('email').value
+            let mobile = document.getElementById('phone').value
+            if (email == '' || email == null || mobile == '' || mobile == null) {
+                e.preventDefault()
+                document.getElementById('error').style.display = 'grid'
+                document.getElementById('error-text').innerText = "Fields Can't Be Empty ";
+                setTimeout(() => {
+                    document.getElementById('error').style.display = 'none'
+                }, 2000)
+            }
+        })
+
+        document.getElementById('quote').addEventListener('click', function (e) {
+            e.preventDefault()
+            let from = document.getElementById('origin-input').value
+            let to = document.getElementById('destination-input').value
+            let date = document.getElementById('ship_date').value
+            let vehicle = document.getElementById('ship_vehicle').value
+            let isEmpty = document.getElementById('distance_').value;
+            if (from == '' || from == null || to == '' || to == null || date == '' || date == null || vehicle == '' || vehicle == null) {
+                document.getElementById('error').style.display = 'grid'
+                document.getElementById('error-text').innerText = "Fields Can't Be Empty ";
+                setTimeout(() => {
+                    document.getElementById('error').style.display = 'none'
+                }, 2000)
+            } else if (isEmpty == '' || isEmpty == null) {
+                document.getElementById('error').style.display = 'grid'
+                document.getElementById('error-text').innerText = "Directions request returned no results";
+                setTimeout(() => {
+                    document.getElementById('error').style.display = 'none'
+                }, 3000)
+            } else {
+                document.getElementById('part1').style.display = 'none';
+                document.getElementById('part2').style.display = 'block';
+            }
+        })
+        document.getElementById('form-').addEventListener('submit', function (e) {
+            // e.preventDefault()
+            let email = document.getElementById('email').value
+            let mobile = document.getElementById('phone').value
+            if (email == '' || email == null || mobile == '' || mobile == null) {
+                e.preventDefault()
+                document.getElementById('error').style.display = 'grid'
+                document.getElementById('error-text').innerText = "Fields Can't Be Empty ";
+                setTimeout(() => {
+                    document.getElementById('error').style.display = 'none'
+                }, 2000)
+            }
+        })
+    </script>
 </body>
 
 </html>
