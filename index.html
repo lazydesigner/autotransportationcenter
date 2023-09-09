@@ -206,15 +206,15 @@
                         <input type="text" name="to" class="form-control py-3" placeholder="Zip or City">
                     </div>
                 </div>
-                <button type="button" class="btn btn-primary p-3" data-bs-toggle="modal"
+                <button type="button" class="btn btn-primary p-3" id="form-new" data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop">
                     Free Quote
                 </button>
             </form>
 
-            <div class="pt-4"> <img style="padding-right: 4%;" src="./img/trustpilot.png"> 
-                <img style="padding-right: 4%;" src="./img/google (1).png">
-                <img src="./img/transpoorts.png"> 
+            <div class="pt-4"> <img style="padding-right: 4%;" width="100%" height="100%" src="./img/trustpilot.png"> 
+                <img style="padding-right: 4%;" width="100%" height="100%" src="./img/google (1).png">
+                <img src="./img/transpoorts.png" width="100%" height="100%"> 
             </div>
             <nav aria-label="breadcrumb animated slideInDown">
                 <!-- <ol class="breadcrumb">
@@ -1028,7 +1028,7 @@
     <!-- Back to Top -->
     <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top py-5 w-25">Free Quote</a> -->
     <div class="sitebutton" id="sitebutton">
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <button type="button" class="btn btn-primary" id="form-new">
             Get Free Quote
         </button>
     </div>
@@ -1038,13 +1038,12 @@
   </button> -->
 
     <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal" id="staticBackdrops">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title display-6 text-center" id="staticBackdropLabel">First Step</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close" id="form-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form action="./save-to-form.php" id="form-" method="post">
@@ -1177,6 +1176,14 @@
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMGiq80Z68Fu45B0LLK1We7LP6jYeeX7M&v=3.exp&callback=Function.prototype&libraries=places" async></script>
     <script>
+
+        document.getElementById("form-new").addEventListener("click",function(){
+            document.getElementById("staticBackdrops").style.display="block"
+        })
+        document.getElementById("form-close").addEventListener("click",function(){
+            document.getElementById("staticBackdrops").style.display="none"
+
+        })
 
         document.getElementById('quote').addEventListener('click', function (e) {
             e.preventDefault();
@@ -1364,6 +1371,7 @@
                 }, 2000)
             }
         })
+        
     </script>
 </body>
 
