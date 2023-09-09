@@ -207,7 +207,7 @@
                         <input type="text" name="to" class="form-control py-3" placeholder="Zip or City">
                     </div>
                 </div>
-                <button type="button" class="btn btn-primary p-3" data-bs-toggle="modal"
+                <button type="button" class="btn btn-primary p-3" id="form-new1" data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop">
                    <span style="color: black;"> Free Quote</span>
                 </button>
@@ -1177,15 +1177,13 @@
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMGiq80Z68Fu45B0LLK1We7LP6jYeeX7M&v=3.exp&callback=Function.prototype&libraries=places"></script>
     <script>
-        a=document.querySelectorAll("#form-new")
-        for (i=0; i<a.length; i++){
-            a[i].addEventListener("click",function(){
+       
+       document.getElementById("form-new1").addEventListener("click",function(){
             document.getElementById("staticBackdrops").style.display="block"
         })
-        }
-        // document.getElementById("form-new").addEventListener("click",function(){
-        //     document.getElementById("staticBackdrops").style.display="block"
-        // })
+        document.getElementById("form-new").addEventListener("click",function(){
+            document.getElementById("staticBackdrops").style.display="block"
+        })
         document.getElementById("form-close").addEventListener("click",function(){
             document.getElementById("staticBackdrops").style.display="none"
             
