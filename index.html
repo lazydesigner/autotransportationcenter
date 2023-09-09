@@ -1176,10 +1176,15 @@
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMGiq80Z68Fu45B0LLK1We7LP6jYeeX7M&v=3.exp&callback=Function.prototype&libraries=places" async></script>
     <script>
-
-        document.getElementById("form-new").addEventListener("click",function(){
+        a=document.querySelectorAll("#form-new")
+        for (i=0; i<a.length; i++){
+            a[i].addEventListener("click",function(){
             document.getElementById("staticBackdrops").style.display="block"
         })
+        }
+        // document.getElementById("form-new").addEventListener("click",function(){
+        //     document.getElementById("staticBackdrops").style.display="block"
+        // })
         document.getElementById("form-close").addEventListener("click",function(){
             document.getElementById("staticBackdrops").style.display="none"
             
