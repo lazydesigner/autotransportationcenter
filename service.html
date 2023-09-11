@@ -9,29 +9,28 @@
     <meta content="" name="description">
     <meta name="google-site-verification" content="D01k7KWmaB-2DWSGvcQ_2tZHx1EtcpCoYelZeYkM75c" />
 
-    <!-- Favicon -->
-    !-- Fav -->
-    <link href="img/fav.ico" rel="">
+     <!-- Fav -->
+     <link href="img/fav.ico" rel="">
 
-    <!-- Google Web Fonts -->
-    <link  rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload"  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
-    onload="this.onload=null;this.rel='stylesheet'" async as="style">
-
-    <!-- Icon Font Stylesheet -->
-    <!-- <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" async> -->
-    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-s@1.4.1/font/bootstrap-s.css" as="style" onload="this.onload=null;this.rel='stylesheet'" async>
-
-    <!-- Libraries Stylesheet -->
-    <!-- <link href="lib/animate/animate.min.css" rel="stylesheet"> -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+     <!-- Google Web Fonts -->
+     <link  rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="preload"  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
+     onload="this.onload=null;this.rel='stylesheet'" async as="style">
+ 
+     <!-- Icon Font Stylesheet -->
+     <!-- <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" async> -->
+     <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-s@1.4.1/font/bootstrap-s.css" as="style" onload="this.onload=null;this.rel='stylesheet'" defer>
+ 
+     <!-- Libraries Stylesheet -->
+     <!-- <link href="lib/animate/animate.min.css" rel="stylesheet"> -->
+     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" defer>
+ 
+     <!-- Customized Bootstrap Stylesheet -->
+     <link href="css/bootstrap.min.css" rel="stylesheet" defer>
+ 
+     <!-- Template Stylesheet -->
+     <link href="css/style.css" rel="stylesheet" defer>
     <style>
         .page-header{
             padding-bottom: 10%!important;
@@ -147,9 +146,10 @@
                     <input type="text" name="to" class="form-control py-3" placeholder="Zip or City">
                   </div>
                 </div>
-                <button type="button" class="btn btn-primary p-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                    Free Quote
-                  </button>
+                <button type="button" class="btn btn-primary p-3" id="form-new1" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
+                   <span style="color: black;"> Free Quote</span>
+                </button>
               </form>
 
             <nav aria-label="breadcrumb animated slideInDown">
@@ -395,237 +395,357 @@
     </div>
     <!-- Footer End -->
 
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <!-- Modal -->
+  <div class="modal" id="staticBackdrops">
     <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title display-6 text-center" id="staticBackdropLabel">First Step</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-             <form>
-              <div class="part1" id="part1">
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label ">From</label>
-                    <input type="text" class="form-control" id="origin-input" aria-describedby="emailHelp">
-                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">To</label>
-                    <input type="text" class="form-control" id="destination-input">
-                  </div>
-                  <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Date Of Pickup</label>
-                      <input type="date" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Vechile Size</label>
-                      <input type="text" style="position: relative;" class="form-control" id="ship_vehicle">
-                      <div class="car-option" id="car-option">
-                        <div class="cars" id="cars"><img src="img/boat-trailer.png" alt="tfj">
-                            <p>boat-trailer</p>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title display-6 text-center" id="staticBackdropLabel">First Step</h5>
+                <button type="button" class="btn-close" id="form-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="./save-to-form.php" id="form-" method="post">
+                    <div class="part1" id="part1">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label ">From</label>
+                            <input type="text" class="form-control" name="ship_from" id="origin-input">
+                            <input type="text" id="url" name="url" placeholder="Address or City" hidden>
+                            <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
                         </div>
-                        <div class="cars" id="cars"><img src="img/dually-pickup.png" alt="">
-                            <p>dually-pickup</p>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">To</label>
+                            <input type="text" class="form-control" name="ship_to" id="destination-input">
                         </div>
-                        <div class="cars" id="cars"><img src="img/fullsize-van.png" alt="">
-                            <p>fullsize-van</p>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Date Of Pickup</label>
+                            <input type="date" class="form-control" name="pick_up_date" id="ship_date">
                         </div>
-                        <div class="cars" id="cars"><img src="img/golf-cart.png" alt="">
-                            <p>golf-cart</p>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Vechile Size</label>
+                            <input type="text" style="position: relative;" readonly
+                                placeholder="select vehicle size" class="form-control" name="Vehicle_size"
+                                id="ship_vehicle">
+                            <div class="car-option" id="car-option">
+                                <div class="cars" id="cars"><img src="img/medium-pickup.png" loading="lazy" alt="">
+                                    <p>medium-pickup</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/midsize-suv.png" loading="lazy" alt="">
+                                    <p>midsize-suv</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/midsize-car.png" loading="lazy" alt="">
+                                    <p>midsize-car</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/mini-van.png" loading="lazy" alt="">
+                                    <p>mini-van</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/motorcycle.png" loading="lazy" alt="">
+                                    <p>motorcycle</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/small-car.png" loading="lazy" alt="">
+                                    <p>small-car</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/small-suv.png" loading="lazy" alt="">
+                                    <p>small-suv</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/small-car.png" loading="lazy" alt="">
+                                    <p>small-car</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/sports-car.png" loading="lazy" alt="">
+                                    <p>sports-car</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/hypercar.png" loading="lazy" alt="">
+                                    <p>hypercar</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/large-car.png" loading="lazy" alt="">
+                                    <p>large-car</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/large-pickup.png" loading="lazy" alt="">
+                                    <p>large-pickup</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/large-suv.png" loading="lazy" alt="">
+                                    <p>large-suv</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/boat-trailer.png" loading="lazy" alt="tfj">
+                                    <p>boat-trailer</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/dually-pickup.png" loading="lazy" alt="">
+                                    <p>dually-pickup</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/fullsize-van.png" loading="lazy" alt="">
+                                    <p>fullsize-van</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/golf-cart.png" loading="lazy" alt="">
+                                    <p>golf-cart</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/travel-trailer.png" loading="lazy" alt="">
+                                    <p>travel-trailer</p>
+                                </div>
+                                <div class="cars" id="cars"><img src="img/others.png" loading="lazy" alt="">
+                                    <p>others</p>
+                                </div>
+                            </div>
+                            <div id="distance"></div>
                         </div>
-                        <div class="cars" id="cars"><img src="img/hypercar.png" alt="">
-                            <p>hypercar</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/large-car.png" alt="">
-                            <p>large-car</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/large-pickup.png" alt="">
-                            <p>large-pickup</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/large-suv.png" alt="">
-                            <p>large-suv</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/medium-pickup.png" alt="">
-                            <p>medium-pickup</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/midsize-suv.png" alt="">
-                            <p>midsize-suv</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/midsize-car.png" alt="">
-                            <p>midsize-car</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/mini-van.png" alt="">
-                            <p>mini-van</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/motorcycle.png" alt="">
-                            <p>motorcycle</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/small-car.png" alt="">
-                            <p>small-car</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/small-suv.png" alt="">
-                            <p>small-suv</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/small-car.png" alt="">
-                            <p>small-car</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/sports-car.png" alt="">
-                            <p>sports-car</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/travel-trailer.png" alt="">
-                            <p>travel-trailer</p>
-                        </div>
-                        <div class="cars" id="cars"><img src="img/others.png" alt="">
-                            <p>others</p>
-                        </div>
-                    </div>
-                    </div>
-                  <!-- <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                  </div> -->
-                  <button type="submit" class="btn btn-primary" id="quote">Next</button>
+                        <!-- <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div> -->
+                        <div type="submit" class="btn btn-primary" id="quote">Next</div>
 
-               </div>
-               <div class="part2" id="part2">
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Phone Number</label>
-                    <input type="text" onkeyup="formatPhoneNumber(this)"  class="form-control" id="exampleInputPassword1">
-                  </div>
-                  <button type="submit" class="btn btn-primary" id="previous">Previous</button>
-                  <button type="submit" class="btn btn-primary" id="next-step">Submit</button>
-               </div>
+                    </div>
+                    <div class="part2" id="part2">
+                        <div id="ip"></div>
 
-              </form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="text" class="form-control" name="user_email" id="email"
+                                aria-describedby="emailHelp">
+                            <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+                            <input type="text" onkeyup="formatPhoneNumber(this)" placeholder="+(xxx) xxx-xxxx"
+                                name="phone_number" id="phone" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="previous">Previous</button>
+                        <button type="submit" name="submit" class="btn btn-primary" id="next-step">Submit</button>
+                    </div>
+
+                </form>
+            </div>
+            <!-- <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Understood</button>
+    </div> -->
         </div>
-        <!-- <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Understood</button>
-        </div> -->
-      </div>
     </div>
-  </div>
+</div>
     <!-- Back to Top -->
-    <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a> -->
+    <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top py-5 w-25">Free Quote</a> -->
     <div class="sitebutton" id="sitebutton">
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-            Get Free Quote
-          </button>
+        <button type="button" class="btn btn-primary" id="form-new">
+            <span style="color: black;">  Get Free Quote</span>
+        </button>
     </div>
+ <!-- JavaScript Libraries -->
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer ></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" defer></script>
+ <script src="lib/wow/wow.min.js" defer></script>
+ 
+ <script src="lib/waypoints/waypoints.min.js" defer></script>
+ <script src="lib/counterup/counterup.min.js" defer></script>
+ <script src="lib/owlcarousel/owl.carousel.min.js" defer></script>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+ 
+ <script src="lib/owlcarousel/owl.carousel.min.js" defer></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMGiq80Z68Fu45B0LLK1We7LP6jYeeX7M&v=3.exp&callback=Function.prototype&libraries=places"></script>
-    <script>
-        document.getElementById('quote').addEventListener('click',function(e){
-                e.preventDefault();
-                document.getElementById('part1').style.display = 'none';
-                document.getElementById('part2').style.display = 'block';
+ <!-- Template Javascript -->
+ <script src="js/main.js" defer></script>
+ <script
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMGiq80Z68Fu45B0LLK1We7LP6jYeeX7M&v=3.exp&callback=Function.prototype&libraries=places"></script>
+ <script>
     
-            })
-            document.getElementById('previous').addEventListener('click',function(e){
-                e.preventDefault();
-                document.getElementById('part2').style.display = 'none';
-                document.getElementById('part1').style.display = 'block';
-    
-            })
-            function formatPhoneNumber(input) {
-                // Remove all non-digit characters from the input
-                const phoneNumber = input.value.replace(/\D/g, '');
-    
-                // Apply the desired pattern (e.g., XXX-XXX-XXXX)
-                if (phoneNumber.length <= 3) {
-                    input.value = phoneNumber;
-                } else if (phoneNumber.length <= 6) {
-                    input.value = `(${phoneNumber.slice(0, 3)}) ${phoneNumber.slice(3)}`;
-                } else {
-                    input.value = `(${phoneNumber.slice(0, 3)}) ${phoneNumber.slice(3, 6)}-${phoneNumber.slice(6, 10)}`;
-                }
-    
-                // Display the formatted phone number
-                document.getElementById('formattedPhoneNumber').textContent = input.value;
-            }
-        
-    
-    </script>
-    <script>
-        window.addEventListener('scroll', function() {
-            a = window.pageYOffset
-            if(a >= 100){
-               document.getElementById('sitebutton').style.display = 'block'
-            }else{
-                document.getElementById('sitebutton').style.display = 'none'
-            }
-        });
+    document.getElementById("form-new1").addEventListener("click",function(){
+         document.getElementById("staticBackdrops").style.display="block"
+     })
+     document.getElementById("form-new").addEventListener("click",function(){
+         document.getElementById("staticBackdrops").style.display="block"
+     })
+     document.getElementById("form-close").addEventListener("click",function(){
+         document.getElementById("staticBackdrops").style.display="none"
+         
+     })
 
-        const originInput = document.getElementById('origin-input');
-        const destinationInput = document.getElementById('destination-input');
-        const originAutocomplete = new google.maps.places.Autocomplete(originInput);
-        const destinationAutocomplete = new google.maps.places.Autocomplete(destinationInput);
-        const directionsService = new google.maps.DirectionsService();
-        const directionsRenderer = new google.maps.DirectionsRenderer();
+     document.getElementById('quote').addEventListener('click', function (e) {
+         e.preventDefault();
+         document.getElementById('part1').style.display = 'none';
+         document.getElementById('part2').style.display = 'block';
+         document.getElementById('staticBackdropLabel').innerText = "Second Step"
 
-        // Add a listener for when the user selects places in both fields.
-        originAutocomplete.addListener('place_changed', calculateDistance);
-        destinationAutocomplete.addListener('place_changed', calculateDistance);
+     })
+     document.getElementById('previous').addEventListener('click', function (e) {
+         e.preventDefault();
+         document.getElementById('part2').style.display = 'none';
+         document.getElementById('part1').style.display = 'block';
+         document.getElementById('staticBackdropLabel').innerText = "First Step"
+     })
+     function formatPhoneNumber(input) {
+         // Remove all non-digit characters from the input
+         const phoneNumber = input.value.replace(/\D/g, '');
 
-        function calculateDistance() {
-            const origin = originAutocomplete.getPlace();
-            const destination = destinationAutocomplete.getPlace();
+         // Apply the desired pattern (e.g., XXX-XXX-XXXX)
+         if (phoneNumber.length <= 3) {
+             input.value = phoneNumber;
+         } else if (phoneNumber.length <= 6) {
+             input.value = `(${phoneNumber.slice(0, 3)}) ${phoneNumber.slice(3)}`;
+         } else {
+             input.value = `(${phoneNumber.slice(0, 3)}) ${phoneNumber.slice(3, 6)}-${phoneNumber.slice(6, 10)}`;
+         }
 
-            if (!origin || !destination) {
-                return; // Handle invalid input
-            }
+         // Display the formatted phone number
+         // document.getElementById('formattedPhoneNumber').textContent = input.value;
+     }
+     const originInput = document.getElementById('origin-input');
+     const destinationInput = document.getElementById('destination-input');
+     const originAutocomplete = new google.maps.places.Autocomplete(originInput);
+     const destinationAutocomplete = new google.maps.places.Autocomplete(destinationInput);
+     const directionsService = new google.maps.DirectionsService();
+     const directionsRenderer = new google.maps.DirectionsRenderer();
 
-            const request = {
-                origin: origin.geometry.location,
-                destination: destination.geometry.location,
-                travelMode: 'DRIVING', // You can change this to other travel modes like 'WALKING' or 'TRANSIT'
-                unitSystem: google.maps.UnitSystem.IMPERIAL,
-            };
+     // Add a listener for when the user selects places in both fields.
+     originAutocomplete.addListener('place_changed', calculateDistance);
+     destinationAutocomplete.addListener('place_changed', calculateDistance);
 
-            directionsService.route(request, function(response, status) {
-                if (status === 'OK') {
-                    const distance = response.routes[0].legs[0].distance.text;
-                    // Display or use the distance information as needed.
-                    console.log(distance)
-                } else {
-                    // Handle directions request error
-                    document.getElementById('error').style.display='grid'
-                    setTimeout(()=>{
-                        document.getElementById('error').style.display='none'
-                    },2000)
-                }
-            });
-        }
-        document.getElementById('ship_vehicle').addEventListener('click',()=>{
-                document.getElementById('car-option').style.display='grid'
-            })
-        var sel = document.querySelectorAll('#cars')
-        for (i = 0; i < sel.length; i++) {
-            sel[i].addEventListener('click', function(e) {
-                e.preventDefault();
-                document.getElementById('ship_vehicle').value = ""+ this.children[1].innerText +""
-                document.getElementById('car-option').style.display='none'
-            })
-        }
-    </script>
+     function calculateDistance() {
+         const origin = originAutocomplete.getPlace();
+         const destination = destinationAutocomplete.getPlace();
+
+         if (!origin || !destination) {
+             return; // Handle invalid input
+         }
+
+         const request = {
+             origin: origin.geometry.location,
+             destination: destination.geometry.location,
+             travelMode: 'DRIVING', // You can change this to other travel modes like 'WALKING' or 'TRANSIT'
+             unitSystem: google.maps.UnitSystem.IMPERIAL,
+         };
+
+         directionsService.route(request, function (response, status) {
+             if (status === 'OK') {
+                 let distance = response.routes[0].legs[0].distance.text;
+                 // Display or use the distance information as needed.
+                 document.getElementById('distance').innerHTML = '<input type="text" value=' + distance + ' name="path_distance" id="distance_" hidden>'
+             } else {
+                 // Handle directions request error
+                 document.getElementById('distance').innerHTML = '<input type="text" name="path_distance" id="distance_" hidden>'
+                 document.getElementById('error').style.display = 'grid'
+                 document.getElementById('error-text').innerText = "Directions request returned no results ";
+                 setTimeout(() => {
+                     document.getElementById('error').style.display = 'none'
+                 }, 2000)
+             }
+         });
+     }
+
+     const originInput2 = document.getElementById('origin-input2');
+     const destinationInput2 = document.getElementById('destination-input2');
+     const originAutocomplete2 = new google.maps.places.Autocomplete(originInput2);
+     const destinationAutocomplete2 = new google.maps.places.Autocomplete(destinationInput2);
+     const directionsService2 = new google.maps.DirectionsService();
+     const directionsRenderer2 = new google.maps.DirectionsRenderer();
+
+     // Add a listener for when the user selects places in both fields.
+     originAutocomplete2.addListener('place_changed', calculateDistance);
+     destinationAutocomplete2.addListener('place_changed', calculateDistance);
+
+     function calculateDistance() {
+         const origin = originAutocomplete2.getPlace();
+         const destination = destinationAutocomplete2.getPlace();
+
+         if (!origin || !destination) {
+             return; // Handle invalid input
+         }
+
+         const request = {
+             origin: origin.geometry.location,
+             destination: destination.geometry.location,
+             travelMode: 'DRIVING', // You can change this to other travel modes like 'WALKING' or 'TRANSIT'
+             unitSystem: google.maps.UnitSystem.IMPERIAL,
+         };
+
+         directionsService.route(request, function (response, status) {
+             if (status === 'OK') {
+                 const distance = response.routes[0].legs[0].distance.text;
+                 // Display or use the distance information as needed.
+                 console.log(distance)
+             } else {
+                 // Handle directions request error
+                 document.getElementById('error').style.display = 'grid'
+                 setTimeout(() => {
+                     document.getElementById('error').style.display = 'none'
+                 }, 2000)
+             }
+         });
+     }
+     document.getElementById('ship_vehicle').addEventListener('click', () => {
+         document.getElementById('car-option').style.display = 'grid'
+     })
+     var sel = document.querySelectorAll('#cars')
+     for (i = 0; i < sel.length; i++) {
+         sel[i].addEventListener('click', function (e) {
+             e.preventDefault();
+             document.getElementById('ship_vehicle').value = "" + this.children[1].innerText + ""
+             document.getElementById('car-option').style.display = 'none'
+         })
+     }
+
+     var ip
+     fetch('https://api.ipify.org?format=json')
+         .then(response => response.json())
+         .then(data => {
+             ip = data.ip;
+             document.getElementById('ip').innerHTML += "<input type='text' name='ip' value='" + ip + "' hidden>"
+         })
+         .catch(error => {
+             console.log(error);
+         });
+
+     document.getElementById('form-').addEventListener('submit', function (e) {
+         // e.preventDefault()
+         let email = document.getElementById('email').value
+         let mobile = document.getElementById('phone').value
+         if (email == '' || email == null || mobile == '' || mobile == null) {
+             e.preventDefault()
+             document.getElementById('error').style.display = 'grid'
+             document.getElementById('error-text').innerText = "Fields Can't Be Empty ";
+             setTimeout(() => {
+                 document.getElementById('error').style.display = 'none'
+             }, 2000)
+         }
+     })
+
+     document.getElementById('quote').addEventListener('click', function (e) {
+         e.preventDefault()
+         let from = document.getElementById('origin-input').value
+         let to = document.getElementById('destination-input').value
+         let date = document.getElementById('ship_date').value
+         let vehicle = document.getElementById('ship_vehicle').value
+         let isEmpty = document.getElementById('distance_').value;
+         if (from == '' || from == null || to == '' || to == null || date == '' || date == null || vehicle == '' || vehicle == null) {
+             document.getElementById('error').style.display = 'grid'
+             document.getElementById('error-text').innerText = "Fields Can't Be Empty ";
+             setTimeout(() => {
+                 document.getElementById('error').style.display = 'none'
+             }, 2000)
+         } else if (isEmpty == '' || isEmpty == null) {
+             document.getElementById('error').style.display = 'grid'
+             document.getElementById('error-text').innerText = "Directions request returned no results";
+             setTimeout(() => {
+                 document.getElementById('error').style.display = 'none'
+             }, 3000)
+         } else {
+             document.getElementById('part1').style.display = 'none';
+             document.getElementById('part2').style.display = 'block';
+         }
+     })
+     document.getElementById('form-').addEventListener('submit', function (e) {
+         // e.preventDefault()
+         let email = document.getElementById('email').value
+         let mobile = document.getElementById('phone').value
+         if (email == '' || email == null || mobile == '' || mobile == null) {
+             e.preventDefault()
+             document.getElementById('error').style.display = 'grid'
+             document.getElementById('error-text').innerText = "Fields Can't Be Empty ";
+             setTimeout(() => {
+                 document.getElementById('error').style.display = 'none'
+             }, 2000)
+         }
+     })
+
+     
+     
+ </script>
 </body>
 
 </html>
