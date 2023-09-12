@@ -38,6 +38,7 @@
 .btn {
     font-weight: 600;
     transition: .5s;
+    font-display: swap;
 }
 
 .btn.btn-primary,
@@ -68,6 +69,7 @@
     align-items: center;
     justify-content: center;
     font-weight: normal;
+    font-display: swap;
 }
 
 /*** Navbar ***/
@@ -78,6 +80,7 @@
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
+    font-display: swap;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -88,6 +91,7 @@
     font-size: 15px;
     text-transform: uppercase;
     outline: none;
+    font-display: swap;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -114,6 +118,7 @@
 .navbar-light .navbar-nav .nav-link {
     color: var(--dark);
     font-weight: 500;
+    font-display: swap;
 }
 
 .navbar-light.sticky-top {
@@ -180,11 +185,13 @@
     .header-carousel .owl-carousel-item p {
         font-size: 14px !important;
         font-weight: 400 !important;
+        font-display: swap;
     }
 
     .header-carousel .owl-carousel-item h1 {
         font-size: 30px;
         font-weight: 600;
+        font-display: swap;
     }
 }
 
@@ -211,6 +218,7 @@
     border-radius: 45px;
     font-size: 22px;
     transition: .5s;
+    font-display: swap;
 }
 
 .header-carousel .owl-nav .owl-prev:hover,
@@ -313,6 +321,7 @@
     display: inline-block;
     overflow: hidden;
     font-size: 0;
+    font-display: swap;
 }
 
 .service-item a.btn-slide i,
@@ -332,6 +341,7 @@
     border-radius: 0 35px 35px 0;
     transition: .5s;
     z-index: 2;
+    font-display: swap;
 }
 
 .team-item div.btn-slide span a i {
@@ -462,6 +472,7 @@
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
+    font-display: swap;
 }
 
 .footer .btn.btn-link::before {
@@ -470,6 +481,7 @@
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 10px;
+    font-display: swap;
 }
 
 .footer .btn.btn-link:hover {
@@ -481,8 +493,16 @@
     padding: 25px 0;
     font-size: 15px;
     border-top: 1px solid rgba(256, 256, 256, .1);
+    font-display: swap;
 }
 
 .footer .copyright a {
     color: var(--light);
+}
+
+@font-face {
+    font-family: "Open Sans Regular";
+    font-size: 14px;
+    font-display: swap;
+    src: url();
 }
