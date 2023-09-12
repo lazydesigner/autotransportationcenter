@@ -27,4 +27,5 @@ RewriteRule ^military-car-shipping([/]?)$ services-pages/military-car-shipping.h
 RewriteRule ^motorcycle-shipping([/]?)$ services-pages/motorcycle-shipping.html [NC,L]
 RewriteRule ^open-transport-car([/]?)$ services-pages/open-transport-shipping.html [NC,L]
 RewriteRule ^heavy-equipment-services([/]?)$ services-pages/heavy-equipment-services.html [NC,L]
+RewriteRule ^lowboy-trucking-service([/]?)$ services-pages/lowboy-trucking-service.html [NC,L]
 RewriteRule ^snowbird-shipping([/]?)$ services-pages/snowbird-shipping.html [NC,L]
