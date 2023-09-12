@@ -21,6 +21,7 @@ RewriteRule ^Terms-&-condition([/]?)$ terms-&-condition.html [NC,L]
 
 
 
+RewriteRule ^door-to-door-auto-transport([/]?)$ services-pages/door-to-door-auto-transport.html [NC,L]
 RewriteRule ^enclosed-transport([/]?)$ services-pages/enclosed-transport.html [NC,L]
 RewriteRule ^military-car-shipping([/]?)$ services-pages/military-car-shipping.html [NC,L]
 RewriteRule ^motorcycle-shipping([/]?)$ services-pages/motorcycle-shipping.html [NC,L]
