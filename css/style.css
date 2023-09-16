@@ -73,6 +73,25 @@
 }
 
 /*** Navbar ***/
+
+.number{
+                
+              
+    padding: 1%;
+    border-radius: 100px;
+    
+    animation: name .5s linear alternate infinite;
+  
+    text-align: center;
+  
+     
+  }
+  @keyframes name { 
+     from{transform: scale(1); }
+     to{transform: scale(1.2); }
+     
+  }
+ 
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
