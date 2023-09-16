@@ -91,6 +91,25 @@
      to{transform: scale(1.2); }
      
   }
+
+  .number1{
+                
+              
+    padding: 1%;
+    border-radius: 50px;
+    width: 300px;
+    
+    animation: name .5s linear alternate infinite;
+  
+    text-align: center;
+  
+     
+  }
+  @keyframes name { 
+     from{transform: scale(1); }
+     to{transform: scale(1.2); }
+     
+  }
  
 .navbar .dropdown-toggle::after {
     border: none;
