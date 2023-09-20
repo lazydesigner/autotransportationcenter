@@ -105,6 +105,13 @@
   
      
   }
+  @media only screen and (max-width: 450px) {
+    .number1{
+        width: 150px;
+        font-size: 15px;
+    }
+  }
+
   @keyframes name { 
      from{transform: scale(1); }
      to{transform: scale(1.2); }

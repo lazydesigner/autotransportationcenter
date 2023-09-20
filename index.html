@@ -29,7 +29,6 @@
 
 
 
-    <link rel="preload" href="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMGiq80Z68Fu45B0LLK1We7LP6jYeeX7M&v=3.exp&callback=Function.prototype&libraries=places" as="script">
     <!-- Fav -->
     <link href="img/ATC-favicon-webP.webp" rel="icon" type="image/webp">
 
@@ -45,13 +44,15 @@
 
     <!-- Libraries Stylesheet -->
     <!-- <link href="lib/animate/animate.min.css" rel="stylesheet"> -->
-    <link rel="preload" href="lib/owlcarousel/assets/owl.carousel.min.css" onload="this.onload=null;this.rel='stylesheet'" defer>
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" defer>
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet" defer>
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" defer>
+    <link href="css/software-development.css" rel="stylesheet" defer>
+
     <style>
         .pb-5 {
             padding-bottom: 0 !important;
@@ -200,24 +201,31 @@
 
             <h1 class="display-3 text-white mb-3 animated slideInDown pt-3">Best Auto Shippers in the <span
                     class="text-primary">US </span>Nation</h1>
-            <p class="text-white w-75">We offer affordable car shipping service in the whole United States. We send
-                professional carrier drivers to serve you. Just get your free quote from our instant online quote
-                calculator and get your quote within seconds.</p>
+            <!-- <p class="text-white w-75">We offer affordable car shipping service in the whole United States. We send
+                professional carrier drivers to serve you. Just get your free Car Shipping Quote from our instant online quote calculator within seconds.</p> -->
             <form action="./form-submit.php">
-                <div class="row w-75 PB-4">
-                    <div class="col py-3">
+                <div class="row w-100 PB-4 mt-5">
+                    <div class="col-4 py-3">
                         <h2 class=" text-white"> Transport From</h2>
                         <input type="text" name="from" class="form-control py-3" placeholder="Zip or City">
                     </div>
-                    <div class="col py-3">
+                    <div class="col-4 py-3">
                         <h2 class=" text-white"> Transport To</h2>
                         <input type="text" name="to" class="form-control py-3" placeholder="Zip or City">
                     </div>
+                    <div class="col-4 py-3 " style="margin-top: 4%;">
+                       
+                        <button type="button" class="btn btn-primary  " style=" padding: 3%;" id="form-new1" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        
+                       <span style="color: black; font-size: larger;">Get Quote Now</span>
+                    </button>
+                    </div>
                 </div>
-                <button type="button" class="btn btn-primary p-3" id="form-new1" data-bs-toggle="modal"
+                <!-- <button type="button" class="btn btn-primary p-3" id="form-new1" data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop">
                    <span style="color: black;"> Free Quote</span>
-                </button>
+                </button> -->
             </form>
 
             <div class="pt-4"> <img width="220px" height="100px" style="padding-right: 4%;" src="./img/trustpilot.png" alt="trustpilot" loading="lazy"> 
@@ -244,7 +252,7 @@
                     <img style="width: 60px; height: 60px;" src="./img/car.png" alt="car" loading="lazy">
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <p style="color: black; font-weight: 900;" class="text-center">The Best Service At Affordable Rates</p>
+                    <p style="color: black; font-weight: 900;" class="text-center"> 0$ Down Payment Affordable Rates</p>
                 </div>
 
             </div>
@@ -255,7 +263,7 @@
                     <img style="width: 60px; height: 60px;" src="./img/car-insurance (2).png" alt="insurance" loading="lazy">
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <p style="color: black; font-weight: 900;" class="text-center">Safe and Insured Transportation</p>
+                    <p style="color: black; font-weight: 900;" class="text-center">100%  Safe and Insured Car Transportation</p>
                 </div>
 
             </div>
@@ -269,7 +277,7 @@
                     <img style="width: 60px; height: 60px;" src="./img/support.png" alt="availability" loading="lazy">
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <p style="color: black; font-weight: 900;" class="text-center">24/7 Availability For Customers</p>
+                    <p style="color: black; font-weight: 900;" class="text-center">24/7 Auto Transport Experts Available</p>
                 </div>
 
             </div>
@@ -280,9 +288,89 @@
     </div>
 
     <!--END-->
+    <!-- Testimonial Start -->
+ <div class="container-xxl  wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-1">
+        <div class="text-center">
+          
+            
+        </div>
+        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+            <div class="testimonial-item  my-5 w-100">
+                <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                <div class="d-flex align-items-end mb-4">
+                    <div class="d-flex align-items-end ">
+                        <h5 class="mb-1 mt-2 p-3 pb-0">Ronda Saron</h5>
+                        <img class="align-items-end" src="img/5.0.webp" style="width: 126px; height: 20px;">
+                        <!-- <p class="m-0 p-3 pt-0 pb-0">Businessmen</p> -->
+                        
+                    </div>
+                </div>
+                <p class="mb-0 p-3 pt-0 pb-0 mt-0">Great Job ,Instant car shipping quote, hassle free Auto Transportation, long distance transport of one of my luxury Porsches Car.  Worked with Vaida on the phone and the shipper was great with communication and flexible on my Vehicle delivery.  Pleased with enclosed carrier.</p>
+                <div class="d-flex mb-0 ">
+                    <p class="p-3 pb-0">15, March 2023</p>
+               
+                    <img class="text-end mx-auto " src="./img/rapid-auto-shipping-trustpilot-faiz (1).webp" style="width: 100px; height: 50px;">
+                </div>
+            </div>
+            <div class="testimonial-item  my-5 w-100">
+                <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                <div class="d-flex align-items-end mb-4">
+                    <div class="d-flex align-items-end ">
+                        <h5 class="mb-1 mt-2 p-3 pb-0">Barbara Kuhnz</h5>
+                        <img class="align-items-end" src="img/5.0.webp" style="width: 126px; height: 20px;">
+                        <!-- <p class="m-0 p-3 pt-0 pb-0">Businessmen</p> -->
+                        
+                    </div>
+                </div>
+                <p class="mb-0 p-3 pt-0 pb-0 mt-0">I never do reviews, but these Auto Transporter deserve it. They handled both of my vehicles amazingly. Communication was not easy at every step of the way was either a call or email letting me know Shipping Status. The entire Shipping process was easy all thanks to their incredible team. </p>
+                <div class="d-flex mb-0 ">
+                    <p class="p-3 pb-0">07, May 2021</p>
+               
+                    <img class="text-end mx-auto " src="./img/transpoorts.png" style="width: 100px; height: 50px;">
+                </div>
+            </div>
+            <div class="testimonial-item  my-5 w-100">
+                <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                <div class="d-flex align-items-end mb-4">
+                    <div class="d-flex align-items-end ">
+                        <h5 class="mb-1 mt-2 p-3 pb-0">Rick Timson</h5>
+                        <img class="align-items-end" src="img/5.0.webp" style="width: 126px; height: 20px;">
+                        <!-- <p class="m-0 p-3 pt-0 pb-0">Businessmen</p> -->
+                        
+                    </div>
+                </div>
+                <p class="mb-0 p-3 pt-0 pb-0 mt-0">Fast and Instant service and good selection for shipping in Auto Transportation Industry. They have shipped several  autos, large and small Vehicles with zero scratches exactly. They are always on my priority list for my Auto shipment needs</p>
+                <div class="d-flex mb-0 ">
+                    <p class="p-3 pb-0">25, Dec 2022</p>
+               
+                    <img class="text-end mx-auto " src="./img/goggler.webp" style="width: 120px; height: 50px;">
+                </div>
+            </div>
+            <div class="testimonial-item  my-5 w-100">
+                <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                <div class="d-flex align-items-end mb-4">
+                    <div class="d-flex align-items-end ">
+                        <h5 class="mb-1 mt-2 p-3 pb-0"> Nicole Koller</h5>
+                        <img class="align-items-end" src="img/5.0.webp" style="width: 126px; height: 20px;">
+                        <!-- <p class="m-0 p-3 pt-0 pb-0">Businessmen</p> -->
+                        
+                    </div>
+                </div>
+                <p class="mb-0 p-3 pt-0 pb-0 mt-0">Excellent team! I never thought that the car shipping process could be that easy, I got my car with all care and was overwhelmed with your quick response to all my car shipping queries.This is the third time vehicle shipped with AUto Transport Center in a row .</p>
+                <div class="d-flex mb-0 ">
+                    <p class="p-3 pb-0">18 May 2022</p>
+               
+                    <img class="text-end mx-auto " src="./img/BBB logo.webp" style="width: 50px; height: 50px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
 <!-- Why choose -->
 
-<div class="container-fluid pt-5 ">
+<div class="container-fluid pt-3 ">
     <h1 class="text-center">Why choose Auto Transportation Center for your car shipping service?</h1>
     
     
@@ -530,23 +618,23 @@
 </div> -->
 <!-- why choose -->
 <!--three steps-->
-<div class="container-fluid pt-5 ">
+<div class="container-fluid pt-3 ">
         <!-- <h1 class="text-center pb-4">A Company you can trust blindly.</h1> -->
     <div class="row">
-        <div class="col-lg-4 col-md-4">
+        <div class="col-lg-4 col-md-6 pb-0">
             <img width="100%" height="70%" src="./img/insured.webp" loading="lazy" alt="insured">
         </div>
-        <div class="col-lg-8 col-md-8 p-5"><h4>Insured and Licensed</h4>
-        <p>We provide a comprehensive insurance range in our quotations. You know that your vehicle is in safe hands throughout the whole transportation process. We don't charge any hidden or additional fees from our customers. We provide all-inclusive car shipping costs to our customers. </p></div>
+        <div class="col-lg-8 col-md-8  pb-0"><h4>Insured and Licensed</h4>
+        <p>We provide a comprehensive insurance range in our quotations. You know that your vehicle is in safe hands throughout the whole transportation process. We don't charge any hidden or additional fees from our customers.</p></div>
 
 
     </div>
 
     <div class="row">
         
-        <div class="col-lg-8 col-md-8 p-5"><h3>Well grounded service </h3>
+        <div class="col-lg-8 col-md-8  pt-0"><h3>Well grounded service </h3>
         <p>We work with the best network of carriers, which allows us to give the best service from a single unit to full ten-car loads. We pride ourselves in the quality of the service that we provide, including transparency, communication, and on-time pickup and delivery.</p></div>
-        <div class="col-lg-4 col-md-4">
+        <div class="col-lg-4 col-md-4 pt-0">
             <img width="100%" height="70%" src="./img/Well-grounded-service (1).webp" loading="lazy" alt="wel-grounded">
         </div>
 
@@ -573,8 +661,8 @@
 
 
     <!-- Fact Start -->
-    <div class="p-5">
-    <div class="container-xxl  py-5">
+    <div class="">
+    <div class="container-xxl ">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -628,7 +716,67 @@
     </div>
     </div>
     <!-- Fact End -->
+<!-- hiring-step start -->
+<section class="hiring_step1">
 
+    <div class="grid12  why-row" data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-duration="500">
+        <div class="hiring_step1_order-1">
+            <div>
+                <p class="section-heading1 ">HIRE THE BEST AUTO SHIPPING COMPANY IN 4 SIMPLE STEPS.</p>
+                <!-- <p class="text hiring_step1_content">You won't have to deal with the hassles of traditional
+                    outsourcing thanks to our
+                    novel business model, which gives you complete control over who you work with.</p> -->
+                <!-- <button class="btn hire-btn-new">Get Qoute</button> -->
+            </div>
+        </div>
+        <div class="main pt-4">
+            <div class="steps2 flexs">
+                <div class="step_iconns">
+                    <img  style="width: 80px; height: 80px;" src="./img\quotes.png" alt="hire graphic designer"
+                        loading="lazy">
+                </div>
+                <div class="step-dtll">
+                    <p class="step-dtll-heading2 text-primary">Get your quote</p>
+                    <p>Use our instant online quote calculator to get your shipping estimate, or you can call us at+1 (833) 233-4447.</p>
+                </div>
+            </div>
+            <div class="steps2 flexs">
+                <div class="step_iconns">
+                    <img style="width: 80px; height: 80px;" src="./img\supply-chain-management.png"
+                        alt="hire legal process outsourcing" loading="lazy">
+                </div>
+                <div class="step-dtll">
+                    <p class="step-dtll-heading2 text-primary">Place your order.</p>
+                    <p>Once you are satisfied with the shipping estimate, you just place your order by providing some personal details, and you are done.
+                    </p>
+                </div>
+            </div>
+            <div class="steps2 flexs">
+                <div class="step_iconns">
+                    <img style="width: 80px; height: 80px;" src="./img\shipping (1).png" alt="hire graphic designers"
+                        loading="lazy">
+                </div>
+                <div class="step-dtll">
+                    <p class="step-dtll-heading2 text-primary">We will pick up your vehicle.</p>
+                    <p>Once you place your order and fix the date of pickup, we will send one of our professional carrier drivers to pick up your vehicle.</p>
+                </div>
+            </div>
+            <div class="steps2 flexs">
+                <div class="step_iconns">
+                    <img style="width: 80px; height: 80px;" src="./img\car-insurance (1).png" alt="hire graphic designer"
+                        loading="lazy">
+                </div>
+                <div class="step-dtll">
+                    <p class="step-dtll-heading2 text-primary">Safe delivery of your vehicle</p>
+                    <p>Drivers will contact you 3-4 hours prior to making the delivery to ensure the availability of the customer.</p>
+                </div>
+            </div>
+            
+        </div>
+       
+    </div>
+    
+    </section>
 
     <!-- Service Start -->
     <div class="container-xxl py-5">
@@ -1067,7 +1215,7 @@
     <div class="container py-5">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
             <h6 class="text-secondary text-uppercase">Latest Blogs</h6>
-            <h1 class="mb-5">Auto Transportation Center</h1>
+            <h1 class="mb-5">Most Recent Stories About Auto Transportation Industry</h1>
         </div>
         <div class="row g-4">
             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -1335,9 +1483,12 @@
 
     <!-- Back to Top -->
     <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top py-5 w-25">Free Quote</a> -->
+    
     <div class="sitebutton" id="sitebutton">
+
+       
         <button type="button" class="btn btn-primary" id="form-new">
-            <span style="color: black;">  Get Free Quote</span>
+            <span style="color: black; font-size: x-large;">  Get Free Quote</span>
         </button>
     </div>
     <!-- Button trigger modal -->
@@ -1470,23 +1621,24 @@
             </div>
         </div>
     </div>
-   <!-- JavaScript Libraries -->
-   <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer ></script>
-   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" async></script> -->
-   <script src="lib/wow/wow.min.js" defer></script>
    
-   <script src="lib/waypoints/waypoints.min.js" defer></script>
-   <script src="lib/counterup/counterup.min.js" defer></script>
-   <script src="lib/owlcarousel/owl.carousel.min.js" defer></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" async></script> -->
+    <script src="lib/wow/wow.min.js"></script>
+    
+    <script src="lib/waypoints/waypoints.min.js" defer></script>
+    <script src="lib/counterup/counterup.min.js" defer></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js" defer></script>
 
-   
-   <script src="lib/owlcarousel/owl.carousel.min.js" defer></script>
+    
+    <script src="lib/owlcarousel/owl.carousel.min.js" defer></script>
 
-   <!-- Template Javascript -->
-   <script src="js/main.js" defer></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js" defer></script>
 
-   <script
-   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMGiq80Z68Fu45B0LLK1We7LP6jYeeX7M&v=3.exp&callback=Function.prototype&libraries=places"></script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMGiq80Z68Fu45B0LLK1We7LP6jYeeX7M&v=3.exp&callback=Function.prototype&libraries=places"></script>
 <script>
        
        document.getElementById("form-new1").addEventListener("click",function(){
