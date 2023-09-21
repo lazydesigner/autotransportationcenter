@@ -559,6 +559,8 @@
     position: fixed;
     bottom: 5%;
     right: 1%;
+    display: none;
+    z-index: 99;
 }
 .sitebutton-call {
     border: 1px solid rgba(rgb(228, 220, 220), rgb(212, 212, 212), rgb(195, 195, 206), alpha);
@@ -577,4 +579,40 @@
     font-weight: bold;
     background-color: #FF3E41;
     z-index: 1000;
+}
+.pointss p{
+    font-size: larger;
+    margin-bottom: -1%;
+}
+.phone-num span{
+    font-size: 50px;
+    color: white;
+    
+   
+    
+
+}
+@media only screen and (max-width: 450px){ 
+    
+.logos img{
+    width:50%;
+    height: 50%;
+
+
+}
+.header-zip{
+  width: 100%;
+}
+.sitebutton-call {
+    margin-bottom: 15%;
+    
+}
+.pointss{
+    font-size: small;
+    width: 100%;
+    margin-bottom: 2%;
+}
+.phone-num span{
+    font-size: x-large;
+}
 }
