@@ -563,21 +563,24 @@
     z-index: 99;
 }
 .sitebutton-call {
-    border: 1px solid rgba(rgb(228, 220, 220), rgb(212, 212, 212), rgb(195, 195, 206), alpha);
-    background-color: #FF3E41;
+   
+    background-color: transparent;
     color: black;
     font-weight: bold;
     margin-bottom: 4.5%;
+    
 }
 
 .sitebutton button {
-    width: 200px;
+    width: 210px;
     height: 50px;
     cursor: pointer;
-    border: 0;
+    border: 3px solid #FF3E41;
     color: black;
     font-weight: bold;
-    background-color: #FF3E41;
+    border-style: solid;
+    
+    background-color: transparent;
     z-index: 1000;
 }
 .pointss p{
