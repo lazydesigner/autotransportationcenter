@@ -77,14 +77,17 @@
 .number{
                 
               
-    padding: 1%;
+ 
     border-radius: 100px;
     
     animation: name .5s linear alternate infinite;
   
     text-align: center;
-  
-     
+ 
+    
+    font-size: x-large;
+    padding: 1%;
+   
   }
   @keyframes name { 
      from{transform: scale(1); }
@@ -104,6 +107,9 @@
     text-align: center;
   
      
+  }
+  .border-demo{
+    border-top: 5px solid #FF3E41;
   }
   @media only screen and (max-width: 450px) {
     .number1{
@@ -617,4 +623,43 @@ margin-bottom: 18%;
 .phone-num span{
     font-size: x-large;
 }
+}
+
+*{
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.main-navbar{
+    display: flex;
+   width: 99%;
+    justify-content: space-between;
+
+    inline-size: 100%;
+    /* border-block-start-width: 5px;
+    border-block-start-style: solid; */
+    border-top: 5px solid #FF3E41;
+
+}
+.nav-ul{
+    list-style-type: none;
+    display: flex;
+    gap: 4%;
+    font-size: x-large;
+}
+.font-nav a{ 
+    font-size: larger;
+
+}
+.why-content h4 {
+    font-size: 30px;
+
+}
+.why-content p {
+    font-size: 20px;
+    
 }
