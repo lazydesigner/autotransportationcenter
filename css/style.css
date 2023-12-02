@@ -663,3 +663,9 @@ html,body{
     font-size: 20px;
     
 }
+ .text-primary1{
+    color: #FF3E41!important;
+ }
+ .bg-primary1{
+    background-color: #FF3E41;
+ }
