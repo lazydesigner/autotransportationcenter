@@ -6,11 +6,11 @@
     <title>Top-Rated Auto Transportation Company | Auto Transportation Center </title>
     <meta name="robots" content="noindex" />
 
-    <link href="css/style.css" rel="stylesheet" defer>
+    <link href="css/style.css?v=1" rel="stylesheet" defer>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link href="css/software-development.css" rel="stylesheet" defer>
+        <link href="css/software-development.css?v=1" rel="stylesheet" defer>
    
         <!-- <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" defer> -->
 </head>
