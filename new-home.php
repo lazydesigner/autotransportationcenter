@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Top-Rated Auto Transportation Company | Auto Transportation Center </title>
     <meta name="robots" content="noindex" />
-
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="css/style.css?v=1" rel="stylesheet" defer>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
