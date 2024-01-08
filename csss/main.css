@@ -1815,8 +1815,8 @@ main-form*/
    padding: 0% 5%;
    padding-top: 69px;
    /* border-top: rgb(41,222,135) 5px solid; */
-   border-left: #0000002f 1px solid;
-   border-right: #0000002f 1px solid  ;
+   border-left: none!important;
+   border-right:none!important ;
    border-top: solid 5px;
    border-image:  linear-gradient(to right, #21d0b3, #1ecff5) 1;
 }
