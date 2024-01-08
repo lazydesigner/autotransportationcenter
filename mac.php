@@ -6,28 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <meta name="robots" content="noindex">
 
-
-
-<meta name="googlebot" content="noindex">
     <link href="csss/main.css" rel="stylesheet" defer>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lora&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css"> -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.min.css"
-        integrity="sha512-pI8MMQ9fC050RkbUOr8cJ75T5bYJpT1PAiML/7QZM6Fr74Ef6csO2/Cl92q+Qpxidm7WonXr6f+DbyxNHPGH8g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lora&display=swaprel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <meta name="googlebot" content="noindex">
+    <meta name="googlebot" content="noindex">
+
+
 </head>
 
-<body>
+<body style="background-color: white!important;">
     <!--navbar-->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-nav">
@@ -41,23 +37,369 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-white" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">About Us</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item hover-nav">
                         <a class="nav-link text-white" href="#">Services</a>
+                        <ul id="submenu">
+                            <div class="hover-nav-card">
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover">
+                                            <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div class="content-hover">
+                                            <h4> Web Development</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div>
+                                            <h4> Web Development</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div>
+                                            <h4> Web Development</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div>
+                                            <h4> Web Development</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="hover-nav-card">
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div>
+                                            <h4> Web Development</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div>
+                                            <h4> Web Development</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div>
+                                            <h4> Web Development</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div>
+                                            <h4> Web Development</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="hover-nav-card">
+                                <li>
+                                    <div class="hover-card-section">
+
+                                        <div class="icon-hover">
+                                            <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div class="content-hover">
+                                            <h4> Web Development</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div>
+                                            <h4> Web Development</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div>
+                                            <h4> Web Development</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div>
+                                            <h4> Web Development</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </div>
+
+                            <div class="flip-card-container">
+                                <div class="main-card-container">
+                                    <div class="thecard">
+                                        <div class="thefront">
+                                            <h6>AI/ML</h6>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                        <div class="theback">
+                                            <i class="fa-solid fa-snowflake" style="color: #ffffff;"></i></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-card-container">
+                                    <div class="thecard">
+                                        <div class="thefront">
+                                            <h6>AI/ML</h6>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                        <div class="theback">
+                                            <i class="fa-solid fa-snowflake" style="color: #ffffff;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-card-container">
+                                    <div class="thecard">
+                                        <div class="thefront">
+                                            <h6>AI/ML</h6>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                        <div class="theback">
+                                            <i class="fa-solid fa-snowflake" style="color: #ffffff;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="main-card-container">
+                                    <div class="thecard">
+                                        <div class="thefront">
+                                            <h6>AI/ML</h6>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                        <div class="theback">
+                                            <i class="fa-solid fa-snowflake" style="color: #ffffff;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="main-card-container">
+                                    <div class="thecard">
+                                        <div class="thefront">
+                                            <h6>AI/ML</h6>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                        <div class="theback">
+                                            <i class="fa-solid fa-snowflake" style="color: #ffffff;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Industries</a>
+                        <ul id="submenu">
+                            <div class="hover-nav-card">
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover">
+                                            <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                                        </div>
+                                        <div class="content-hover">
+                                            <h4> E-Commerce Solution</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="fa-solid fa-music"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+                                        <div>
+                                            <h4>
+                                                Media & Entertainment</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="fa-solid fa-building"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+                                        <div>
+                                            <h4> Real Estate </h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="fa-solid fa-truck"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+                                        <div>
+                                            <h4>Transport & Logistics</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="hover-nav-card">
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="fa-solid fa-hospital"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+                                        <div>
+                                            <h4>Travel & Hospitality</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div>
+                                            <h4>Social Networking</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="fa-solid fa-school"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+                                        <div>
+                                            <h4> Education & E-Learning</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div>
+                                            <h4> Web Development</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="hover-nav-card">
+                                <li>
+                                    <div class="hover-card-section">
+
+                                        <div class="icon-hover">
+                                            <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div class="content-hover">
+                                            <h4> Web Development</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div>
+                                            <h4> Web Development</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div>
+                                            <h4> Web Development</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover"> <i class="ri-code-box-line"></i>
+                                        </div>
+                                        <div>
+                                            <h4> Web Development</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Portfolio</a>
+
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Blogs</a>
                     </li>
+
+
+
+
+
+
+
+
                     <!-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Contact Us
@@ -81,20 +423,8 @@
 
                 </div>
 
-
-                <!-- <div class=" row search-icon" >
-                <div class="d-flex">
-                    <span>
-                        <img class="" src="./images/Untitled.webp">
-                    </span>
-                    <p class="side-nav-contact"><button type="button" class="btn ">Contact us</button>
-
-                    </p>
-
-                </div>
-            </div> -->
-
             </div>
+        </div>
 
     </nav>
     <!-- <div class="container-fluid header-bg ">
@@ -116,7 +446,7 @@
             <div class="row align-items-start ">
                 <div class="col">
                     <p class=" main-color text-center word-c">WORLD CLASS DIGITAL PRODUCTS</p>
-                    <div class="content text-center">
+                    <div class=".main-content text-center">
                         <h2 class="text-white first-think">THINK BIG FOR HUGE RETURNS.</h2>
                         <h2 class="text-white">LET’S INNOVATE DIGITALLY!</h2>
                         <p class="talk-expert mt-3">
@@ -240,14 +570,14 @@
     </div>
 
 
-    <?php include "./swipper.php" ?>
+    <?php include "./a.php" ?>
 
-   
+
 
 
     <!--Get to know us--->
 
-    <div class="container-fluid mt-5 ">
+    <div class="container-fluid mt-5 bg-white ">
         <div class="row pt-3">
             <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 get-image">
 
@@ -259,7 +589,7 @@
                 </div> <img src="./images/Layer 13 (1).webp" width="100%" height="100%">
 
             </div>
-            <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12">
+            <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 get-know-content">
                 <div>
                     <span class="get-know">Get to know us</span>
                     <h2 class="easy">
@@ -286,8 +616,9 @@
 
                             <p> <span class="main-color"> Stop worrying</span>,
                                 we take care of your technology problems.</p>
-                        </div>
 
+                        </div>
+                        <button type="button" class=" get-know-button">View More</button>
 
 
                     </div>
@@ -318,7 +649,7 @@
             <h2 class="text-center">
                 INDUSTRIES WE SERVE
             </h2>
-            <span class="content-next2">_________________________</span>
+            <div class="Industries-border"></div>
 
         </div>
         <div class="row main-gallery">
@@ -400,7 +731,7 @@
                 NEXT GENERATION TECHNOLOGIES
 
             </h2>
-            <span class="content-next1">________________</span>
+            <div class="next-border"></div>
 
         </div>
 
@@ -409,7 +740,8 @@
                 <h2 class="accordion-header" id="flush-headingOne"> <button class="accordion-button collapsed border-0"
                         type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                         aria-expanded="false" aria-controls="flush-collapseOne"
-                        style="color: #21D0B3!important; ">Mobile App Development </button> </h2>
+                        style="color: #21D0B3!important; cursor:pointer!important;">Mobile App Development </button>
+                </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse border-0"
                     aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
                     <div class="accordion-body p-0">
@@ -523,511 +855,530 @@
         </div>
     </div>
 
-    <div class="container next-genration-div">
-
-        <div class="content-next">
-            <h2 class="text-center">
-                NEXT GENERATION TECHNOLOGIES
-
-            </h2>
-            <span class="content-next1">________________</span>
-
-        </div>
-
-
-
-
-        <div class="accordion d-flex justify-content-center align-items-center main-app height" id="accordionExample">
-            <div class="row">
-
-                <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12">
-
-                    <div class="p-3 ">
-
-
-
-                        <ul class="testimonial-list ">
-                            <li>
-
-                                <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                                    aria-controls="collapseOne">
-
-                                    <div class="d-flex flex-row side-image">
-
-
-                                        <img src="./images/Layer 41 copy.webp">
-
-                                        <div class="d-flex  ml-3  next-gentration w-75">
-
-                                            <span> Mobile App Development</span>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </li>
-
-                            <li>
-                                <div data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                                    aria-controls="collapseTwo">
-
-                                    <div class="d-flex flex-row side-image">
-
-
-                                        <img src="./images/Layer 41 copy.webp">
-
-                                        <div class="d-flex  ml-3 next-gentration w-75">
-
-                                            <span> Apllication Development</span>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </li>
-
-                            <li>
-
-                                <div data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">
-
-                                    <div class="d-flex flex-row side-image">
-
-
-                                        <img src="./images/Layer 41 copy.webp">
-
-                                        <div class="d-flex  ml-3 next-gentration w-75">
-
-                                            <span> AI & Automation</span>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </li>
-                            <li>
-
-                                <div data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
-                                    aria-controls="collapseFour">
-
-                                    <div class="d-flex flex-row side-image">
-
-
-                                        <img src="./images/Layer 41 copy.webp">
-
-                                        <div class="d-flex  ml-3 next-gentration w-75">
-
-                                            <span> Data Analytics</span>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </li>
-                            <li>
-
-                                <div data-toggle="collapse" data-target="#collapseFive" aria-expanded="true"
-                                    aria-controls="collapseFive">
-
-                                    <div class="d-flex flex-row side-image">
-
-
-                                        <img src="./images/Layer 41 copy.webp">
-
-                                        <div class="d-flex  ml-3 next-gentration w-75">
-
-                                            <span> Cloud App Development</span>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </li>
-                            <li>
-
-                                <div data-toggle="collapse" data-target="#collapseSix" aria-expanded="true"
-                                    aria-controls="collapseSix">
-
-                                    <div class="d-flex flex-row side-image">
-
-
-                                        <img src="./images/Layer 41 copy.webp">
-
-                                        <div class="d-flex  ml-3 next-gentration w-75">
-
-                                            <span> UI/UX Services</span>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </li>
-                            <li>
-
-                                <div data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true"
-                                    aria-controls="collapseSeven">
-
-                                    <div class="d-flex flex-row side-image">
-
-
-                                        <img src="./images/Layer 41 copy.webp">
-
-                                        <div class="d-flex  ml-3 next-gentration w-75">
-
-                                            <span> Quality Assurance & Testing</span>
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12">
-                    <div class="p-3 testimonials-margin right-side-card">
-                        <div id="collapseOne" class="collapse show pb-1 pt-4" aria-labelledby="headingOne"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-
-                                <h4>Mobile App Development</h4>
-                               
-
-                                <p>We’re your end-to-end Mobile app development service provider excelling in crafting
-                                    Native Android, iOS and Cross Platform Apps. Our team of experts delivers seamless
-                                    functionality with stunning UI designs and top-notch performance- empowering your
-                                    brand to thrive in the digital landscape.</p>
-                                <div class="next-gen-main">
-
-                                    <div class="point-img">
-                                        <ul style="list-style-type: none;   ">
-                                            <li style="list-style-type: none; display: flex;"><img
-                                                    src="./images/Layer 49.webp">iOS App
-                                                Development</li>
-                                            <li style="list-style-type: none; display: flex;"><img
-                                                    src="./images/Layer 49.webp">
-                                                Android App Development
-
-                                            </li>
-                                            <li style="list-style-type: none; display: flex;"><img
-                                                    src="./images/Layer 49.webp">
-                                                Flutter App Development
-
-                                            <li style="list-style-type: none; display: flex;"><img
-                                                    src="./images/Layer 49.webp"> React
-                                                Native App Development
-                                            </li>
-                                            <li style="list-style-type: none; display: flex;"><img
-                                                    src="./images/Layer 49.webp">
-                                                Cross-Platform App Development</li>
-                                        </ul>
-
-                                    </div>
-                                    <div class="point-img1">
-                                        <ul style="list-style-type: none;">
-                                            <li style="list-style-type: none; display: flex;"><img
-                                                    src="./images/Layer 49.webp"> Hybrid
-                                                App Development
-                                            </li>
-                                            <li style="list-style-type: none; display: flex;"><img
-                                                    src="./images/Layer 49.webp"> MVP
-                                                Development
-
-
-                                            </li>
-                                            <li style="list-style-type: none; display: flex;"><img
-                                                    src="./images/Layer 49.webp">
-                                                Wearable App Development
-
-
-                                            <li style="list-style-type: none; display: flex;"><img
-                                                    src="./images/Layer 49.webp">
-                                                Progressive Web App
-
-                                            </li>
-                                            <li style="list-style-type: none; display: flex;"><img
-                                                    src="./images/Layer 49.webp">
-                                                Xamarin Development</li>
-                                        </ul>
-
-                                    </div>
-
-
-
-                                </div>
-
-                            </div>
-                            <button type="button" class="btn explore-button"
-                                style="background-color: #21D0B3; color: white;">Explore More
-                            </button>
-                        </div>
-
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-                                <h4>Thanks for this great service</h4>
-                                <div class="ratings">
-
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-
-                                </div>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                    nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                    nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia
-                                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                    aliqua.
-                                    Ut enim ad minim veniam.</p>
-                            </div>
-                        </div>
-
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-                                <h4>You all are awesome thanks alot</h4>
-                                <div class="ratings">
-
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-
-                                </div>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                    nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                    nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia
-                                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                    aliqua.
-                                    Ut enim ad minim veniam.</p>
-                            </div>
-                        </div>
-
-
-
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-                                <h4>Mobile App Development</h4>
-                                <div class="ratings">
-
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-
-
-                                </div>
-
-                                <p>We’re your end-to-end Mobile app development service provider excelling in crafting
-                                    Native Android, iOS and Cross Platform Apps. Our team of experts delivers seamless
-                                    functionality with stunning UI designs and top-notch performance- empowering your
-                                    brand to thrive in the digital landscape.</p>
-                                <div class="next-gen-main d-flex">
-
-                                    <div class="point-img">
-                                        <ul style="list-style-type: none;">
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp">iOS App
-                                                Development</li>
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
-                                                Android App Development
-
-                                            </li>
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
-                                                Flutter App Development
-
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp"> React
-                                                Native App Development
-                                            </li>
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
-                                                Cross-Platform App Development</li>
-                                        </ul>
-
-                                    </div>
-                                    <div class="point-img1">
-                                        <ul style="list-style-type: none;">
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp"> Hybrid
-                                                App Development
-                                            </li>
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp"> MVP
-                                                Development
-
-
-                                            </li>
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
-                                                Wearable App Development
-
-
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
-                                                Progressive Web App
-
-                                            </li>
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
-                                                Xamarin Development</li>
-                                        </ul>
-
-                                    </div>
-
-
-
-                                </div>
-                            </div>
-
-                        </div>
-                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-                                <h4>Mobile App Development</h4>
-                                <div class="ratings">
-
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-
-
-                                </div>
-
-                                <p>We’re your end-to-end Mobile app development service provider excelling in crafting
-                                    Native Android, iOS and Cross Platform Apps. Our team of experts delivers seamless
-                                    functionality with stunning UI designs and top-notch performance- empowering your
-                                    brand to thrive in the digital landscape.</p>
-                                <div class="next-gen-main d-flex">
-
-                                    <div class="point-img">
-                                        <ul style="list-style-type: none;">
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp">iOS App
-                                                Development</li>
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
-                                                Android App Development
-
-                                            </li>
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
-                                                Flutter App Development
-
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp"> React
-                                                Native App Development
-                                            </li>
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
-                                                Cross-Platform App Development</li>
-                                        </ul>
-
-                                    </div>
-                                    <div class="point-img1">
-                                        <ul style="list-style-type: none;">
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp"> Hybrid
-                                                App Development
-                                            </li>
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp"> MVP
-                                                Development
-
-
-                                            </li>
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
-                                                Wearable App Development
-
-
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
-                                                Progressive Web App
-
-                                            </li>
-                                            <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
-                                                Xamarin Development</li>
-                                        </ul>
-
-                                    </div>
-
-
-
-                                </div>
-                            </div>
-
-                        </div>
-                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-                                <h4>You all are awesome thanks alot</h4>
-                                <div class="ratings">
-
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-
-                                </div>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                    nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                    nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia
-                                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                    aliqua.
-                                    Ut enim ad minim veniam.</p>
-                            </div>
-                        </div>
-                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-                                <h4>You all are awesome thanks alot</h4>
-                                <div class="ratings">
-
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-
-                                </div>
-
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                    nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                    nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                    officia
-                                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                    aliqua.
-                                    Ut enim ad minim veniam.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+    <div class="next-gen">
+        <div class="container next-genration-div mt-5 ">
+
+            <div class="content-next">
+                <h2 class="text-center">
+                    NEXT GENERATION TECHNOLOGIES
+
+                </h2><br>
+                <div class="next-border"></div>
 
             </div>
+
+
+
+
+            <div class="accordion d-flex justify-content-center align-items-center main-app height"
+                id="accordionExample">
+                <div class="row">
+
+                    <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12">
+
+                        <div class="p-3 ">
+
+
+
+                            <ul class="testimonial-list ">
+                                <li>
+
+                                    <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+
+                                        <div class="d-flex flex-row side-image">
+
+
+                                            <img src="./images/Layer 41 copy.webp">
+
+                                            <div class="d-flex  ml-3  next-gentration w-75">
+
+                                                <span style="cursor: pointer;"> Mobile App Development</span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+
+                                        <div class="d-flex flex-row side-image">
+
+
+                                            <img src="./images/Layer 41 copy.webp">
+
+                                            <div class="d-flex  ml-3 next-gentration w-75">
+
+                                                <span style="cursor: pointer;"> Apllication Development</span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                                <li>
+
+                                    <div data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+
+                                        <div class="d-flex flex-row side-image">
+
+
+                                            <img src="./images/Layer 41 copy.webp">
+
+                                            <div class="d-flex  ml-3 next-gentration w-75">
+
+                                                <span style="cursor: pointer;"> AI & Automation</span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+
+                                    <div data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
+                                        aria-controls="collapseFour">
+
+                                        <div class="d-flex flex-row side-image">
+
+
+                                            <img src="./images/Layer 41 copy.webp">
+
+                                            <div class="d-flex  ml-3 next-gentration w-75">
+
+                                                <span style="cursor: pointer;"> Data Analytics</span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+
+                                    <div data-toggle="collapse" data-target="#collapseFive" aria-expanded="true"
+                                        aria-controls="collapseFive">
+
+                                        <div class="d-flex flex-row side-image">
+
+
+                                            <img src="./images/Layer 41 copy.webp">
+
+                                            <div class="d-flex  ml-3 next-gentration w-75">
+
+                                                <span style="cursor: pointer;"> Cloud App Development</span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+
+                                    <div data-toggle="collapse" data-target="#collapseSix" aria-expanded="true"
+                                        aria-controls="collapseSix">
+
+                                        <div class="d-flex flex-row side-image">
+
+
+                                            <img src="./images/Layer 41 copy.webp">
+
+                                            <div class="d-flex  ml-3 next-gentration w-75">
+
+                                                <span style="cursor: pointer;"> UI/UX Services</span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li>
+
+                                    <div data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true"
+                                        aria-controls="collapseSeven">
+
+                                        <div class="d-flex flex-row side-image">
+
+
+                                            <img src="./images/Layer 41 copy.webp">
+
+                                            <div class="d-flex  ml-3 next-gentration w-75">
+
+                                                <span style="cursor: pointer;"> Quality Assurance & Testing</span>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12">
+                        <div class="p-3 testimonials-margin right-side-card">
+                            <div id="collapseOne" class="collapse show pb-1 pt-4" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+
+                                    <h4>Mobile App Development</h4>
+
+
+                                    <p>We’re your end-to-end Mobile app development service provider excelling in
+                                        crafting
+                                        Native Android, iOS and Cross Platform Apps. Our team of experts delivers
+                                        seamless
+                                        functionality with stunning UI designs and top-notch performance- empowering
+                                        your
+                                        brand to thrive in the digital landscape.</p>
+                                    <div class="next-gen-main">
+
+                                        <div class="point-img">
+                                            <ul style="list-style-type: none;   ">
+                                                <li style="list-style-type: none; display: flex;"><img
+                                                        src="./images/Layer 49.webp">iOS App
+                                                    Development</li>
+                                                <li style="list-style-type: none; display: flex;"><img
+                                                        src="./images/Layer 49.webp">
+                                                    Android App Development
+
+                                                </li>
+                                                <li style="list-style-type: none; display: flex;"><img
+                                                        src="./images/Layer 49.webp">
+                                                    Flutter App Development
+
+                                                <li style="list-style-type: none; display: flex;"><img
+                                                        src="./images/Layer 49.webp"> React
+                                                    Native App Development
+                                                </li>
+                                                <li style="list-style-type: none; display: flex;"><img
+                                                        src="./images/Layer 49.webp">
+                                                    Cross-Platform App Development</li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="point-img1">
+                                            <ul style="list-style-type: none;">
+                                                <li style="list-style-type: none; display: flex;"><img
+                                                        src="./images/Layer 49.webp"> Hybrid
+                                                    App Development
+                                                </li>
+                                                <li style="list-style-type: none; display: flex;"><img
+                                                        src="./images/Layer 49.webp"> MVP
+                                                    Development
+
+
+                                                </li>
+                                                <li style="list-style-type: none; display: flex;"><img
+                                                        src="./images/Layer 49.webp">
+                                                    Wearable App Development
+
+
+                                                <li style="list-style-type: none; display: flex;"><img
+                                                        src="./images/Layer 49.webp">
+                                                    Progressive Web App
+
+                                                </li>
+                                                <li style="list-style-type: none; display: flex;"><img
+                                                        src="./images/Layer 49.webp">
+                                                    Xamarin Development</li>
+                                            </ul>
+
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                                <button type="button" class="btn explore-button"
+                                    style="background-color: #21D0B3; color: white;">Explore More
+                                </button>
+                            </div>
+
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <h4>Thanks for this great service</h4>
+                                    <div class="ratings">
+
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+
+                                    </div>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                        nulla
+                                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                        officia
+                                        deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                        Ut enim ad minim veniam.</p>
+                                </div>
+                            </div>
+
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <h4>You all are awesome thanks alot</h4>
+                                    <div class="ratings">
+
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+
+                                    </div>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                        nulla
+                                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                        officia
+                                        deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                        Ut enim ad minim veniam.</p>
+                                </div>
+                            </div>
+
+
+
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <h4>Mobile App Development</h4>
+                                    <div class="ratings">
+
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+
+
+                                    </div>
+
+                                    <p>We’re your end-to-end Mobile app development service provider excelling in
+                                        crafting
+                                        Native Android, iOS and Cross Platform Apps. Our team of experts delivers
+                                        seamless
+                                        functionality with stunning UI designs and top-notch performance- empowering
+                                        your
+                                        brand to thrive in the digital landscape.</p>
+                                    <div class="next-gen-main d-flex">
+
+                                        <div class="point-img">
+                                            <ul style="list-style-type: none;">
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">iOS
+                                                    App
+                                                    Development</li>
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    Android App Development
+
+                                                </li>
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    Flutter App Development
+
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    React
+                                                    Native App Development
+                                                </li>
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    Cross-Platform App Development</li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="point-img1">
+                                            <ul style="list-style-type: none;">
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    Hybrid
+                                                    App Development
+                                                </li>
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    MVP
+                                                    Development
+
+
+                                                </li>
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    Wearable App Development
+
+
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    Progressive Web App
+
+                                                </li>
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    Xamarin Development</li>
+                                            </ul>
+
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <h4>Mobile App Development</h4>
+                                    <div class="ratings">
+
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+
+
+                                    </div>
+
+                                    <p>We’re your end-to-end Mobile app development service provider excelling in
+                                        crafting
+                                        Native Android, iOS and Cross Platform Apps. Our team of experts delivers
+                                        seamless
+                                        functionality with stunning UI designs and top-notch performance- empowering
+                                        your
+                                        brand to thrive in the digital landscape.</p>
+                                    <div class="next-gen-main d-flex">
+
+                                        <div class="point-img">
+                                            <ul style="list-style-type: none;">
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">iOS
+                                                    App
+                                                    Development</li>
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    Android App Development
+
+                                                </li>
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    Flutter App Development
+
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    React
+                                                    Native App Development
+                                                </li>
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    Cross-Platform App Development</li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="point-img1">
+                                            <ul style="list-style-type: none;">
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    Hybrid
+                                                    App Development
+                                                </li>
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    MVP
+                                                    Development
+
+
+                                                </li>
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    Wearable App Development
+
+
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    Progressive Web App
+
+                                                </li>
+                                                <li style="list-style-type: none;"><img src="./images/Layer 49.webp">
+                                                    Xamarin Development</li>
+                                            </ul>
+
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <h4>You all are awesome thanks alot</h4>
+                                    <div class="ratings">
+
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+
+                                    </div>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                        nulla
+                                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                        officia
+                                        deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                        Ut enim ad minim veniam.</p>
+                                </div>
+                            </div>
+                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <h4>You all are awesome thanks alot</h4>
+                                    <div class="ratings">
+
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+
+                                    </div>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                        nulla
+                                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                                        officia
+                                        deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.
+                                        Ut enim ad minim veniam.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
         </div>
-
     </div>
-
 
     <!--WHY WORK WITH US-->
 
@@ -1035,7 +1386,10 @@
 
 
         <h3 class=" why-h3">WHY WORK WITH US</h3>
-        <span class="content-text3">_______________</span>
+        <!-- <span class="content-text3">_______________</span> -->
+        <diV class="why-border">
+
+        </diV>
         <div class="row px-0 pr-0 ">
             <div class="col-md-6 col-sm-12 col-lg-6 col-xs-12 first-div-why">
 
@@ -1044,7 +1398,7 @@
                     <img src="./images/creative-thinking.webp">
                     <div class="seconde-box">
                         <h3> Skilled Techies</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Ut elit tellus, luctus nec
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
                             ullamcorper dapibus leo.</p>
                     </div>
                 </div>
@@ -1075,7 +1429,7 @@
                     <img src="./images/human.webp">
                     <div class="seconde-box">
                         <h3> On-demand Resources</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Ut elit tellus, luctus nec
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
                             ullamcorper dapibus leo.</p>
                     </div>
                 </div>
@@ -1106,7 +1460,7 @@
                     <img src="./images/trophy.webp">
                     <div class="seconde-box">
                         <h3> Award-Winning</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Ut elit tellus, luctus nec
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
                             ullamcorper dapibus leo.</p>
                     </div>
                 </div>
@@ -1120,7 +1474,9 @@
 
 
                     <img src="./images/agile.webp">
+
                     <div class="seconde-box">
+                        <div class="why-img-border"></div>
                         <h3>Agile Development</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
                             ullamcorper dapibus leo.</p>
@@ -1218,7 +1574,6 @@
 
     <!--testimoniole--->
     <div class="testimonial-div">
-
         <div class="main-testimonial">
             <h3>Testimonials</h3>
             <div class="testimonial-container">
@@ -1239,8 +1594,8 @@
                             ullamcorper
                             dapibus leo.
                             This is the first testimonial. It's amazing!</p>
-                        <spam class="avtar"> <img src="./images/testimonial-2-2 (1).jpg"></spam>
-                        <h4>Sarah M.</h4>
+                        <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
+                        <h4>Kevin Martin</h4>
                         <span class="fourth-line">Happy Customer</span>
                     </div>
                     <div class="testimonial-card">
@@ -1249,11 +1604,11 @@
                             ullamcorper
                             dapibus leo.
                             This is the first testimonial. It's amazing!</p>
-                        <spam class="avtar"> <img src="./images/testimonial-2-5.jpg"></spam>
-                        <h4>Mark R</h4>
+                        <spam class="avtar"> <img src="./images/testimonial-2-1.jpg"></spam>
+                        <h4>Kevin Martin</h4>
                         <span class="fourth-line">Happy Customer</span>
                     </div>
-                    <!-- Additional Cards Sliding In -->
+
                     <div class="testimonial-card">
                         <img src="./images/testimonial-1-quote.png">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
@@ -1293,10 +1648,10 @@
             </div>
         </div>
     </div>
+
+
     <!---form-->
     <div class="container-fluid h-100 form-main-div">
-
-
         <div class="form-div">
 
             <div class="content-form-div">
@@ -1379,26 +1734,26 @@
                     <div class="icon-down">
                         <div class="second-icon-div">
                             <div class="seconde-image">
-                                <i class="ri-facebook-circle-fill"></i>       
+                                <i class="ri-facebook-circle-fill"></i>
                             </div>
 
                             <div class="seconde-image">
-                                <i class="ri-linkedin-fill"></i>     
+                                <i class="ri-linkedin-fill"></i>
                             </div>
                             <div class="seconde-image">
-                                <i class="ri-instagram-line"></i>       
+                                <i class="ri-instagram-line"></i>
                             </div>
                             <div class="seconde-image">
-                                <i class="ri-twitter-x-fill"></i>     
+                                <i class="ri-twitter-x-fill"></i>
                             </div>
                             <div class="seconde-image">
-                                <i class="ri-youtube-fill"></i>       
+                                <i class="ri-youtube-fill"></i>
                             </div>
                             <div class="seconde-image">
-                                <i class="ri-whatsapp-line"></i>       
+                                <i class="ri-whatsapp-line"></i>
                             </div>
-                         
-                           
+
+
                         </div>
                     </div>
 
@@ -1541,13 +1896,12 @@
     </div>
     <div class="last-footer ">
         <p>Copyright &copy; 2021 MacWiQ All rights</p>
-        <p>Desgined by PK Solution.com</p>
+        <!-- <p>Desgined by PK Solution.com</p> -->
 
     </div>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
     <script>
@@ -1567,30 +1921,62 @@
             }, duration);
         });
         const testimonialWrapper = document.querySelector('.testimonial-wrapper');
-        const dots = document.querySelectorAll('.dot');
+const dots = document.querySelectorAll('.dot');
 
-        setTimeout(() => {
-            testimonialWrapper.style.transform = 'translateX(2)';
-        }, 3000); // Adjust the delay as needed
+let isDragging = false;
+let startPosition = 0;
+let offset = 0;
 
-        function goToCard(index) {
-            testimonialWrapper.style.transform = `translateX(-${index * (33.33 + 17)}%)`;
-        }
+// Set initial grab cursor
+testimonialWrapper.style.cursor = 'grab';
 
-    //     function onClick(e) {
-    //     e.preventDefault();
-    //     grecaptcha.ready(function() {
-    //       grecaptcha.execute('reCAPTCHA_site_key', {action: 'submit'}).then(function(token) {
-              
-    //       });
-    //     });
-    //   }
+testimonialWrapper.addEventListener('mousedown', startDragging);
+testimonialWrapper.addEventListener('touchstart', startDragging);
+
+function startDragging(e) {
+    isDragging = true;
+    startPosition = e.type === 'touchstart' ? e.touches[0].clientX - offset : e.clientX - offset;
+    testimonialWrapper.style.cursor = 'grabbing';
+
+    // Add event listeners for move and end events
+    window.addEventListener('mousemove', handleDragging);
+    window.addEventListener('touchmove', handleDragging, { passive: false });
+    window.addEventListener('mouseup', stopDragging);
+    window.addEventListener('touchend', stopDragging);
+}
+
+function handleDragging(e) {
+    if (isDragging) {
+        const currentPosition = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
+        offset = currentPosition - startPosition;
+        testimonialWrapper.style.transform = `translateX(${offset}px)`;
+    }
+}
+
+function stopDragging() {
+    if (isDragging) {
+        isDragging = false;
+        testimonialWrapper.style.cursor = 'grab';
+
+        // Remove event listeners for move and end events
+        window.removeEventListener('mousemove', handleDragging);
+        window.removeEventListener('touchmove', handleDragging);
+        window.removeEventListener('mouseup', stopDragging);
+        window.removeEventListener('touchend', stopDragging);
+
+        // Reset transform after the sliding is complete
+      
+    }
+}
+
+// Optional: If you want to slide to a specific card
 
 
 
 
 
-     
+
+
     </script>
 
 
