@@ -7,9 +7,7 @@
     scroll-behavior: smooth;
  
 }
-body html{
 
-}
 
 
 .main-color {
@@ -353,11 +351,7 @@ li:hover ul#submenu{
 
 }
 
-.container1 {
 
-    /* margin-top: 15%;
-    margin-left: 8%; */
-}
 
 
 
@@ -1507,43 +1501,24 @@ min-width: 50%;
 
     }
 
-    .item {
-
-        /* margin-left: -5.5%;
-        margin-right: -5.5%; */
-    }
+   
 
 }
 
 /*number section*/
-.numbers-main{
-
-    
-}
-
-
     .num-div{
-        display: flex;
-    
-        align-items: center;
-        justify-content: center;
-        
-            background: url(../images/image\ \(1\).webp) center center no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+     background: url(../images/image\ \(1\).webp) center center no-repeat;
     height: 80vh;
     margin-top: -7%;
     margin-bottom: 5%;
    width: 100%;
-
-     
     }
-    .margin-div2{
-        /* margin-right: 104px; */
-    }
+  
 
-    .margin-div{
-
-        /* margin: 0 104px; */
-    }
+   
     .container-num{
        align-items: center;
        text-align: center;
