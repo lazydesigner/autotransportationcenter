@@ -7,6 +7,9 @@
     scroll-behavior: smooth;
  
 }
+body html{
+
+}
 
 
 .main-color {
@@ -350,6 +353,11 @@ li:hover ul#submenu{
 
 }
 
+.container1 {
+
+    /* margin-top: 15%;
+    margin-left: 8%; */
+}
 
 
 
@@ -1499,12 +1507,19 @@ min-width: 50%;
 
     }
 
+    .item {
 
+        /* margin-left: -5.5%;
+        margin-right: -5.5%; */
+    }
 
 }
 
 /*number section*/
+.numbers-main{
 
+    
+}
 
 
     .num-div{
@@ -1521,11 +1536,18 @@ min-width: 50%;
 
      
     }
-    
+    .margin-div2{
+        /* margin-right: 104px; */
+    }
 
+    .margin-div{
+
+        /* margin: 0 104px; */
+    }
     .container-num{
        align-items: center;
        text-align: center;
+      
        width: 16%;
    
     }
@@ -2120,3 +2142,166 @@ border-right: #0000002f 1px solid ;
 }
 
 
+/*
+
+service-header
+
+*/
+.service-header{
+    background: url(../images/banner-1\ \(1\).webp) center center no-repeat;
+    height: 50vh;
+    width: 100%;
+  
+}
+.service-header{
+    margin: auto;
+    display: grid;
+    place-items: center;
+   text-align: center;
+    width: 100%;
+
+}
+.header-h1
+{
+    color:#fff;
+    font-size: 42px;
+    letter-spacing: 3px;
+}
+.service-card-div {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.service-header p{
+    font-size: 22px;
+    color: #1dbbde;
+}
+
+.main-div-services{
+    display: flex;   
+}
+.card-div-service {
+    width: 75%;
+    margin-top: 5%;
+    margin-left: 21%;
+    margin-right: 0;
+    padding-bottom: 50px;
+  }
+
+
+.content-div {
+    width: 100%;
+    box-shadow: 0px 6px 1px #e6e6e6;
+    border: #cdcdcd .5px solid;
+    position: relative;
+    border-bottom:#e6e6e6 .5px solid!important;
+    padding-top: 2%;
+  }
+  .content-div:hover{
+    box-shadow: 0px 6px 1px #21D0B3;
+  }
+  .content-div h4{
+    color: #21D0B3
+  }
+
+  .first-card-div {
+    width: 30%;
+  }
+
+  .seconde-card-div {
+    width: 80%;
+    margin: auto;
+    margin-right: 0;
+   
+
+
+  }
+  .seconde-card-div h4{
+    font-size: 28px;
+    color: #012442;
+    font-weight: bold;
+    margin-top: 2%;
+    
+  }
+  .seconde-card-div h4:hover{
+    color: #21D0B3;
+  }
+  .seconde-card-div .pragraph-card{
+    font-size: 16px;
+    color: #012442;
+    font-weight: lighter;
+
+
+  }
+  .card-image{
+    position: absolute;
+    margin-left: -110px;
+    margin-top: -10%;
+    filter: grayscale(100%);
+    
+  }
+  .card-image:hover{
+    filter: grayscale(0);
+   
+  }
+.card-image img{
+  width: 185px;
+  height: 185px;
+
+}
+
+
+.testimonial-cards{
+    background-color: #1c1525;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+.cards-wrapper{
+display: flex;
+justify-content: center;
+margin: auto;
+align-items: center;
+gap: 3%;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+.card-wrapper-images img{
+    width: 170px;
+    height: 170px;
+}
+.testimonial-content{
+    text-align: center;
+    margin: auto;
+    color: white;
+    width: 70%;
+}
+
+.testimonial-content h3{
+   padding-top: 40px;
+   letter-spacing:2px;
+}.testimonial-content p{
+    line-height: 30px;
+    font-size: 18px;
+    color: #21D0B3;
+}
+.card-wrapper-images img{
+    filter: grayscale(100%);
+}
+.card-wrapper-images:hover{
+   
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
+.card-wrapper-images img:hover{
+    filter: grayscale(0);
+}
+   .card-wrapper-images p{
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 18PX;
+    margin-top: 2%;
+   }
+ 
