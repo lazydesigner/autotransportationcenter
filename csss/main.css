@@ -7,9 +7,7 @@
     scroll-behavior: smooth;
  
 }
-body html{
 
-}
 
 
 .main-color {
@@ -297,7 +295,6 @@ li:hover ul#submenu{
     background-size: cover;
     padding-top: 15%;
     padding-bottom: 15%;
-
     height: auto;
     width: 1000px;
 
@@ -353,11 +350,7 @@ li:hover ul#submenu{
 
 }
 
-.container1 {
 
-    /* margin-top: 15%;
-    margin-left: 8%; */
-}
 
 
 
@@ -1517,19 +1510,12 @@ min-width: 50%;
 
     }
 
-    .item {
-
-        /* margin-left: -5.5%;
-        margin-right: -5.5%; */
-    }
+    
 
 }
 
 /*number section*/
-.numbers-main{
 
-    
-}
 
 
     .num-div{
