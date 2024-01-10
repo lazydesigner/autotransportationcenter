@@ -7,7 +7,9 @@
     scroll-behavior: smooth;
  
 }
+body html{
 
+}
 
 
 .main-color {
@@ -296,7 +298,7 @@ li:hover ul#submenu{
     padding-top: 15%;
     padding-bottom: 15%;
 
-    height: 540px;
+    height: auto;
     width: 1000px;
 
 
@@ -351,7 +353,11 @@ li:hover ul#submenu{
 
 }
 
+.container1 {
 
+    /* margin-top: 15%;
+    margin-left: 8%; */
+}
 
 
 
@@ -465,8 +471,8 @@ li:hover ul#submenu{
     }
 
     .talk-expert {
-        width: 68%;
-        margin-left: 16%;
+        width: 45%;
+        margin-left: 26%;
     }
 
     .main-icons {
@@ -609,6 +615,7 @@ margin-top:40px ;
 
 .next-gen-mobile {
     display: none;
+
 }
 
 .wrapper .accordion-collapse ul li:hover a {
@@ -623,7 +630,13 @@ margin-top:40px ;
 
     .next-gen-mobile {
         display: block;
+      
     }
+    .content-next{
+        margin-top: 145%;
+        margin-bottom: 5%;
+    }
+   
 }
 
 @media (max-width: 450px) {
@@ -634,32 +647,29 @@ margin-top:40px ;
     .w-75 {
         width: 90% !important
     }
-
+    .next-gen
+{
+    display: none;
+    height: auto;
+}
+   
     .next-gen-mobile {
         display: block;
-        bottom: -100%;
-        padding-top: 500%;
+        margin-top: 460%;
+        margin-bottom: 5%;        
+        
     }
-
     .next-gen-mobile .content-next h2 {
         font-size: 32px;
         margin-bottom: 5%;
-    }
 
+    }
     .accordion-body {
         padding: 0;
 
 
     }
 }
-
-
-
-
-
-
-
-
 @media only screen and (max-width:768px) {
 
     .container {
@@ -914,12 +924,7 @@ margin-left: 18px;
     }
 
 
-    .content-next {
-
-
-        margin-top: -10%;
-
-    }
+   
 
     .content-next1 {
         display: none;
@@ -1127,10 +1132,8 @@ margin-left: 18px;
 
 @media only screen and (max-width: 450px) {
     .get-image img {
-        width: 300px;
-
-
-        height: 290px;
+        width: 100%;
+        height: auto;
         margin: 0;
     }
 
@@ -1145,6 +1148,10 @@ margin-left: 18px;
     .stop img {
         width: 80px;
         height: 80px;
+    }
+    .counting{
+        top: 17%;
+        left: 5%;
     }
 }
 
@@ -1225,7 +1232,7 @@ color: white;}
 
 .item {
     Flex: 1;
-    height: 93%;
+    height: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: none;
@@ -1255,7 +1262,14 @@ color: white;}
 
 }
 
-
+.main-serve{
+    height: 100%;
+    width: auto;
+}
+.main-gallery{
+    height: 100%;
+    width: auto;
+}
 .gallery-wrap {
     display: flex;
     margin: 0;
@@ -1334,7 +1348,9 @@ img {
     .content-next2 {
         display: none;
     }
-
+    .item{
+        height: 130%;
+    }
 }
 
 
@@ -1455,7 +1471,7 @@ min-width: 50%;
 
     .why-bg {
 
-        height: 1500px;
+        height: auto;
     }
 
     .box1 {
@@ -1501,28 +1517,37 @@ min-width: 50%;
 
     }
 
-   
+    .item {
+
+        /* margin-left: -5.5%;
+        margin-right: -5.5%; */
+    }
 
 }
 
 /*number section*/
-    .num-div{
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-     background: url(../images/image\ \(1\).webp) center center no-repeat;
-    height: 80vh;
-    margin-top: -7%;
-    margin-bottom: 5%;
-   width: 100%;
-    }
-  
+.numbers-main{
 
-   
+    
+}
+
+
+    .num-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(../images/image\ \(1\).webp) center center no-repeat;
+        height: 100%;
+        margin-top: -8%;
+        margin-bottom: 5%;
+        width: 100%;
+
+     
+    }
+
     .container-num{
        align-items: center;
        text-align: center;
-      
        width: 16%;
    
     }
@@ -1605,6 +1630,13 @@ min-width: 50%;
     @media only screen and (max-width: 450px) {
         .num-div{
             display: inline;
+            background: url(../images/image\ \(1\).webp) center center no-repeat;
+            width: 100%;
+          
+        }
+        .container-num{
+            width: 100%;
+            align-items: center;
         }
     }
     
@@ -1641,21 +1673,23 @@ padding-bottom: 50px;
         display: flex;
         width: 100%;
         height: 100%;
-        gap: 30px;
-        margin: auto;
       
+        margin: auto;
         justify-content: center;
         padding: 5% 0;
 
     }
   
     .card-main img{
-        height: 300px;
+        height: 100%;
+        height: auto;
     }
 .card-main{
     width:300px;
     height:400px;
     box-shadow: #000 0 0px .6px;
+    justify-content: center;
+    margin: auto;
 }
 
 @media only screen and (max-width: 450px){
@@ -2055,7 +2089,22 @@ border-right: #0000002f 1px solid ;
 }
 
 @media only screen and (max-width: 450px) {
+   .form-main-div
+   {   padding-top: 50px;
+    padding-bottom: 0;
+    height: 200vh;
+
+   }
+
+    .first-input-box{
+        display: inline;
+
     
+      
+    }
+    .content-form-div{
+        margin-top: 125px;
+    }
     .form-div{
         display: inline;
         width: auto;
@@ -2113,6 +2162,9 @@ border-right: #0000002f 1px solid ;
 
         height: 100%;
         width: 100%;
+    }
+    .product .imgbox{
+        height: auto;
     }
 }
 
@@ -2250,7 +2302,7 @@ padding-bottom: 5%;
     text-align: center;
     margin: auto;
     color: white;
-    width: 70%;
+    width: 70%; 
 }
 
 .testimonial-content h3{
