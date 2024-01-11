@@ -263,7 +263,7 @@ li:hover ul#submenu{
 }
 
 
-@media only screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
     .navbar-brand img {
 
         margin-left: 0;
@@ -450,7 +450,7 @@ li:hover ul#submenu{
 
 
 
-@media only screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
     .icons-div {
         display: inline;
 
@@ -481,7 +481,7 @@ li:hover ul#submenu{
     }
 
 }
-@media only screen and (max-width: 320px){
+@media screen and (max-width: 320px){
     .talk-expert{
         width: 65%;
         margin-left: 17%;
@@ -675,7 +675,7 @@ margin-top:40px ;
     }
 }
 
-@media only screen and (max-width:768px) {
+@media screen and (max-width:768px) {
 
     .container {
         margin-top: 66px;
@@ -925,7 +925,7 @@ margin-left: 18px;
 }
 
 
-@media only screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
     .next-genration-div {
         display: none;
     }
@@ -956,7 +956,7 @@ margin-left: 18px;
     }
    
 
-    @media only screen and (max-width: 320px) {
+    @media screen and (max-width: 320px) {
         .main-app {
             margin-top: 35%;
         }
@@ -1137,7 +1137,7 @@ margin-left: 18px;
     margin-left: 2%;
 }
 
-@media only screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
     .get-image img {
         width: 100%;
         height: auto;
@@ -1161,7 +1161,7 @@ margin-left: 18px;
         left: 5%;
     }
 }
-@media only screen and (max-width: 320px){
+@media screen and (max-width: 320px){
     .counting p{
         font-size: 20px;
         margin-bottom: -13%;
@@ -1363,7 +1363,7 @@ img {
     margin: auto;
 }
 
-@media only screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
     .gallery-wrap {
         display: inline;
     }
@@ -1375,7 +1375,7 @@ img {
         height: 130%;
     }
 }
-@media only screen and (max-width: 320px){
+@media screen and (max-width: 320px){
     .item{
 height: 100%;
     }
@@ -1491,7 +1491,7 @@ min-width: 50%;
 
 }
 
-@media only screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
     .content-text3 {
         display: none;
     }
@@ -1638,7 +1638,7 @@ min-width: 50%;
             /* background-color: dodgerblue; */
         }
     }
-    @media only screen and (max-width: 450px) {
+    @media screen and (max-width: 450px) {
         .num-div{
             display: inline;
             background: url(../images/image\ \(1\).webp) center center no-repeat;
@@ -1668,7 +1668,7 @@ min-width: 50%;
         }
         }
     
-        @media only screen and (max-width: 320px){
+        @media screen and (max-width: 320px){
             .num-div{
                 background:none;
                 background-color: #012442;
@@ -1740,7 +1740,7 @@ padding-bottom: 50px;
     margin: auto;
 }
 
-@media only screen and (max-width: 450px){
+@media screen and (max-width: 450px){
     .main-card{
         display: inline;
     }
@@ -2128,7 +2128,7 @@ border-right: #0000002f 1px solid ;
 
 }
 
-@media only screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
    .form-main-div
    {   padding-top: 25%;
     padding-bottom: 0;
@@ -2211,7 +2211,7 @@ border-right: #0000002f 1px solid ;
     }
 }
 
-    @media only screen and (max-width: 320px){
+    @media screen and (max-width: 320px){
         .form-main-div{
          padding-top: 30%;   
         }
