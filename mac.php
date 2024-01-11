@@ -7,7 +7,7 @@
     <title>Document</title>
 
 
-    <link href="csss/main.css?v=5" rel="stylesheet" defer>
+    <link href="csss/main.css?v=6" rel="stylesheet" defer>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lora&display=swaprel="stylesheet">

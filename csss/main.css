@@ -391,6 +391,12 @@ li:hover ul#submenu{
     width: 50%;
     margin-left: 28%;
 }
+.header-bg{
+    height: 50vh;
+}
+.header-content{
+    margin-top:90px ;
+}
 }
 @media (max-width: 450px) {
     .product{
@@ -399,6 +405,13 @@ li:hover ul#submenu{
     .product .imgbox img{
         height: 480px;
     }
+    .header-bg{
+        height: 50vh;
+    }
+    .header-content{
+        margin-top:90px ;
+    }
+
 }
     
 
@@ -1286,6 +1299,15 @@ min-width: 50%;
     .item{
         height: 90%;
     }
+    .item-5 {
+        margin-right: 0;
+    }
+    .item-1{
+        margin-left: 0;
+    }
+    .comtent-serve h2{
+        margin-top: 10px;
+    }
 }
 
 /*number section*/
@@ -1820,8 +1842,8 @@ border-right: #0000002f 1px solid ;
         border-top: none;
     }
     .form-div img{
-        width: 320px;
-        height: 480px;
+        width: 100%;
+        height: auto;
         margin-left: -4%;
         margin-top: 15%;
 
@@ -1863,8 +1885,8 @@ border-right: #0000002f 1px solid ;
 }
 @media (max-width: 450px){
     .form-div img{
-        width: 410px;
-        height: 525px;
+        width: 100%;
+        height: auto;
         margin-left: -11px;
         margin-top: 4%;
        
@@ -1876,6 +1898,9 @@ border-right: #0000002f 1px solid ;
     }
     .first-img-box{
         margin-left: 12%;
+    }
+    .side-conetent p{
+        font-size: 20px;
     }
 }
 
