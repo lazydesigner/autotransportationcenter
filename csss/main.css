@@ -392,6 +392,16 @@ li:hover ul#submenu{
     margin-left: 28%;
 }
 }
+@media (max-width: 450px) {
+    .product{
+        height: 425px;
+    }
+    .product .imgbox img{
+        height: 480px;
+    }
+}
+    
+
 
 /* icons end */
 
@@ -950,6 +960,24 @@ margin-left: 18px;
         margin-left: 2%;
     }
 }
+@media (max-width: 450px) {
+    .counting{
+        top: 15%;
+        left: 6%;
+    }
+    .counting span{
+        font-size: 14px;
+    }
+    .navbar-light .navbar-toggler-icon {
+
+        background-color: #21D0B3;
+    }
+    .navbar-light .navbar-toggler{
+        border-color: #21D0B3;
+        color: #21D0B3;
+    } 
+
+}
 /*INDUSTRIES WE SERVE*/
 
 .content-next2 {
@@ -1251,6 +1279,14 @@ min-width: 50%;
     margin-right: 0;
 }
 }
+@media (max-width: 450px){
+    .main-serve{
+        height: 3100px;
+    }
+    .item{
+        height: 90%;
+    }
+}
 
 /*number section*/
     .num-div{
@@ -1365,6 +1401,12 @@ min-width: 50%;
         }
         .icon-rotate-ball{
             margin-left: 39%;
+        }
+    }
+    @media (max-width: 450px)
+    {
+        .icon-rotate-ball {
+            margin-left: 41%;
         }
     }
 
@@ -1818,6 +1860,23 @@ border-right: #0000002f 1px solid ;
     margin-top: 5%;
 }
 
+}
+@media (max-width: 450px){
+    .form-div img{
+        width: 410px;
+        height: 525px;
+        margin-left: -11px;
+        margin-top: 4%;
+       
+    
+    }
+    .second-icon-div{
+        gap: 22px;
+
+    }
+    .first-img-box{
+        margin-left: 12%;
+    }
 }
 
 /*
