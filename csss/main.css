@@ -134,8 +134,6 @@ li:hover ul#submenu{
 }
 #submenu a{
     background-color: #333;
-    
-
 }
 
 
@@ -171,8 +169,6 @@ li:hover ul#submenu{
 .thecard:hover {
     transform: rotateY(180deg);
 }
-
-
 .thefront {
     position: absolute;
     width: 100%;
@@ -184,7 +180,6 @@ li:hover ul#submenu{
     justify-content: center;
     align-items: center;
     padding: 0 5% 0 5%;
-
 }
 
 .thefront h6 {
@@ -229,20 +224,11 @@ li:hover ul#submenu{
 
 }
 
-/* .searchbar-div{
-   margin-bottom: -1.5%;
-   margin-right: 23px;
 
-} */
 .side-nav-contact {
 
     background-color: #21D0B3;
 }
-
-
-
-
-
 .bg-nav {
     background-color: #1b1525;
 }
@@ -263,7 +249,7 @@ li:hover ul#submenu{
 }
 
 
-@media screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
     .navbar-brand img {
 
         margin-left: 0;
@@ -349,6 +335,11 @@ li:hover ul#submenu{
 
 }
 
+.container1 {
+
+    /* margin-top: 15%;
+    margin-left: 8%; */
+}
 
 
 
@@ -450,7 +441,7 @@ li:hover ul#submenu{
 
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width:600px) {
     .icons-div {
         display: inline;
 
@@ -675,7 +666,7 @@ margin-top:40px ;
     }
 }
 
-@media screen and (max-width:768px) {
+@media only screen and (max-width:768px) {
 
     .container {
         margin-top: 66px;
@@ -904,20 +895,12 @@ margin-left: 18px;
     margin: auto;
     justify-content: center;
     align-items: center;
-
-
-
-
 }
-
-
-
 
 .content-next h2 {
     font-size: 42px;
     font-weight: bold;
     margin-bottom: -3%;
-
 }
 
 .main-app {
@@ -925,7 +908,7 @@ margin-left: 18px;
 }
 
 
-@media screen and (max-width: 450px) {
+@media  screen and (max-width: 600px) {
     .next-genration-div {
         display: none;
     }
@@ -956,7 +939,7 @@ margin-left: 18px;
     }
    
 
-    @media screen and (max-width: 320px) {
+    @media  screen and (max-width: 320px) {
         .main-app {
             margin-top: 35%;
         }
@@ -1137,7 +1120,7 @@ margin-left: 18px;
     margin-left: 2%;
 }
 
-@media screen and (max-width: 450px) {
+@media  screen and (max-width: 600px) {
     .get-image img {
         width: 100%;
         height: auto;
@@ -1161,7 +1144,7 @@ margin-left: 18px;
         left: 5%;
     }
 }
-@media screen and (max-width: 320px){
+@media  screen and (max-width: 320px){
     .counting p{
         font-size: 20px;
         margin-bottom: -13%;
@@ -1363,7 +1346,7 @@ img {
     margin: auto;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
     .gallery-wrap {
         display: inline;
     }
@@ -1375,7 +1358,7 @@ img {
         height: 130%;
     }
 }
-@media screen and (max-width: 320px){
+@media  screen and (max-width: 320px){
     .item{
 height: 100%;
     }
@@ -1491,7 +1474,7 @@ min-width: 50%;
 
 }
 
-@media screen and (max-width: 450px) {
+@media  screen and (max-width: 600px) {
     .content-text3 {
         display: none;
     }
@@ -1638,7 +1621,7 @@ min-width: 50%;
             /* background-color: dodgerblue; */
         }
     }
-    @media screen and (max-width: 450px) {
+    @media  screen and (max-width: 600px) {
         .num-div{
             display: inline;
             background: url(../images/image\ \(1\).webp) center center no-repeat;
@@ -1668,7 +1651,7 @@ min-width: 50%;
         }
         }
     
-        @media screen and (max-width: 320px){
+        @media  screen and (max-width: 320px){
             .num-div{
                 background:none;
                 background-color: #012442;
@@ -1740,7 +1723,7 @@ padding-bottom: 50px;
     margin: auto;
 }
 
-@media screen and (max-width: 450px){
+@media  screen and (max-width: 600px){
     .main-card{
         display: inline;
     }
@@ -1926,8 +1909,6 @@ border-right: #0000002f 1px solid ;
 .form-input  input{
     width: 300px; 
     height: 60px;
-    
-   
     border: #000 0px solid;
     border-bottom: #0000002f 1.5px solid;
    padding-top: 8%;
@@ -1971,14 +1952,9 @@ border-right: #0000002f 1px solid ;
     height: 219px;
     background-color: #1b1525;
     border: #291f3a 1.5px solid;
-
-
-
-
 }
 
 .mian-image-div {
-
     justify-content: center;
     margin: auto;
 }
@@ -1996,9 +1972,6 @@ border-right: #0000002f 1px solid ;
     margin-top: 17px;
     margin-bottom: 10px;
 
-
-
-
 }
 
 .heading-main {
@@ -2006,8 +1979,6 @@ border-right: #0000002f 1px solid ;
     font-weight: bold;
     padding-top: 5%;
     color: white;
-
-
 }
 
 .paragraph-main {
@@ -2106,7 +2077,6 @@ border-right: #0000002f 1px solid ;
     color: white;
     font-size: larger;
     margin-left: 10%;
-
 }
 
 .fourth-footer-box iframe {
@@ -2128,7 +2098,7 @@ border-right: #0000002f 1px solid ;
 
 }
 
-@media screen and (max-width: 450px) {
+@media  screen and (max-width: 600px) {
    .form-main-div
    {   padding-top: 25%;
     padding-bottom: 0;
@@ -2211,7 +2181,7 @@ border-right: #0000002f 1px solid ;
     }
 }
 
-    @media screen and (max-width: 320px){
+    @media  screen and (max-width: 320px){
         .form-main-div{
          padding-top: 30%;   
         }
@@ -2292,9 +2262,7 @@ service-header
     border-bottom:#e6e6e6 .5px solid!important;
     padding-top: 2%;
   }
-  /* .content-div:hover{
-    box-shadow: 0px 6px 1px #21D0B3;
-  } */
+  
   .content-div h4{
     color: #21D0B3
   }
@@ -2335,10 +2303,7 @@ service-header
     filter: grayscale(100%);
     
   }
-  /* .card-image:hover{
-    filter: grayscale(0);
-   
-  } */
+  
 .card-image img{
   width: 185px;
   height: 185px;
