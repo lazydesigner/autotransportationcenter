@@ -1858,7 +1858,7 @@ border-right: #0000002f 1px solid ;
         border-top: none;
     }
     .form-div img{
-        width: 100%;
+        width: 300px;
         height: auto;
         margin-left: -4%;
         margin-top: 15%;
@@ -1869,7 +1869,7 @@ border-right: #0000002f 1px solid ;
     }
     .side-conetent{
         top: 7%;
-        left: 0;
+        left: -24px;
     }
     .second-icon-div{
         gap: 6px;
