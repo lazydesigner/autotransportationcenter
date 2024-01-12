@@ -1858,10 +1858,10 @@ border-right: #0000002f 1px solid ;
         border-top: none;
     }
     .form-div img{
-        width: 300px;
+        width: 159%;
         height: auto;
-        margin-left: -4%;
-        margin-top: 15%;
+        margin-left: -66px;
+        margin-top: 4%;
 
     }
     .form-main-div{
@@ -1869,7 +1869,7 @@ border-right: #0000002f 1px solid ;
     }
     .side-conetent{
         top: 7%;
-        left: -24px;
+        left: -26px;
     }
     .second-icon-div{
         gap: 6px;
@@ -1917,6 +1917,20 @@ border-right: #0000002f 1px solid ;
     }
     .side-conetent p{
         font-size: 20px;
+    }
+    .form-div img{
+        width: 159%;
+        height: auto;
+        margin-left: -66px;
+        margin-top: 4%;
+
+    }
+    .form-main-div{
+        margin-bottom: 50%;
+    }
+    .side-conetent{
+        top: 7%;
+        left: -26px;
     }
 }
 
