@@ -7,18 +7,17 @@
     <title>Document</title>
 
 
-    <link href="csss/main.css?v=6" rel="stylesheet" defer>
+    <link href="csss/main.css?v=7" rel="stylesheet" defer>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lora&display=swaprel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lora&display=swaprel=" stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <meta name="googlebot" content="noindex">
-    <meta name="googlebot" content="noindex">
+
 
 
 </head>
@@ -442,7 +441,7 @@
     </div> -->
 
     <div class="container-fluid header-bg">
-        <div class=" ">
+        <div class="header-content ">
             <div class="row align-items-start ">
                 <div class="col">
                     <p class=" main-color text-center word-c">WORLD CLASS DIGITAL PRODUCTS</p>
@@ -644,217 +643,221 @@
 
 
     <!--INDUSTRIES WE SERVE--->
-    <div class="container-fluid main-serve  ">
-        <div class="mb-4 comtent-serve">
-            <h2 class="text-center">
-                INDUSTRIES WE SERVE
-            </h2>
-            <div class="Industries-border"></div>
 
-        </div>
-        <div class="row main-gallery">
-            <div class="gallery-wrap">
-
-                <div class="item item-1">
-
-                    <div class="product1">
-                        <div class="specifies1">
-                            <h3>Hospital Management <br> <button type="button" class="btn text-center ind-button">Know
-                                    more</button> </h3>
-
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item item-2">
-                    <div class="product1">
-                        <div class="specifies1">
-                            <h3>E-Commerce <br> <button type="button" class="btn text-center ind-button">Know
-                                    more</button> </h3>
-
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item item-3">
-                    <div class="product1">
-                        <div class="specifies1">
-                            <h3>Tour & Travel <br> <button type="button" class="btn text-center ind-button">Know
-                                    more</button> </h3>
-
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item item-4">
-                    <div class="product1">
-                        <div class="specifies1">
-                            <h3>OTT<br> <button type="button" class="btn text-center ind-button">Know more</button>
-                            </h3>
-
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item item-5">
-                    <div class="product1">
-                        <div class="specifies1">
-                            <h3>E-Learning<br> <button type="button" class="btn text-center ind-button">Know
-                                    more</button> </h3>
-
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="social">
-
-
-
-
-            </a>
-        </div>
-    </div>
-
-
-    <div class="wrapper bg-white rounded shadow next-gen-mobile">
-        <div class="content-next">
-            <h2 class="text-center">
-                NEXT GENERATION TECHNOLOGIES
-
-            </h2>
-            <div class="next-border"></div>
-
-        </div>
-
-        <div class="accordion accordion-flush border-top border-start border-end" id="myAccordion">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne"> <button class="accordion-button collapsed border-0"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
-                        aria-expanded="false" aria-controls="flush-collapseOne"
-                        style="color: #21D0B3!important; cursor:pointer!important;">Mobile App Development </button>
+    <section>
+        <div class="container-fluid main-serve  ">
+            <div class="mb-4 comtent-serve">
+                <h2 class="text-center">
+                    INDUSTRIES WE SERVE
                 </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse border-0"
-                    aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
-                    <div class="accordion-body p-0">
-                        <h3 class="text-center pt-2">Mobile App Development</h3>
-                        <p class="text-center px-4">
-                            Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                            laborum.
-                        </p>
+                <div class="Industries-border"></div>
 
-                        <ul class="list-unstyled m-0">
-                            <li><a href="#">iOS App Development</a></li>
-                            <li><a href="#">Android App Development</a></li>
-                            <li><a href="#">Flutter App Development</a></li>
-                            <li><a href="#">React Native App Development</a></li>
-                            <li><a href="#">Cross-Platform App Development</a></li>
-                        </ul>
+            </div>
+            <div class="row main-gallery">
+                <div class="gallery-wrap">
 
-                        <ul class="list-unstyled m-0">
-                            <li><a href="#">iOS App Development</a></li>
-                            <li><a href="#">Android App Development</a></li>
-                            <li><a href="#">Flutter App Development</a></li>
-                            <li><a href="#">React Native App Development</a></li>
-                            <li><a href="#">Cross-Platform App Development</a></li>
-                        </ul>
+                    <div class="item item-1">
+
+                        <div class="product1">
+                            <div class="specifies1">
+                                <h3>Hospital Management <br> <button type="button"
+                                        class="btn text-center ind-button">Know
+                                        more</button> </h3>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item item-2">
+                        <div class="product1">
+                            <div class="specifies1">
+                                <h3>E-Commerce <br> <button type="button" class="btn text-center ind-button">Know
+                                        more</button> </h3>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item item-3">
+                        <div class="product1">
+                            <div class="specifies1">
+                                <h3>Tour & Travel <br> <button type="button" class="btn text-center ind-button">Know
+                                        more</button> </h3>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item item-4">
+                        <div class="product1">
+                            <div class="specifies1">
+                                <h3>OTT<br> <button type="button" class="btn text-center ind-button">Know more</button>
+                                </h3>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item item-5">
+                        <div class="product1">
+                            <div class="specifies1">
+                                <h3>E-Learning<br> <button type="button" class="btn text-center ind-button">Know
+                                        more</button> </h3>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="wrapper bg-white rounded shadow next-gen-mobile">
+            <div class="content-next">
+                <h2 class="text-center">
+                    NEXT GENERATION TECHNOLOGIES
+
+                </h2>
+                <div class="next-border"></div>
+
+            </div>
+
+            <div class="accordion accordion-flush border-top border-start border-end" id="myAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne"> <button
+                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
+                            style="color: #21D0B3!important; cursor:pointer!important;">Mobile App Development </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse border-0"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                        <div class="accordion-body p-0">
+                            <h3 class="text-center pt-2">Mobile App Development</h3>
+                            <p class="text-center px-4">
+                                Let dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint
+                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                laborum.
+                            </p>
+
+                            <ul class="list-unstyled m-0">
+                                <li><a href="#">iOS App Development</a></li>
+                                <li><a href="#">Android App Development</a></li>
+                                <li><a href="#">Flutter App Development</a></li>
+                                <li><a href="#">React Native App Development</a></li>
+                                <li><a href="#">Cross-Platform App Development</a></li>
+                            </ul>
+
+                            <ul class="list-unstyled m-0">
+                                <li><a href="#">iOS App Development</a></li>
+                                <li><a href="#">Android App Development</a></li>
+                                <li><a href="#">Flutter App Development</a></li>
+                                <li><a href="#">React Native App Development</a></li>
+                                <li><a href="#">Cross-Platform App Development</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne"> <button class="accordion-button collapsed border-0"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
-                        aria-expanded="false" aria-controls="flush-collapseTwo" style="color: #21D0B3!important; "> Know
-                        About Pro </button> </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse border-0"
-                    aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
-                    <div class="accordion-body p-0">
-                        <ul class="list-unstyled m-0">
-                            <li><a href="#">How to upgrade to pro</a></li>
-                            <li><a href="#">Benifits of Pro</a></li>
-                            <li><a href="#">Payment methods to get Pro</a></li>
-                        </ul>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne"> <button
+                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"
+                            style="color: #21D0B3!important; "> Know
+                            About Pro </button> </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse border-0"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                        <div class="accordion-body p-0">
+                            <ul class="list-unstyled m-0">
+                                <li><a href="#">How to upgrade to pro</a></li>
+                                <li><a href="#">Benifits of Pro</a></li>
+                                <li><a href="#">Payment methods to get Pro</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item ">
-                <h2 class="accordion-header" id="flush-headingOne"> <button class="accordion-button collapsed border-0"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
-                        aria-expanded="false" aria-controls="flush-collapseThree" style="color: #21D0B3!important; ">
-                        BBBootstrap Tools </button> </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse border-0"
-                    aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
-                    <div class="accordion-body p-0">
-                        <ul class="list-unstyled m-0">
-                            <li><a href="#">How to use Pro Online Editor</a></li>
-                            <li><a href="#">Know Gradient generator</a></li>
-                            <li><a href="#">Using Beautifier</a></li>
-                        </ul>
+                <div class="accordion-item ">
+                    <h2 class="accordion-header" id="flush-headingOne"> <button
+                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree" style="color: #21D0B3!important; ">
+                            BBBootstrap Tools </button> </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse border-0"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                        <div class="accordion-body p-0">
+                            <ul class="list-unstyled m-0">
+                                <li><a href="#">How to use Pro Online Editor</a></li>
+                                <li><a href="#">Know Gradient generator</a></li>
+                                <li><a href="#">Using Beautifier</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne"> <button class="accordion-button collapsed border-0"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
-                        aria-expanded="false" aria-controls="flush-collapseFour" style="color: #21D0B3!important; ">
-                        Download Snippets </button> </h2>
-                <div id="flush-collapseFour" class="accordion-collapse collapse border-0"
-                    aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
-                    <div class="accordion-body p-0">
-                        <ul class="list-unstyled m-0">
-                            <li><a href="#">How to download snippets</a></li>
-                            <li><a href="#">Donate to Author</a></li>
-                            <li><a href="#">Donation methods</a></li>
-                        </ul>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne"> <button
+                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour" style="color: #21D0B3!important; ">
+                            Download Snippets </button> </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse border-0"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                        <div class="accordion-body p-0">
+                            <ul class="list-unstyled m-0">
+                                <li><a href="#">How to download snippets</a></li>
+                                <li><a href="#">Donate to Author</a></li>
+                                <li><a href="#">Donation methods</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne"> <button class="accordion-button collapsed border-0"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
-                        aria-expanded="false" aria-controls="flush-collapseFive" style="color: #21D0B3!important; ">
-                        BBBootstrap Icons </button> </h2>
-                <div id="flush-collapseFive" class="accordion-collapse collapse border-0"
-                    aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
-                    <div class="accordion-body p-0">
-                        <ul class="list-unstyled m-0">
-                            <li><a href="#">Adding icons to snippets</a></li>
-                            <li><a href="#">Fontawesome Icons</a></li>
-                            <li><a href="#">Material Design</a></li>
-                        </ul>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne"> <button
+                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive" style="color: #21D0B3!important; ">
+                            BBBootstrap Icons </button> </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse border-0"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                        <div class="accordion-body p-0">
+                            <ul class="list-unstyled m-0">
+                                <li><a href="#">Adding icons to snippets</a></li>
+                                <li><a href="#">Fontawesome Icons</a></li>
+                                <li><a href="#">Material Design</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne"> <button class="accordion-button collapsed border-0"
-                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
-                        aria-expanded="false" aria-controls="flush-collapseSix" style="color: #21D0B3!important; ">
-                        Policy & copyrights </button> </h2>
-                <div id="flush-collapseSix" class="accordion-collapse collapse border-0"
-                    aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
-                    <div class="accordion-body p-0">
-                        <ul class="list-unstyled m-0">
-                            <li><a href="#">BBBootstrap Guidelines</a></li>
-                            <li><a href="#">BBBootstrap Policies</a></li>
-                            <li><a href="#">Copyright and right management</a></li>
-                        </ul>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne"> <button
+                            class="accordion-button collapsed border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix"
+                            style="color: #21D0B3!important; ">
+                            Policy & copyrights </button> </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse border-0"
+                        aria-labelledby="flush-headingOne" data-bs-parent="#myAccordion">
+                        <div class="accordion-body p-0">
+                            <ul class="list-unstyled m-0">
+                                <li><a href="#">BBBootstrap Guidelines</a></li>
+                                <li><a href="#">BBBootstrap Policies</a></li>
+                                <li><a href="#">Copyright and right management</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </section>
     <div class="next-gen">
         <div class="container next-genration-div mt-5 ">
 
@@ -1651,124 +1654,126 @@
 
 
     <!---form-->
-    <div class="container-fluid h-100 form-main-div">
-        <div class="form-div">
+    <div class="container-fluid form-main-div">
+        <div class="row  form-div">
+           <div class="form-border"></div>
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12" >
+                <div class="content-form-div">
+                    <h2>Do you have a project in mind ?<br>
+                        Talk to the experts.</h2>
+                    <form class="form-input">
+                        <div class="first-input-box">
+                            <input type="text" class="form-name" id="yourname" placeholder="Your Name">
+                            <input type="email" class="form-Mobile" id="exampleInputEmail1" placeholder="Mobile Number">
 
-            <div class="content-form-div">
-                <h2>Do you have a project in mind ?<br>
-                    Talk to the experts.</h2>
-                <form class="form-input">
-                    <div class="first-input-box">
-                        <input type="text" class="form-name" id="yourname" placeholder="Your Name">
-                        <input type="email" class="form-Mobile" id="exampleInputEmail1" placeholder="Mobile Number">
+                        </div>
+                        <div class="first-input-box">
+                            <input type="text" class="form-Email" id="yourname" placeholder="Email">
+                            <input type="email" class="form-Budget" id="exampleInputEmail1" placeholder="Budget">
 
-                    </div>
-                    <div class="first-input-box">
-                        <input type="text" class="form-Email" id="yourname" placeholder="Email">
-                        <input type="email" class="form-Budget" id="exampleInputEmail1" placeholder="Budget">
+                        </div>
+                        <div class="third-input-box">
+                            <input type="text" class="form-About" id="yourname" placeholder="About Project">
 
-                    </div>
-                    <div class="third-input-box">
-                        <input type="text" class="form-About" id="yourname" placeholder="About Project">
-
-                    </div>
-                    <!-- <button class="g-recaptcha" data-sitekey="6LdnIUcpAAAAAORbE04jT3zJKlLRPbVZCq4_bJXS" data-callback='onSubmit' data-action='submit'>Submit</button> -->
-                    <button type="button" class=" form-submit">Submit</button>
-
-                </form>
+                        </div>
+                        <!-- <button class="g-recaptcha" data-sitekey="6LdnIUcpAAAAAORbE04jT3zJKlLRPbVZCq4_bJXS" data-callback='onSubmit' data-action='submit'>Submit</button> -->
+                        <button type="button" class=" form-submit">Submit</button>
+                    </form>
+                </div>
             </div>
 
 
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                <div class="side-image-footer">
+                    <img src="./images/Consulting.webp">
+                    <div class="side-conetent">
+                        <h4>Get in Touch</h4>
+                        <p>
+                            We’d love to resolve your queries with
+                            personalized assistance.
+                        </p>
+                        <div class="icon-image-div">
 
-            <div class="side-image">
-                <img src="./images/Consulting.webp">
-                <div class="side-conetent">
-                    <h4>Get in Touch</h4>
-                    <p>
-                        We’d love to resolve your queries with
-                        personalized assistance.
-                    </p>
-                    <div class="icon-image-div">
-
-                        <div class="icon-image"><i class="ri-mail-line"></i>
-                        </div>
-                        <div>
-                            <div class="icone-side-content">
-                                <p>Chat with us</p>
-                                <span>contact@macwiq.com</span>
+                            <div class="icon-image"><i class="ri-mail-line"></i>
                             </div>
+                            <div>
+                                <div class="icone-side-content">
+                                    <p>Chat with us</p>
+                                    <span>contact@macwiq.com</span>
+                                </div>
 
-                        </div>
-
-
-                    </div>
-                    <div class="icon-image-div  ">
-
-                        <div class="icon-image"><i class="ri-phone-line"></i>
-                        </div>
-                        <div>
-                            <div class="icone-side-content">
-                                <p>Lets discuss via call</p>
-                                <span>+1-234-567-8910</span>
-                            </div>
-
-                        </div>
-
-
-                    </div>
-                    <div class="icon-image-div ">
-
-                        <div class="icon-image"><i class="ri-skype-line"></i>
-                        </div>
-                        <div>
-                            <div class="icone-side-content">
-                                <p>Say Hello! on Skype</p>
-                                <span>vikassharma</span>
-                            </div>
-
-                        </div>
-
-
-
-                    </div>
-                    <div class="icon-down">
-                        <div class="second-icon-div">
-                            <div class="seconde-image">
-                                <i class="ri-facebook-circle-fill"></i>
-                            </div>
-
-                            <div class="seconde-image">
-                                <i class="ri-linkedin-fill"></i>
-                            </div>
-                            <div class="seconde-image">
-                                <i class="ri-instagram-line"></i>
-                            </div>
-                            <div class="seconde-image">
-                                <i class="ri-twitter-x-fill"></i>
-                            </div>
-                            <div class="seconde-image">
-                                <i class="ri-youtube-fill"></i>
-                            </div>
-                            <div class="seconde-image">
-                                <i class="ri-whatsapp-line"></i>
                             </div>
 
 
                         </div>
+                        <div class="icon-image-div  ">
+
+                            <div class="icon-image"><i class="ri-phone-line"></i>
+                            </div>
+                            <div>
+                                <div class="icone-side-content">
+                                    <p>Lets discuss via call</p>
+                                    <span>+1-234-567-8910</span>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="icon-image-div ">
+
+                            <div class="icon-image"><i class="ri-skype-line"></i>
+                            </div>
+                            <div>
+                                <div class="icone-side-content">
+                                    <p>Say Hello! on Skype</p>
+                                    <span>vikassharma</span>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="icon-down">
+                            <div class="second-icon-div">
+                                <div class="seconde-image">
+                                    <i class="ri-facebook-circle-fill"></i>
+                                </div>
+
+                                <div class="seconde-image">
+                                    <i class="ri-linkedin-fill"></i>
+                                </div>
+                                <div class="seconde-image">
+                                    <i class="ri-instagram-line"></i>
+                                </div>
+                                <div class="seconde-image">
+                                    <i class="ri-twitter-x-fill"></i>
+                                </div>
+                                <div class="seconde-image">
+                                    <i class="ri-youtube-fill"></i>
+                                </div>
+                                <div class="seconde-image">
+                                    <i class="ri-whatsapp-line"></i>
+                                </div>
+
+
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
-
             </div>
         </div>
-        <div class="main-form">
-            <img src="./images/3-2 (1).webp">
-
-        </div>
+       
     </div>
 
     <div class="container-fluid main-footer">
+ <div class="main-form">
+            <img src="./images/3-2 (1).webp">
 
+        </div>
         <div class=" text-center text-white location">
             <h3>
                 Our Locations
@@ -1896,7 +1901,7 @@
     </div>
     <div class="last-footer ">
         <p>Copyright &copy; 2021 MacWiQ All rights</p>
-        <!-- <p>Desgined by PK Solution.com</p> -->
+        <p>Desgined by PK Solution.com</p>
 
     </div>
 
@@ -1921,65 +1926,54 @@
             }, duration);
         });
         const testimonialWrapper = document.querySelector('.testimonial-wrapper');
-const dots = document.querySelectorAll('.dot');
+        const dots = document.querySelectorAll('.dot');
 
-let isDragging = false;
-let startPosition = 0;
-let offset = 0;
+        let isDragging = false;
+        let startPosition = 0;
+        let offset = 0;
 
-// Set initial grab cursor
-testimonialWrapper.style.cursor = 'grab';
-
-testimonialWrapper.addEventListener('mousedown', startDragging);
-testimonialWrapper.addEventListener('touchstart', startDragging);
-
-function startDragging(e) {
-    isDragging = true;
-    startPosition = e.type === 'touchstart' ? e.touches[0].clientX - offset : e.clientX - offset;
-    testimonialWrapper.style.cursor = 'grabbing';
-
-    // Add event listeners for move and end events
-    window.addEventListener('mousemove', handleDragging);
-    window.addEventListener('touchmove', handleDragging, { passive: false });
-    window.addEventListener('mouseup', stopDragging);
-    window.addEventListener('touchend', stopDragging);
-}
-
-function handleDragging(e) {
-    if (isDragging) {
-        const currentPosition = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
-        offset = currentPosition - startPosition;
-        testimonialWrapper.style.transform = `translateX(${offset}px)`;
-    }
-}
-
-function stopDragging() {
-    if (isDragging) {
-        isDragging = false;
+        // Set initial grab cursor
         testimonialWrapper.style.cursor = 'grab';
 
-        // Remove event listeners for move and end events
-        window.removeEventListener('mousemove', handleDragging);
-        window.removeEventListener('touchmove', handleDragging);
-        window.removeEventListener('mouseup', stopDragging);
-        window.removeEventListener('touchend', stopDragging);
+        testimonialWrapper.addEventListener('mousedown', startDragging);
+        testimonialWrapper.addEventListener('touchstart', startDragging);
 
-        // Reset transform after the sliding is complete
-      
-    }
-}
+        function startDragging(e) {
+            isDragging = true;
+            startPosition = e.type === 'touchstart' ? e.touches[0].clientX - offset : e.clientX - offset;
+            testimonialWrapper.style.cursor = 'grabbing';
 
-// Optional: If you want to slide to a specific card
+            // Add event listeners for move and end events
+            window.addEventListener('mousemove', handleDragging);
+            window.addEventListener('touchmove', handleDragging, { passive: false });
+            window.addEventListener('mouseup', stopDragging);
+            window.addEventListener('touchend', stopDragging);
+        }
 
+        function handleDragging(e) {
+            if (isDragging) {
+                const currentPosition = e.type === 'touchmove' ? e.touches[0].clientX : e.clientX;
+                offset = currentPosition - startPosition;
+                testimonialWrapper.style.transform = `translateX(${offset}px)`;
+            }
+        }
 
+        function stopDragging() {
+            if (isDragging) {
+                isDragging = false;
+                testimonialWrapper.style.cursor = 'grab';
 
+                // Remove event listeners for move and end events
+                window.removeEventListener('mousemove', handleDragging);
+                window.removeEventListener('touchmove', handleDragging);
+                window.removeEventListener('mouseup', stopDragging);
+                window.removeEventListener('touchend', stopDragging);
 
+                // Reset transform after the sliding is complete
 
-
-
+            }
+        }
+        // Optional: If you want to slide to a specific card
     </script>
-
-
 </body>
-
 </html>

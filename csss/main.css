@@ -391,12 +391,12 @@ li:hover ul#submenu{
     width: 50%;
     margin-left: 28%;
 }
-.header-bg{
-    height: 50vh;
-}
-.header-content{
-    margin-top:90px ;
-}
+ .header-bg{
+        height: 50vh;
+    }
+    .header-content{
+        margin-top:90px ;
+    }
 }
 @media (max-width: 450px) {
     .product{
@@ -670,21 +670,12 @@ margin:auto 0 ;
     display: flex;
     margin-top: 6%;
 }
-.side-image {
-    margin-bottom: -3%;
-position: relative;
-}
 
-.side-image img {
-    width: 2%;
-    height: 50px;
-
-}
 .side-conetent{
 
  position: absolute;
-    top: -1%;
-    left: 10%;
+    top: 3%;
+    left: 17%;
 
    
 
@@ -755,6 +746,14 @@ margin-left: 18px;
 
     width: 810px;
     margin-left: -43%;
+}
+.side-image{
+    margin-bottom: -3%;
+    position: relative;
+}
+.side-image img{
+    width: 2%;
+    height: 50px;
 }
 
 .next-gen-main {
@@ -1592,47 +1591,64 @@ letter-spacing: 1.5px;
 main-form*/
 .form-main-div{
 
-    margin-bottom: -5%;
-   height: 100vh;
+
+   height: 150vh;
    justify-content: center;
    background-color: white!important;
    width: 100%;
-   padding-top: 321px;
-   padding-bottom: 600px;
+   padding-top: 250px;
+margin: auto;
+  
 
 
 }
 .form-div{
 
-    display: flex;
-    width: 1100px;
+
+   height: 100%;
     margin: auto;
     background-color: white;
-    height: 500px;
-   padding: 0% 5%;
+  
+   padding: 0% 10%;
    padding-top: 69px;
-   /* border-top: rgb(41,222,135) 5px solid; */
    border-left: none!important;
    border-right:none!important ;
-   border-top: solid 5px;
-   border-image:  linear-gradient(to right, #21d0b3, #1ecff5) 1;
+   
 }
-.form-div img{
+.form-border{
+    border-top: solid 5px;
+    border-image:  linear-gradient(to right, #21d0b3, #1ecff5) 1;
+    padding-bottom: 5%
+;
+}
+/* /* .form-div img{
     width: 360px;
     height: 480px;
     margin-left: 5%;
-    margin-top: -10%;
+    margin-top: -10%; */
    
 
-}
+
 .content-form-div
 {
    
     height: 300px;
 }
+.side-image-footer {
+    margin-bottom: -3%;
+position: relative;
+padding-left: 14%;
+}
+
+.side-image-footer img {
+    width: 400px;
+    height: 530px;
+    margin-top: -10%;
+
+}
 .main-form img{
-height: 130px;
-width: 1100px;
+height: 100px;
+width: 1010px;
 align-items: center;
 justify-content: center;
 margin: auto;
@@ -1672,7 +1688,7 @@ border-right: #0000002f 1px solid ;
     padding-right: 10%;
 }
 .third-input-box .form-About{
-    width: 600px;
+    width: 488px;
 }
 
 
