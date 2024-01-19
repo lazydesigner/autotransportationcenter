@@ -1,241 +1,903 @@
-<!DOCTYPE html>
-<html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
-<head>
-    <meta charset="utf-8">
-    <title>Logistica - Shipping Company Website Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+<style>
+ 
+    .main-color {
+        color: #21D0B3;
+    }
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    .nav-link {
+        color: white;
+    }
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    .navbar-nav li {
+        float: left;
+        position: relative;
 
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    }
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    .navbar-nav a {
+        transition: all .5s linear;
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    }
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    .navbar-nav li:hover a {
+        color: #21D0B3;
+        border-bottom: #21D0B3 2px solid;
+        padding: 0%;
+        margin: 0;
+    }
 
-    <style>
-        .page-header{
-            padding-bottom: 10%!important;
-            
+    .hover-nav #submenu {
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+        cursor: pointer;
+        transition: all 0.25s;
+        width: 100%;
+    }
+
+    #submenu {
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        top: 50px;
+        visibility: hidden;
+        z-index: 1;
+        height: auto;
+        width: 100%;
+        background-color: #1b1525;
+    }
+
+    li:hover ul#submenu {
+        opacity: 1;
+        top: 50px;
+        visibility: visible;
+        display: grid;
+        place-items: center;
+        width: 1300px;
+        padding-top: 15%;
+        padding-bottom: 15%;
+        margin-left: -500px;
+
+
+
+
+    }
+
+    #submenu div {
+        float: none;
+
+
+    }
+
+    .hover-card-section:hover .content-hover h4 {
+        color: #21D0B3;
+
+
+
+    }
+    .hover-card-section:hover .icon-hover .color-ball {
+        background-color: #21D0B3;
+        animation: pop .4s forwards;
+    }
+    .hover-card-section:hover .icon-hover .icon-navbar{
+        color: white;
+        transform: rotateY(180deg);
+    }
+
+    .hover-card-section:hover {
+        translate: 20px;
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    #submenu a:hover {
+        background: #21D0B3;
+
+    }
+
+    .hover-card-section {
+        display: flex;
+        margin: auto;
+        position: relative;
+    }
+    .icon-hover {
+        position: absolute;
+        right: 5%;
+        margin-top: 0%;
+        width: 60px;
+        height: 40px;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        border: 1px solid white;
+        cursor: pointer;
+        position: relative;
+        background-color: white;
+    }
+
+    .color-ball {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: white;
+        transform: scale(0);
+        position: absolute;
+    }
+
+    .icon-navbar{
+      
+        transition: transform .3s;
+        color: #21D0B3;
+        font-size: 28px;
+        margin-top: -5%;
+
+    } 
+
+ 
+
+    @keyframes pop {
+        0% {
+            transform: scale(0);
         }
-        .py-5{
-            padding-top: 0!important;
+
+        50% {
+            transform: scale(1.05);
+            /* background-color: dodgerblue; */
         }
-        .text-white1{
-            padding-top: 10%;
-            text-align: center;
-            font-size: 4.50rem;
-            color: white;
+
+        100% {
+            transform: scale(1);
+            /* background-color: dodgerblue; */
         }
+    }
+
+
+    .hover-card-section h4 {
+        color: white;
+        font-size: 18px;
+
+
+    }
+
+    .hover-card-section p {
+        color: white;
+        font-size: small;
+    }
+    
+    .hover-nav-card {
+        display: flex;
+        width: 100%;
+        height: auto;
+        gap: 8%;
+        padding-left: -5%;
+        padding-right: 5%;
+
+    }
+
+    .hover-nav-card li {
+        width: 300px;
+    }
+
+    #submenu a {
+        background-color: #333;
+    }
+    /*portfolio*/
+
+   .portfolio-box{
+        background-color: #231C30;
+        width: 200px;
+        height: 80px;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        margin-top: 5%;
+        padding-top:8%;
+    }
+    .portfolio-box:hover{
+        translate: 0px -10px;
+        transition: all 0.5s ease-in-out;
+        box-shadow: #ffffff 0px 0px 10px; 
+    }
+    .portfolio-main{
+        padding-left: -5%;
+        width: 100%;
+        margin-left: -5%;
+    }
+    .portfolio-box img{
+        width: 100px;
+        height: 30px;
+        margin: auto;
+        
+
        
+     
+  
+
+    }
+    .portfolio-card:hover{
+        translate: 0px -10px;
+        transition: all 0.5s linear;
+    }
+    .portfolio-card{
+        width: 270px;
+        height: 300px;
+        background-color: #231C30;
+
+        padding: 5px;
+    }
+    .portfolio-card img{
+        width: 260px;
+        height: 150px;
+
+    }
+    .portfolio-card-content h3{
+        font-size: 18px;
+        color: #ffffff;
+
+
+    }
+    .portfolio-card-content p{
+     font-size: 14px;
+     color: #ffffff;
+    }
+    .portfolio-card-content img{
+        width: 70px;
+        height: 25px;
+    }
+    .hover-nav #submenu-p {
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+        cursor: pointer;
+        transition: all 0.25s;
+        width: 100%;
+    }
+    #submenu-p {
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        top: 50px;
+        visibility: hidden;
+        z-index: 1;
+        height: auto;
+        width: 100%;
+        background-color: #1b1525;
+    }
+
+    li:hover ul#submenu-p {
+        opacity: 1;
+        top: 50px;
+        visibility: visible;
+        display: grid;
+        place-items: center;
+        width: 1150px;
+        padding-top: 15%;
+        padding-bottom: 15%;
+        margin-left: -580px;
+    }
+
+    #submenu-p div {
+        float: none;
+    }
+
+    /*industries*/
+ .hover-nav #submenu-i {
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+        cursor: pointer;
+        transition: all 0.25s;
+        width: 100%;
+    }
+
+    #submenu-i {
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        top: 50px;
+        visibility: hidden;
+        z-index: 1;
+        height: auto;
+        width: 100%;
+        background-color: #1b1525;
+    }
+
+    li:hover ul#submenu-i {
+        opacity: 1;
+        top: 50px;
+        visibility: visible;
+        display: grid;
+        place-items: center;
+        width: 1300px;
+        padding-top: 15%;
+        padding-bottom: 15%;
+        margin-left: -600px;
+    }
+
+    #submenu-i div {
+        float: none;
+    }
+    /*flip-card*/
+    .flip-card-container {
+        display: flex;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        gap: 5%;
+    }
+    .main-card-container {
+        position: relative;
+        width: 200px;
+        height: 120px;
+    }
+    .thecard {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: all 0.5s ease;
+        background: #1b1525;
+    }
+    .thecard:hover {
+        transform: rotateY(180deg);
+    }
+
+    .thefront {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background: #1b1525;
+        color: #333;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 0 5% 0 5%;
+    }
+
+    .thefront h6 {
+        color: white;
+        font-size: larger;
+        margin: 0;
+    }
+
+    .thefront p {
+        color: white;
+    }
+
+    .theback {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background: #1b1525;
+        margin: auto;
+        display: grid;
+        place-items: center;
+
+        transform: rotateY(180deg);
+    }
+
+    .theback i {
+        color: white;
+        font-size: 50px;
+    }
+
+    .navbar-brand img {
+        width: 170px;
+        height: 30px;
+        margin-left: 23px;
+
+    }
+
+    .navbar-nav {
+        font-size: 15px;
+        gap: 5px;
+        margin-left: 16%;
+
+    }
+
+    .side-nav-contact {
+
+        background-color: #21D0B3;
+    }
+
+    .bg-nav {
+        background-color: #1b1525;
+    }
+
+    .search-icon {
+        height: 42px;
+        width: 42px;
+        margin-left: -85%;
+    }
+
+    .side-buttonimp {
+        background-color: #21D0B3;
+        color: black;
+        font-weight: bold;
+        width: 120px;
+        margin-bottom: -8%;
+        margin-left: -18%
+    }
 </style>
-</head>
-
-<body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-    </div>
-    <!-- Spinner End -->
 
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
-        <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
-            <h2 class="mb-2 text-white">Logistica</h2>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+<!--navbar-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-nav">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./images/Vector Smart Object copy 5.webp" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu fade-up m-0">
-                        <a href="price.html" class="dropdown-item">Pricing Plan</a>
-                        <a href="feature.html" class="dropdown-item">Features</a>
-                        <a href="quote.html" class="dropdown-item">Free Quote</a>
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link active">Contact</a>
-            </div>
-            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+012 345 6789</h4>
-        </div>
-    </nav>
-    <!-- Navbar End -->
-
-
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
-        <div class="container py-5">
-            <h1 class="display-3 text-white1 mb-3 animated slideInDown">Contact Us</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <!-- <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
-                </ol> -->
-            </nav>
-        </div>
-    </div>
-    <!-- Page Header End -->
-
-
-    <!-- Contact Start -->
-    <div class="container-fluid overflow-hidden py-5 px-lg-0">
-        <div class="container contact-page py-5 px-lg-0">
-            <div class="row g-5 mx-lg-0">
-                <div class="col-md-6 contact-form wow fadeIn" data-wow-delay="0.1s">
-                    <h6 class="text-secondary text-uppercase">Get In Touch</h6>
-                    <h1 class="mb-4">Contact For Any Query</h1>
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                    <div class="bg-light p-4">
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                        <label for="name">Your Name</label>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">About Us</a>
+                </li>
+                <li class="nav-item hover-nav">
+                    <a class="nav-link text-white" href="services.php">Services</a>
+                    <ul id="submenu">
+                        <div class="hover-nav-card">
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"><i class="ri-code-box-line"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4> Web Development</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                        <label for="email">Your Email</label>
+                            </li>
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"><i class="ri-code-box-line"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4> Web Development</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
                                     </div>
                                 </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                        <label for="subject">Subject</label>
+                            </li>
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"><i class="ri-code-box-line"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4> Web Development</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
                                     </div>
                                 </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                        <label for="message">Message</label>
+                            </li>
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"><i class="ri-code-box-line"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4> Web Development</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
                                     </div>
                                 </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                            </li>
+                        </div>
+                        <div class="hover-nav-card">
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"><i class="ri-code-box-line"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4> Web Development</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"><i class="ri-code-box-line"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4> Web Development</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"><i class="ri-code-box-line"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4> Web Development</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"><i class="ri-code-box-line"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4> Web Development</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="hover-nav-card">
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"><i class="ri-code-box-line"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4> Web Development</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"><i class="ri-code-box-line"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4> Web Development</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"><i class="ri-code-box-line"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4> Web Development</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"><i class="ri-code-box-line"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4> Web Development</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </div>
+
+                        <div class="flip-card-container">
+                            <div class="main-card-container">
+                                <div class="thecard">
+                                    <div class="thefront">
+                                        <h6>AI/ML</h6>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                    <div class="theback">
+                                        <i class="fa-solid fa-snowflake" style="color: #ffffff;"></i></i>
+                                    </div>
                                 </div>
                             </div>
-                        </form>
+                            <div class="main-card-container">
+                                <div class="thecard">
+                                    <div class="thefront">
+                                        <h6>AI/ML</h6>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                    <div class="theback">
+                                        <i class="fa-solid fa-snowflake" style="color: #ffffff;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-card-container">
+                                <div class="thecard">
+                                    <div class="thefront">
+                                        <h6>AI/ML</h6>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                    <div class="theback">
+                                        <i class="fa-solid fa-snowflake" style="color: #ffffff;"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="main-card-container">
+                                <div class="thecard">
+                                    <div class="thefront">
+                                        <h6>AI/ML</h6>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                    <div class="theback">
+                                        <i class="fa-solid fa-snowflake" style="color: #ffffff;"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="main-card-container">
+                                <div class="thecard">
+                                    <div class="thefront">
+                                        <h6>AI/ML</h6>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                    <div class="theback">
+                                        <i class="fa-solid fa-snowflake" style="color: #ffffff;"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </ul>
+                </li>
+                <li class="nav-item hover-nav ">
+                    <a class="nav-link text-white " href="industries-we-serve.php">Industries</a>
+                    <ul id="submenu-i" >
+                        <div class="hover-nav-card">
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"> <i class="fa-solid fa-cart-shopping"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4>E-Commerce Solution</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"> <i class="fa-solid fa-cart-shopping"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4>E-Commerce Solution</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"> <i class="fa-solid fa-cart-shopping"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4>E-Commerce Solution</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"> <i class="fa-solid fa-cart-shopping"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4>E-Commerce Solution</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="hover-nav-card">
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"> <i class="fa-solid fa-cart-shopping"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4>E-Commerce Solution</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                </div>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover">
+                                            <div class="color-ball"></div>
+                                           <span class="icon-navbar"> <i class="fa-solid fa-cart-shopping"></i></span> 
+                                        </div>
+                                        <div class="content-hover">
+                                            <h4>E-Commerce Solution</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover">
+                                            <div class="color-ball"></div>
+                                           <span class="icon-navbar"> <i class="fa-solid fa-cart-shopping"></i></span> 
+                                        </div>
+                                        <div class="content-hover">
+                                            <h4>E-Commerce Solution</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hover-card-section">
+                                        <div class="icon-hover">
+                                            <div class="color-ball"></div>
+                                           <span class="icon-navbar"> <i class="fa-solid fa-cart-shopping"></i></span> 
+                                        </div>
+                                        <div class="content-hover">
+                                            <h4>E-Commerce Solution</h4>
+                                            <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                        </div>
+                                    </div>
+                                </li>
+                        </div>
+                        <div class="hover-nav-card">
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"> <i class="fa-solid fa-cart-shopping"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4>E-Commerce Solution</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"> <i class="fa-solid fa-cart-shopping"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4>E-Commerce Solution</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"> <i class="fa-solid fa-cart-shopping"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4>E-Commerce Solution</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="hover-card-section">
+                                    <div class="icon-hover">
+                                        <div class="color-ball"></div>
+                                       <span class="icon-navbar"> <i class="fa-solid fa-cart-shopping"></i></span> 
+                                    </div>
+                                    <div class="content-hover">
+                                        <h4>E-Commerce Solution</h4>
+                                        <p>Lorem ipsum dolor sit amet, cstetur adicing ipsum dolor</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                </li>
+                <li class="nav-item hover-nav" >
+                    <a class="nav-link text-white" href="#">Portfolio</a>
+                    <ul id="submenu-p">
+                    <div class="row portfolio-main">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="row portfolio-logo">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    
+                                    <div class="portfolio-box">
+                                        <img src="./images/Vector Smart Object copy 5.webp">
+                                    </div>
+                                
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="portfolio-box">
+                                        <img src="./images/Vector Smart Object copy 5.webp">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    
+                                    <div class="portfolio-box">
+                                        <img src="./images/Vector Smart Object copy 5.webp">
+                                    </div>
+                                
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="portfolio-box">
+                                        <img src="./images/Vector Smart Object copy 5.webp">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="portfolio-card">
+                                        <img src="./images/feature-1-1 (1).webp">
+                                        <div class="portfolio-card-content">
+                                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                                            <img src="./images/Vector Smart Object copy 5.webp">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="portfolio-card">
+                                        <img src="./images/feature-1-1 (1).webp">
+                                        <div class="portfolio-card-content">
+                                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                                            <img src="./images/Vector Smart Object copy 5.webp">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s">
-                    <div class="position-relative h-100">
-                        <iframe class="position-absolute w-100 h-100" style="object-fit: cover;"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                        frameborder="0" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe>
-                    </div>
-                </div>
+
+                    </ul>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Blogs</a>
+                </li>
+            </ul>
+
+        </div>
+        <div>
+            <div class="searchbar-div d-flex">
+                <span class="service-card-image"><img class="search-icon" src="./images/Untitled.webp"></span>
+                <p><button type="button" class="btn  side-buttonimp"
+                        style="background-color: #21D0B3; color: black;">Contact Us</button></p>
+
             </div>
+
         </div>
     </div>
-    <!-- Contact End -->
 
-
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Address</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Air Freight</a>
-                    <a class="btn btn-link" href="">Sea Freight</a>
-                    <a class="btn btn-link" href="">Road Freight</a>
-                    <a class="btn btn-link" href="">Logistic Solutions</a>
-                    <a class="btn btn-link" href="">Industry solutions</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer End -->
-
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-</body>
-
-</html>
+</nav>
