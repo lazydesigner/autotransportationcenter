@@ -1,5 +1,8 @@
 
-  <style>
+<meta name="googlebot" content="noindex">
+    <meta name="robots" content="noindex">
+ 
+ <style>
     html,
     body {
       position: relative;

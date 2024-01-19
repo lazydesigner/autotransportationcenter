@@ -18,6 +18,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link href="csss/main.css" rel="stylesheet" defer>
+
+    <meta name="googlebot" content="noindex">
+    <meta name="robots" content="noindex">
     <style>
         .mobile-header {
             background: url(./images/pxfuel.com\ copy\ 3.webp);
